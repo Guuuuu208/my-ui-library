@@ -1,0 +1,36 @@
+{
+  "id": "replace-with-unique-id",
+  "name": "条目名称",
+  "kind": "section",
+  "status": "draft",
+  "implementation": "reimplementation",
+  "path": "sections/replace-with-unique-id",
+  "pageTypes": [],
+  "tags": [],
+  "stack": [],
+  "source": {
+    "website": null,
+    "repository": null,
+    "revision": null,
+    "license": null,
+    "licenseEvidence": null,
+    "reuseStatus": "unverified",
+    "checkedAt": null,
+    "domainReview": null
+  },
+  "fit": [],
+  "avoid": [],
+  "dependencies": [],
+  "runCommand": null,
+  "previews": { "desktop": null, "mobile": null },
+  "verification": {
+    "date": null,
+    "desktopWidth": null,
+    "mobileWidth": null,
+    "keyboard": "untested",
+    "interactions": "untested",
+    "console": "untested"
+  },
+  "preference": { "rating": null, "likes": [], "dislikes": [] },
+  "limitations": []
+}

@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-09-12T04:44:00.529Z",
+  "results": [
+    {
+      "id": "mobbin",
+      "requestedUrl": "https://mobbin.com/",
+      "effectiveUrl": "https://mobbin.com/",
+      "httpStatus": 200,
+      "redirectCount": 0,
+      "redirectLocations": [],
+      "tlsVerificationResult": 0,
+      "htmlBytes": 693680,
+      "observedFrameworkSignals": {
+        "nextjs": false,
+        "framer": true,
+        "webflow": false
+      },
+      "scriptTags": 15,
+      "stylesheetLinks": 0,
+      "githubLinks": [],
+      "caveat": "仅检查公开页面响应、HTTPS 和跳转；不代表完整安全审计。技术标记属于该资料站本身，不能据此推断其截图内产品的源码。"
+    },
+    {
+      "id": "saasui",
+      "requestedUrl": "https://www.saasui.design/",
+      "effectiveUrl": "https://www.saasui.design/",
+      "httpStatus": 200,
+      "redirectCount": 0,
+      "redirectLocations": [],
+      "tlsVerificationResult": 0,
+      "htmlBytes": 1083351,
+      "observedFrameworkSignals": {
+        "nextjs": true,
+        "framer": false,
+        "webflow": false
+      },
+      "scriptTags": 153,
+      "stylesheetLinks": 1,
+      "githubLinks": [],
+      "caveat": "仅检查公开页面响应、HTTPS 和跳转；不代表完整安全审计。技术标记属于该资料站本身，不能据此推断其截图内产品的源码。"
+    },
+    {
+      "id": "saasframe",
+      "requestedUrl": "https://www.saasframe.io/",
+      "effectiveUrl": "https://www.saasframe.io/",
+      "httpStatus": 200,
+      "redirectCount": 0,
+      "redirectLocations": [],
+      "tlsVerificationResult": 0,
+      "htmlBytes": 266439,
+      "observedFrameworkSignals": {
+        "nextjs": false,
+        "framer": false,
+        "webflow": true
+      },
+      "scriptTags": 27,
+      "stylesheetLinks": 2,
+      "githubLinks": [],
+      "caveat": "仅检查公开页面响应、HTTPS 和跳转；不代表完整安全审计。技术标记属于该资料站本身，不能据此推断其截图内产品的源码。"
+    },
+    {
+      "id": "saasinterface",
+      "requestedUrl": "https://saasinterface.com/",
+      "effectiveUrl": "https://saasinterface.com/",
+      "httpStatus": 200,
+      "redirectCount": 0,
+      "redirectLocations": [],
+      "tlsVerificationResult": 0,
+      "htmlBytes": 90003,
+      "observedFrameworkSignals": {
+        "nextjs": false,
+        "framer": false,
+        "webflow": false
+      },
+      "scriptTags": 10,
+      "stylesheetLinks": 2,
+      "githubLinks": [],
+      "caveat": "仅检查公开页面响应、HTTPS 和跳转；不代表完整安全审计。技术标记属于该资料站本身，不能据此推断其截图内产品的源码。"
+    },
+    {
+      "id": "fancy",
+      "requestedUrl": "https://www.fancycomponents.dev/docs/components/text/random-letter-swap",
+      "effectiveUrl": "https://www.fancycomponents.dev/docs/components/text/random-letter-swap",
+      "httpStatus": 200,
+      "redirectCount": 0,
+      "redirectLocations": [],
+      "tlsVerificationResult": 0,
+      "htmlBytes": 122404,
+      "observedFrameworkSignals": {
+        "nextjs": true,
+        "framer": false,
+        "webflow": false
+      },
+      "scriptTags": 43,
+      "stylesheetLinks": 3,
+      "githubLinks": [
+        "https://github.com/danielpetho/fancy"
+      ],
+      "caveat": "仅检查公开页面响应、HTTPS 和跳转；不代表完整安全审计。技术标记属于该资料站本身，不能据此推断其截图内产品的源码。"
+    }
+  ]
+}

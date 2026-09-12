@@ -1,0 +1,3109 @@
+{
+  "schemaVersion": 1,
+  "name": "我的 UI 源码资料库",
+  "description": "源码、参考、预览和设计偏好的统一检索索引",
+  "sourceSites": [
+    {
+      "id": "mobbin",
+      "url": "https://mobbin.com/",
+      "status": "original-product-source-not-found",
+      "analysisPath": "analysis/source-sites.md"
+    },
+    {
+      "id": "saasui",
+      "url": "https://www.saasui.design/",
+      "status": "original-product-source-not-found",
+      "analysisPath": "analysis/source-sites.md"
+    },
+    {
+      "id": "saasframe",
+      "url": "https://www.saasframe.io/",
+      "status": "original-product-source-not-found",
+      "analysisPath": "analysis/source-sites.md"
+    },
+    {
+      "id": "saasinterface",
+      "url": "https://saasinterface.com/",
+      "status": "original-product-source-not-found",
+      "analysisPath": "analysis/source-sites.md"
+    },
+    {
+      "id": "fancy",
+      "url": "https://www.fancycomponents.dev/",
+      "status": "original-source-imported",
+      "analysisPath": "analysis/fancy-source-analysis.md"
+    },
+    {
+      "id": "google-fonts",
+      "url": "https://fonts.google.com/",
+      "kind": "font-library",
+      "status": "source-registered-no-font-files-downloaded",
+      "analysisPath": "fonts/README.md",
+      "indexPath": "fonts/index.json"
+    }
+  ],
+  "entries": [
+    {
+      "id": "fancy-animated-gradient-with-svg",
+      "name": "animated-gradient-with-svg",
+      "kind": "effect",
+      "category": "background",
+      "categoryLabel": "背景效果",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/background/animated-gradient-with-svg.tsx",
+      "analysisPath": "effects/fancy/items/animated-gradient-with-svg.md",
+      "docs": [
+        {
+          "title": "Animated Gradient With SVG",
+          "path": "vendor/fancy/src/content/docs/components/background/animated-gradient-svg.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/background/animated-gradient-svg"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/background/animated-gradient-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/background/animated-gradient-with-svg.tsx",
+          "src/hooks/use-debounced-dimensions.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-pixel-trail",
+      "name": "pixel-trail",
+      "kind": "effect",
+      "category": "background",
+      "categoryLabel": "背景效果",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/background/pixel-trail.tsx",
+      "analysisPath": "effects/fancy/items/pixel-trail.md",
+      "docs": [
+        {
+          "title": "Pixel Trail",
+          "path": "vendor/fancy/src/content/docs/components/background/pixel-trail.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/background/pixel-trail"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/background/pixel-trail-custom-pixel-demo.tsx",
+        "vendor/fancy/src/fancy/examples/background/pixel-trail-demo.tsx",
+        "vendor/fancy/src/fancy/examples/background/pixel-trail-no-fade-demo.tsx",
+        "vendor/fancy/src/fancy/examples/filter/gooey-svg-filter-pixel-trail-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/background/pixel-trail.tsx",
+          "src/hooks/use-dimensions.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          },
+          {
+            "name": "uuid",
+            "declaredVersion": "^10.0.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "原始文档包含 Safari 兼容性说明，接入前阅读对应文档。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-circling-elements",
+      "name": "circling-elements",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/circling-elements.tsx",
+      "analysisPath": "effects/fancy/items/circling-elements.md",
+      "docs": [
+        {
+          "title": "Circling Elements",
+          "path": "vendor/fancy/src/content/docs/components/blocks/circling-elements.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/circling-elements"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/circling-elements-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/circling-elements-easing-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/circling-elements.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-css-box",
+      "name": "css-box",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/css-box.tsx",
+      "analysisPath": "effects/fancy/items/css-box.md",
+      "docs": [
+        {
+          "title": "3D CSS Box",
+          "path": "vendor/fancy/src/content/docs/components/blocks/css-box.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/css-box"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/css-box-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/css-box-hover-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/css-box-non-uniform-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/css-box-scroll-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/css-box.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 183
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-drag-elements",
+      "name": "drag-elements",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/drag-elements.tsx",
+      "analysisPath": "effects/fancy/items/drag-elements.md",
+      "docs": [
+        {
+          "title": "Drag Elements",
+          "path": "vendor/fancy/src/content/docs/components/blocks/drag-elements.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/drag-elements"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/drag-elements-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/drag-elements-momentum-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/drag-elements.tsx"
+        ],
+        "packages": [
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-element-along-svg-path",
+      "name": "element-along-svg-path",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/element-along-svg-path.tsx",
+      "analysisPath": "effects/fancy/items/element-along-svg-path.md",
+      "docs": [],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/element-along-svg-path-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/element-along-svg-path.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 141
+        },
+        {
+          "signal": "scroll",
+          "line": 13
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-float",
+      "name": "float",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/float.tsx",
+      "analysisPath": "effects/fancy/items/float.md",
+      "docs": [
+        {
+          "title": "Float",
+          "path": "vendor/fancy/src/content/docs/components/blocks/float.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/float"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/float-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/float-offset-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/float.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "frame-loop",
+          "line": 4
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-marquee-along-svg-path",
+      "name": "marquee-along-svg-path",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/marquee-along-svg-path.tsx",
+      "analysisPath": "effects/fancy/items/marquee-along-svg-path.md",
+      "docs": [
+        {
+          "title": "Marquee Along SVG Path",
+          "path": "vendor/fancy/src/content/docs/components/blocks/marquee-along-svg-path.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/marquee-along-svg-path"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/marquee-along-svg-path-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/marquee-along-svg-path-mapping-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/marquee-along-svg-path-scroll-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/marquee-along-svg-path.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 452
+        },
+        {
+          "signal": "pointer",
+          "line": 370
+        },
+        {
+          "signal": "scroll",
+          "line": 7
+        },
+        {
+          "signal": "frame-loop",
+          "line": 5
+        },
+        {
+          "signal": "accessible-text",
+          "line": 451
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-media-between-text",
+      "name": "media-between-text",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/media-between-text.tsx",
+      "analysisPath": "effects/fancy/items/media-between-text.md",
+      "docs": [
+        {
+          "title": "Media Between Text",
+          "path": "vendor/fancy/src/content/docs/components/blocks/media-between-text.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/media-between-text"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/media-between-text-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/media-between-text-scroll-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/media-between-text-vertical-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/media-between-text.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 187
+        },
+        {
+          "signal": "scroll",
+          "line": 4
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-screensaver",
+      "name": "screensaver",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/screensaver.tsx",
+      "analysisPath": "effects/fancy/items/screensaver.md",
+      "docs": [
+        {
+          "title": "Screensaver",
+          "path": "vendor/fancy/src/content/docs/components/blocks/screensaver.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/screensaver"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/screensaver-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/screensaver.tsx",
+          "src/hooks/use-dimensions.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "frame-loop",
+          "line": 6
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-simple-carousel",
+      "name": "simple-carousel",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/simple-carousel.tsx",
+      "analysisPath": "effects/fancy/items/simple-carousel.md",
+      "docs": [],
+      "examples": [],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/simple-carousel.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 248
+        },
+        {
+          "signal": "pointer",
+          "line": 250
+        },
+        {
+          "signal": "scroll",
+          "line": 7
+        },
+        {
+          "signal": "frame-loop",
+          "line": 5
+        },
+        {
+          "signal": "accessible-text",
+          "line": 265
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-simple-marquee",
+      "name": "simple-marquee",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/simple-marquee.tsx",
+      "analysisPath": "effects/fancy/items/simple-marquee.md",
+      "docs": [
+        {
+          "title": "Simple Marquee",
+          "path": "vendor/fancy/src/content/docs/components/blocks/simple-marquee.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/simple-marquee"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/simple-marquee-3d-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/simple-marquee-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/simple-marquee-drag-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/simple-marquee-easing-demo.tsx",
+        "vendor/fancy/src/fancy/examples/blocks/simple-marquee-explainer-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/simple-marquee.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 248
+        },
+        {
+          "signal": "pointer",
+          "line": 250
+        },
+        {
+          "signal": "scroll",
+          "line": 7
+        },
+        {
+          "signal": "frame-loop",
+          "line": 5
+        },
+        {
+          "signal": "accessible-text",
+          "line": 264
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-stacking-cards",
+      "name": "stacking-cards",
+      "kind": "effect",
+      "category": "blocks",
+      "categoryLabel": "交互区块",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/blocks/stacking-cards.tsx",
+      "analysisPath": "effects/fancy/items/stacking-cards.md",
+      "docs": [
+        {
+          "title": "Stacking Cards",
+          "path": "vendor/fancy/src/content/docs/components/blocks/stacking-cards.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/blocks/stacking-cards"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/stacking-cards-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/blocks/stacking-cards.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "scroll",
+          "line": 14
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-box-carousel",
+      "name": "box-carousel",
+      "kind": "effect",
+      "category": "carousel",
+      "categoryLabel": "轮播",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/carousel/box-carousel.tsx",
+      "analysisPath": "effects/fancy/items/box-carousel.md",
+      "docs": [
+        {
+          "title": "Box Carousel",
+          "path": "vendor/fancy/src/content/docs/components/carousel/box-carousel.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/carousel/box-carousel"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/carousel/box-carousel-autoplay-demo.tsx",
+        "vendor/fancy/src/fancy/examples/carousel/box-carousel-demo.tsx",
+        "vendor/fancy/src/fancy/examples/carousel/box-carousel-video-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/carousel/box-carousel.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 476
+        },
+        {
+          "signal": "reduced-motion-mention",
+          "line": 18
+        },
+        {
+          "signal": "accessible-text",
+          "line": 698
+        }
+      ],
+      "notes": [
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-gooey-svg-filter",
+      "name": "gooey-svg-filter",
+      "kind": "effect",
+      "category": "filter",
+      "categoryLabel": "SVG 滤镜",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/filter/gooey-svg-filter.tsx",
+      "analysisPath": "effects/fancy/items/gooey-svg-filter.md",
+      "docs": [
+        {
+          "title": "Gooey SVG Filter",
+          "path": "vendor/fancy/src/content/docs/components/filter/gooey-svg-filter.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/filter/gooey-svg-filter"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/filter/gooey-svg-filter-demo.tsx",
+        "vendor/fancy/src/fancy/examples/filter/gooey-svg-filter-menu-demo.tsx",
+        "vendor/fancy/src/fancy/examples/filter/gooey-svg-filter-pixel-trail-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/filter/gooey-svg-filter.tsx"
+        ],
+        "packages": [],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "svg-filter",
+          "line": 11
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "原始文档包含 Safari 兼容性说明，接入前阅读对应文档。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-pixelate-svg-filter",
+      "name": "pixelate-svg-filter",
+      "kind": "effect",
+      "category": "filter",
+      "categoryLabel": "SVG 滤镜",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/filter/pixelate-svg-filter.tsx",
+      "analysisPath": "effects/fancy/items/pixelate-svg-filter.md",
+      "docs": [
+        {
+          "title": "Pixelate SVG Filter",
+          "path": "vendor/fancy/src/content/docs/components/filter/pixelate-svg-filter.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/filter/pixelate-svg-filter"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/filter/pixelate-svg-filter-demo.tsx",
+        "vendor/fancy/src/fancy/examples/filter/pixelate-svg-filter-text.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/filter/pixelate-svg-filter.tsx"
+        ],
+        "packages": [],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "svg-filter",
+          "line": 15
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "原始文档包含 Safari 兼容性说明，接入前阅读对应文档。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-image-trail",
+      "name": "image-trail",
+      "kind": "effect",
+      "category": "image",
+      "categoryLabel": "图片动效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/image/image-trail.tsx",
+      "analysisPath": "effects/fancy/items/image-trail.md",
+      "docs": [
+        {
+          "title": "Image Trail",
+          "path": "vendor/fancy/src/content/docs/components/image/image-trail.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/image/image-trail"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/image/image-trail-demo.tsx",
+        "vendor/fancy/src/fancy/examples/image/image-trail-instant-demo.tsx",
+        "vendor/fancy/src/fancy/examples/image/image-trail-various-elements-demo.tsx",
+        "vendor/fancy/src/fancy/examples/image/image-trail-zindex-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/image/image-trail.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-parallax-floating",
+      "name": "parallax-floating",
+      "kind": "effect",
+      "category": "image",
+      "categoryLabel": "图片动效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/image/parallax-floating.tsx",
+      "analysisPath": "effects/fancy/items/parallax-floating.md",
+      "docs": [
+        {
+          "title": "Parallax Floating",
+          "path": "vendor/fancy/src/content/docs/components/image/parallax-floating.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/image/parallax-floating"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/image/parallax-floating-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/image/parallax-floating.tsx",
+          "src/hooks/use-mouse-position-ref.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 14
+        },
+        {
+          "signal": "frame-loop",
+          "line": 11
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-cursor-attractor-and-gravity",
+      "name": "cursor-attractor-and-gravity",
+      "kind": "effect",
+      "category": "physics",
+      "categoryLabel": "物理交互",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/physics/cursor-attractor-and-gravity.tsx",
+      "analysisPath": "effects/fancy/items/cursor-attractor-and-gravity.md",
+      "docs": [
+        {
+          "title": "Cursor Attractor & Gravity",
+          "path": "vendor/fancy/src/content/docs/components/physics/cursor-attractor-and-gravity.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/physics/cursor-attractor-and-gravity"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/physics/cursor-attractor-and-gravity-demo.tsx",
+        "vendor/fancy/src/fancy/examples/physics/cursor-attractor-and-gravity-image-demo.tsx",
+        "vendor/fancy/src/fancy/examples/physics/cursor-attractor-and-gravity-svg-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/physics/cursor-attractor-and-gravity.tsx",
+          "src/hooks/use-mouse-position-ref.ts",
+          "src/lib/utils.ts",
+          "src/utils/calculate-position.ts",
+          "src/utils/svg-path-to-vertices.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "lodash",
+            "declaredVersion": "^4.17.21"
+          },
+          {
+            "name": "matter-js",
+            "declaredVersion": "^0.20.0"
+          },
+          {
+            "name": "poly-decomp",
+            "declaredVersion": "^0.3.0"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "svg-path-commander",
+            "declaredVersion": "^2.1.6"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 29
+        },
+        {
+          "signal": "frame-loop",
+          "line": 240
+        },
+        {
+          "signal": "physics",
+          "line": 26
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-elastic-line",
+      "name": "elastic-line",
+      "kind": "effect",
+      "category": "physics",
+      "categoryLabel": "物理交互",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/physics/elastic-line.tsx",
+      "analysisPath": "effects/fancy/items/elastic-line.md",
+      "docs": [
+        {
+          "title": "Elastic Line",
+          "path": "vendor/fancy/src/content/docs/components/physics/elastic-line.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/physics/elastic-line"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/physics/elastic-line-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/physics/elastic-line.tsx",
+          "src/hooks/use-dimensions.ts",
+          "src/hooks/use-elastic-line-events.ts",
+          "src/hooks/use-mouse-position.ts"
+        ],
+        "packages": [
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "frame-loop",
+          "line": 7
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-gravity",
+      "name": "gravity",
+      "kind": "effect",
+      "category": "physics",
+      "categoryLabel": "物理交互",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/physics/gravity.tsx",
+      "analysisPath": "effects/fancy/items/gravity.md",
+      "docs": [
+        {
+          "title": "Gravity",
+          "path": "vendor/fancy/src/content/docs/components/physics/gravity.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/physics/gravity"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/physics/gravity-body-types-demo.tsx",
+        "vendor/fancy/src/fancy/examples/physics/gravity-demo.tsx",
+        "vendor/fancy/src/fancy/examples/physics/gravity-non-draggable-demo.tsx",
+        "vendor/fancy/src/fancy/examples/physics/gravity-svg-bodies-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/physics/gravity.tsx",
+          "src/lib/utils.ts",
+          "src/utils/calculate-position.ts",
+          "src/utils/svg-path-to-vertices.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "lodash",
+            "declaredVersion": "^4.17.21"
+          },
+          {
+            "name": "matter-js",
+            "declaredVersion": "^0.20.0"
+          },
+          {
+            "name": "poly-decomp",
+            "declaredVersion": "^0.3.0"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "svg-path-commander",
+            "declaredVersion": "^2.1.6"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "frame-loop",
+          "line": 239
+        },
+        {
+          "signal": "physics",
+          "line": 28
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-basic-number-ticker",
+      "name": "basic-number-ticker",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/basic-number-ticker.tsx",
+      "analysisPath": "effects/fancy/items/basic-number-ticker.md",
+      "docs": [
+        {
+          "title": "Basic Number Ticker",
+          "path": "vendor/fancy/src/content/docs/components/text/basic-number-ticker.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/basic-number-ticker"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/basic-number-ticker-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/fancy-basic-number-ticker-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/basic-number-ticker.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-breathing-text",
+      "name": "breathing-text",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/breathing-text.tsx",
+      "analysisPath": "effects/fancy/items/breathing-text.md",
+      "docs": [
+        {
+          "title": "Breathing Text",
+          "path": "vendor/fancy/src/content/docs/components/text/breathing-text.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/breathing-text"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/breathing-text-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/breathing-text.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "variable-font",
+          "line": 70
+        },
+        {
+          "signal": "accessible-text",
+          "line": 115
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "依赖合适的可变字体与字体轴；原站字体文件本次未收录。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-letter-3d-swap",
+      "name": "letter-3d-swap",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/letter-3d-swap.tsx",
+      "analysisPath": "effects/fancy/items/letter-3d-swap.md",
+      "docs": [
+        {
+          "title": "Letter 3D Swap",
+          "path": "vendor/fancy/src/content/docs/components/text/letter-3d-swap.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/letter-3d-swap"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/letter-3d-swap-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/letter-3d-swap-rotate-top-explainer.tsx",
+        "vendor/fancy/src/fancy/examples/text/letter-3d-swap-stagger-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/letter-3d-swap.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 242
+        },
+        {
+          "signal": "accessible-text",
+          "line": 247
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-letter-swap-forward-anim",
+      "name": "letter-swap-forward-anim",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/letter-swap-forward-anim.tsx",
+      "analysisPath": "effects/fancy/items/letter-swap-forward-anim.md",
+      "docs": [
+        {
+          "title": "Letter Swap",
+          "path": "vendor/fancy/src/content/docs/components/text/letter-swap.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/letter-swap"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/letter-swap-demo-line.tsx",
+        "vendor/fancy/src/fancy/examples/text/letter-swap-demo-stagger.tsx",
+        "vendor/fancy/src/fancy/examples/text/letter-swap-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/letter-swap-forward-anim.tsx"
+        ],
+        "packages": [
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 85
+        },
+        {
+          "signal": "accessible-text",
+          "line": 90
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-letter-swap-pingpong-anim",
+      "name": "letter-swap-pingpong-anim",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/letter-swap-pingpong-anim.tsx",
+      "analysisPath": "effects/fancy/items/letter-swap-pingpong-anim.md",
+      "docs": [
+        {
+          "title": "Letter Swap",
+          "path": "vendor/fancy/src/content/docs/components/text/letter-swap.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/letter-swap"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/letter-swap-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/letter-swap-pingpong-anim.tsx"
+        ],
+        "packages": [
+          {
+            "name": "lodash",
+            "declaredVersion": "^4.17.21"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 90
+        },
+        {
+          "signal": "accessible-text",
+          "line": 96
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-random-letter-swap-forward-anim",
+      "name": "random-letter-swap-forward-anim",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/random-letter-swap-forward-anim.tsx",
+      "analysisPath": "effects/fancy/items/random-letter-swap-forward-anim.md",
+      "docs": [
+        {
+          "title": "Random Letter Swap",
+          "path": "vendor/fancy/src/content/docs/components/text/random-letter-swap.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/random-letter-swap"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/random-letter-swap-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/random-letter-swap-forward-anim.tsx"
+        ],
+        "packages": [
+          {
+            "name": "lodash",
+            "declaredVersion": "^4.17.21"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 98
+        },
+        {
+          "signal": "accessible-text",
+          "line": 103
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-random-letter-swap-pingpong-anim",
+      "name": "random-letter-swap-pingpong-anim",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/random-letter-swap-pingpong-anim.tsx",
+      "analysisPath": "effects/fancy/items/random-letter-swap-pingpong-anim.md",
+      "docs": [
+        {
+          "title": "Random Letter Swap",
+          "path": "vendor/fancy/src/content/docs/components/text/random-letter-swap.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/random-letter-swap"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/random-letter-swap-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/random-letter-swap-pingpong-anim.tsx"
+        ],
+        "packages": [
+          {
+            "name": "lodash",
+            "declaredVersion": "^4.17.21"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 99
+        },
+        {
+          "signal": "accessible-text",
+          "line": 105
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-scramble-hover",
+      "name": "scramble-hover",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/scramble-hover.tsx",
+      "analysisPath": "effects/fancy/items/scramble-hover.md",
+      "docs": [
+        {
+          "title": "Scramble Hover",
+          "path": "vendor/fancy/src/content/docs/components/text/scramble-hover.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/scramble-hover"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/scramble-hover-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/scramble-hover-diff-class-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/scramble-hover-new-chars-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/scramble-hover-sequential-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/scramble-hover.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 164
+        },
+        {
+          "signal": "accessible-text",
+          "line": 169
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-scramble-in",
+      "name": "scramble-in",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/scramble-in.tsx",
+      "analysisPath": "effects/fancy/items/scramble-in.md",
+      "docs": [
+        {
+          "title": "Scramble In",
+          "path": "vendor/fancy/src/content/docs/components/text/scramble-in.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/scramble-in"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/scramble-in-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/scramble-in.tsx"
+        ],
+        "packages": [
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "accessible-text",
+          "line": 140
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-scroll-and-swap-text",
+      "name": "scroll-and-swap-text",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/scroll-and-swap-text.tsx",
+      "analysisPath": "effects/fancy/items/scroll-and-swap-text.md",
+      "docs": [
+        {
+          "title": "Scroll and Swap Text",
+          "path": "vendor/fancy/src/content/docs/components/text/scroll-and-swap.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/scroll-and-swap"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/scroll-and-swap-text-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/scroll-and-swap-text.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "scroll",
+          "line": 4
+        },
+        {
+          "signal": "accessible-text",
+          "line": 126
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-text-along-path",
+      "name": "text-along-path",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/text-along-path.tsx",
+      "analysisPath": "effects/fancy/items/text-along-path.md",
+      "docs": [
+        {
+          "title": "Text Along Path",
+          "path": "vendor/fancy/src/content/docs/components/text/text-along-path.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/text-along-path"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/text-along-path-auto-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-along-path-circle-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-along-path-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-along-path-scroll-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/text-along-path.tsx"
+        ],
+        "packages": [
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "scroll",
+          "line": 2
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-text-cursor-proximity",
+      "name": "text-cursor-proximity",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/text-cursor-proximity.tsx",
+      "analysisPath": "effects/fancy/items/text-cursor-proximity.md",
+      "docs": [
+        {
+          "title": "Text Cursor Proximity",
+          "path": "vendor/fancy/src/content/docs/components/text/text-cursor-proximity.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/text-cursor-proximity"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/text-cursor-proximity-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-cursor-proximity-falloff-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/text-cursor-proximity.tsx",
+          "src/hooks/use-mouse-position-ref.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": " and ",
+            "declaredVersion": null
+          },
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 11
+        },
+        {
+          "signal": "frame-loop",
+          "line": 6
+        },
+        {
+          "signal": "accessible-text",
+          "line": 149
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-text-highlighter",
+      "name": "text-highlighter",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/text-highlighter.tsx",
+      "analysisPath": "effects/fancy/items/text-highlighter.md",
+      "docs": [
+        {
+          "title": "Text Highlighter",
+          "path": "vendor/fancy/src/content/docs/components/text/text-highlighter.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/text-highlighter"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/text-highlighter-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-highlighter-hover-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-highlighter-ref-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-highlighter-scroll-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/text-highlighter.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 187
+        },
+        {
+          "signal": "scroll",
+          "line": 12
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-text-rotate",
+      "name": "text-rotate",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/text-rotate.tsx",
+      "analysisPath": "effects/fancy/items/text-rotate.md",
+      "docs": [
+        {
+          "title": "Text Rotate",
+          "path": "vendor/fancy/src/content/docs/components/text/text-rotate.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/text-rotate"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/text-rotate-custom-animation-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-rotate-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-rotate-mapping-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-rotate-multiline-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-rotate-scroll-step-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-rotate-stagger-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/text-rotate-step-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/text-rotate.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "accessible-text",
+          "line": 367
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-typewriter",
+      "name": "typewriter",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/typewriter.tsx",
+      "analysisPath": "effects/fancy/items/typewriter.md",
+      "docs": [
+        {
+          "title": "Typewriter",
+          "path": "vendor/fancy/src/content/docs/components/text/typewriter.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/typewriter"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/typewriter-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/typewriter.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-underline-center",
+      "name": "underline-center",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/underline-center.tsx",
+      "analysisPath": "effects/fancy/items/underline-center.md",
+      "docs": [
+        {
+          "title": "Underline Animation",
+          "path": "vendor/fancy/src/content/docs/components/text/underline-animation.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/underline-animation"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/underline-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/underline-center.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "accessible-text",
+          "line": 104
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-underline-comes-in-goes-out",
+      "name": "underline-comes-in-goes-out",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/underline-comes-in-goes-out.tsx",
+      "analysisPath": "effects/fancy/items/underline-comes-in-goes-out.md",
+      "docs": [
+        {
+          "title": "Underline Animation",
+          "path": "vendor/fancy/src/content/docs/components/text/underline-animation.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/underline-animation"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/underline-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/underline-comes-in-goes-out.tsx"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 123
+        },
+        {
+          "signal": "accessible-text",
+          "line": 138
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-underline-goes-out-comes-in",
+      "name": "underline-goes-out-comes-in",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/underline-goes-out-comes-in.tsx",
+      "analysisPath": "effects/fancy/items/underline-goes-out-comes-in.md",
+      "docs": [
+        {
+          "title": "Underline Animation",
+          "path": "vendor/fancy/src/content/docs/components/text/underline-animation.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/underline-animation"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/underline-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/underline-goes-out-comes-in.tsx"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 123
+        },
+        {
+          "signal": "accessible-text",
+          "line": 139
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-underline-to-background",
+      "name": "underline-to-background",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/underline-to-background.tsx",
+      "analysisPath": "effects/fancy/items/underline-to-background.md",
+      "docs": [
+        {
+          "title": "Underline To Background",
+          "path": "vendor/fancy/src/content/docs/components/text/underline-to-background.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/underline-to-background"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/underline-to-background-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/underline-to-background.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "accessible-text",
+          "line": 124
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-variable-font-and-cursor",
+      "name": "variable-font-and-cursor",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/variable-font-and-cursor.tsx",
+      "analysisPath": "effects/fancy/items/variable-font-and-cursor.md",
+      "docs": [
+        {
+          "title": "Variable Font And Cursor",
+          "path": "vendor/fancy/src/content/docs/components/text/variable-font-and-cursor.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/variable-font-and-cursor"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/variable-font-and-cursor-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/variable-font-and-cursor.tsx",
+          "src/hooks/use-mouse-position-ref.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 7
+        },
+        {
+          "signal": "frame-loop",
+          "line": 4
+        },
+        {
+          "signal": "variable-font",
+          "line": 140
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "依赖合适的可变字体与字体轴；原站字体文件本次未收录。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-variable-font-cursor-proximity",
+      "name": "variable-font-cursor-proximity",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/variable-font-cursor-proximity.tsx",
+      "analysisPath": "effects/fancy/items/variable-font-cursor-proximity.md",
+      "docs": [
+        {
+          "title": "Variable Font Cursor Proximity",
+          "path": "vendor/fancy/src/content/docs/components/text/variable-font-cursor-proximity.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/variable-font-cursor-proximity"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/variable-font-cursor-proximity-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/variable-font-cursor-proximity-falloff-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/variable-font-cursor-proximity.tsx",
+          "src/hooks/use-mouse-position-ref.ts",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": " font variation settings string\n      const fromSettings = new Map(\n        fromFontVariationSettings\n          .split(",
+            "declaredVersion": null
+          },
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "pointer",
+          "line": 7
+        },
+        {
+          "signal": "frame-loop",
+          "line": 4
+        },
+        {
+          "signal": "variable-font",
+          "line": 205
+        },
+        {
+          "signal": "accessible-text",
+          "line": 248
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "依赖合适的可变字体与字体轴；原站字体文件本次未收录。",
+        "包含持续更新或物理计算；接入前验证性能、离屏暂停及卸载清理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-variable-font-hover-by-letter",
+      "name": "variable-font-hover-by-letter",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/variable-font-hover-by-letter.tsx",
+      "analysisPath": "effects/fancy/items/variable-font-hover-by-letter.md",
+      "docs": [
+        {
+          "title": "Variable Font Hover By Letter",
+          "path": "vendor/fancy/src/content/docs/components/text/variable-font-hover-by-letter.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/variable-font-hover-by-letter"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/variable-font-hover-by-letter-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/variable-font-hover-by-letter.tsx"
+        ],
+        "packages": [
+          {
+            "name": "lodash",
+            "declaredVersion": "^4.17.21"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "hover",
+          "line": 74
+        },
+        {
+          "signal": "variable-font",
+          "line": 49
+        },
+        {
+          "signal": "accessible-text",
+          "line": 80
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "鼠标或悬停触发：实际接入前验证触屏和键盘，不默认视为手机适配完成。",
+        "依赖合适的可变字体与字体轴；原站字体文件本次未收录。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-variable-font-hover-by-random-letter",
+      "name": "variable-font-hover-by-random-letter",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/variable-font-hover-by-random-letter.tsx",
+      "analysisPath": "effects/fancy/items/variable-font-hover-by-random-letter.md",
+      "docs": [
+        {
+          "title": "Variable Font Hover By Random Letter",
+          "path": "vendor/fancy/src/content/docs/components/text/variable-font-hover-by-random-letter.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/variable-font-hover-by-random-letter"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/text/variable-font-hover-by-random-letter-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/variable-font-hover-by-random-letter.tsx"
+        ],
+        "packages": [
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "variable-font",
+          "line": 45
+        },
+        {
+          "signal": "accessible-text",
+          "line": 68
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。",
+        "依赖合适的可变字体与字体轴；原站字体文件本次未收录。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    },
+    {
+      "id": "fancy-vertical-cut-reveal",
+      "name": "vertical-cut-reveal",
+      "kind": "effect",
+      "category": "text",
+      "categoryLabel": "文字特效",
+      "implementation": "upstream",
+      "status": "source-verified-runtime-untested",
+      "sourcePath": "vendor/fancy/src/fancy/components/text/vertical-cut-reveal.tsx",
+      "analysisPath": "effects/fancy/items/vertical-cut-reveal.md",
+      "docs": [
+        {
+          "title": "Vertical Cut Reveal",
+          "path": "vendor/fancy/src/content/docs/components/text/vertical-cut-reveal.mdx",
+          "url": "https://www.fancycomponents.dev/docs/components/text/vertical-cut-reveal"
+        }
+      ],
+      "examples": [
+        "vendor/fancy/src/fancy/examples/blocks/simple-marquee-drag-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/vertical-cut-reveal-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/vertical-cut-reveal-letter-random-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/vertical-cut-reveal-line-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/vertical-cut-reveal-scroll-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/vertical-cut-reveal-stagger-demo.tsx",
+        "vendor/fancy/src/fancy/examples/text/vertical-cut-reveal-word-demo.tsx"
+      ],
+      "dependencies": {
+        "files": [
+          "src/fancy/components/text/vertical-cut-reveal.tsx",
+          "src/lib/utils.ts"
+        ],
+        "packages": [
+          {
+            "name": "clsx",
+            "declaredVersion": "^2.1.1"
+          },
+          {
+            "name": "motion",
+            "declaredVersion": "^12.23.24"
+          },
+          {
+            "name": "react",
+            "declaredVersion": "^19.2.1"
+          },
+          {
+            "name": "tailwind-merge",
+            "declaredVersion": "^2.3.0"
+          }
+        ],
+        "unresolved": []
+      },
+      "signals": [
+        {
+          "signal": "accessible-text",
+          "line": 167
+        }
+      ],
+      "notes": [
+        "该文件未检出减少动态效果设置；这只是静态检索结果，不代表整个应用没有全局处理。"
+      ],
+      "source": {
+        "repository": "https://github.com/danielpetho/fancy",
+        "revision": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+        "license": "MIT"
+      },
+      "preference": {
+        "rating": null,
+        "likes": [],
+        "dislikes": []
+      }
+    }
+  ]
+}

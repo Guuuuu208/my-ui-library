@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary
+vendor/** -text

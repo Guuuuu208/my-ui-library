@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "font-library",
+  "sources": [
+    {
+      "id": "google-fonts",
+      "name": "Google Fonts",
+      "website": "https://fonts.google.com/",
+      "repository": "https://github.com/google/fonts",
+      "faq": "https://fonts.google.com/faq",
+      "status": "source-registered-no-font-files-downloaded",
+      "sourceType": "font-binaries-and-metadata",
+      "licensePolicy": "retain-each-font-family-license",
+      "preservationPolicy": "original-files-no-subsetting-conversion-or-redesign",
+      "domainReview": {
+        "checkedDate": "2026-09-12",
+        "identityEvidence": "Official google/fonts repository links to fonts.google.com",
+        "directNetworkCheck": "connection-timeout-no-response",
+        "fullRedirectChainVerified": false
+      }
+    }
+  ],
+  "families": []
+}
