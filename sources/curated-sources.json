@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "sourceHost": "github.com",
+    "allowedLicenses": ["MIT", "ISC"],
+    "executeThirdPartyCode": false,
+    "preserveSourceBytes": true
+  },
+  "sources": [
+    {
+      "id": "radix-primitives",
+      "name": "Radix Primitives",
+      "category": "accessible-primitives",
+      "repository": "https://github.com/radix-ui/primitives",
+      "revision": "f7ecd5ab16f5e1e820eb5786a1419a98a2d594ae",
+      "license": "MIT",
+      "localSource": "radix-ui__primitives",
+      "includes": ["LICENSE", "README.md", "philosophy.md", "packages/core", "packages/react"]
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "category": "styled-components-and-blocks",
+      "repository": "https://github.com/shadcn-ui/ui",
+      "revision": "2b3e6d4f8d9161fe5c19340dc383aade392012dd",
+      "license": "MIT",
+      "localSource": "shadcn-ui__ui",
+      "includes": ["LICENSE.md", "README.md", "apps/v4/registry/new-york-v4"]
+    },
+    {
+      "id": "tanstack-table",
+      "name": "TanStack Table",
+      "category": "data-table",
+      "repository": "https://github.com/TanStack/table",
+      "revision": "ce123bc6651bcbf188f3198627c6bb0b10588162",
+      "license": "MIT",
+      "localSource": "TanStack__table",
+      "excludes": ["examples/react/realtime-trading"],
+      "includes": ["LICENSE", "README.md", "packages/table-core", "packages/react-table", "examples/react"]
+    },
+    {
+      "id": "tanstack-virtual",
+      "name": "TanStack Virtual",
+      "category": "virtualization",
+      "repository": "https://github.com/TanStack/virtual",
+      "revision": "2c0a0ea101c360ea15832c060008aa163cae2f7c",
+      "license": "MIT",
+      "localSource": "TanStack__virtual",
+      "includes": ["LICENSE", "README.md", "packages/virtual-core", "packages/react-virtual", "examples/react"]
+    },
+    {
+      "id": "react-hook-form",
+      "name": "React Hook Form",
+      "category": "forms",
+      "repository": "https://github.com/react-hook-form/react-hook-form",
+      "revision": "38efe7b54d1171c2c40b444ccfbc26b8de0b4699",
+      "license": "MIT",
+      "localSource": "react-hook-form__react-hook-form",
+      "includes": ["LICENSE", "README.md", "SECURITY.md", "src", "examples"]
+    },
+    {
+      "id": "recharts",
+      "name": "Recharts",
+      "category": "charts",
+      "repository": "https://github.com/recharts/recharts",
+      "revision": "7acde2e0ccd847300948c9fbfbcecdb895bdd3fc",
+      "license": "MIT",
+      "localSource": "recharts__recharts",
+      "includes": ["LICENSE", "README.md", "src", "storybook/stories"]
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide",
+      "category": "icons",
+      "repository": "https://github.com/lucide-icons/lucide",
+      "revision": "a79b2d131dab2bf20cb224bd0937b439a9c4fa99",
+      "license": "ISC",
+      "localSource": "lucide-icons__lucide",
+      "includes": ["LICENSE", "README.md", "BRAND_LOGOS_STATEMENT.md", "packages/lucide-react", "icons", "categories"]
+    },
+    {
+      "id": "dnd-kit",
+      "name": "dnd kit",
+      "category": "drag-and-drop",
+      "repository": "https://github.com/clauderic/dnd-kit",
+      "revision": "e522d9c6a3cbe39e6e980ee3b6fd7a78f238ab94",
+      "license": "MIT",
+      "localSource": "clauderic__dnd-kit",
+      "includes": ["LICENSE", "README.md", "packages/abstract", "packages/collision", "packages/dom", "packages/geometry", "packages/helpers", "packages/react", "packages/state"]
+    },
+    {
+      "id": "embla-carousel",
+      "name": "Embla Carousel",
+      "category": "carousel",
+      "repository": "https://github.com/davidjerleke/embla-carousel",
+      "revision": "85a5e3cdb69756d6e139e697665cee72e1150e05",
+      "license": "MIT",
+      "localSource": "davidjerleke__embla-carousel",
+      "includes": ["LICENSE", "README.md", "packages/embla-carousel", "packages/embla-carousel-react", "packages/embla-carousel-accessibility", "packages/embla-carousel-auto-height", "packages/embla-carousel-auto-scroll", "packages/embla-carousel-autoplay", "packages/embla-carousel-class-names", "packages/embla-carousel-fade"]
+    },
+    {
+      "id": "floating-ui",
+      "name": "Floating UI",
+      "category": "positioning",
+      "repository": "https://github.com/floating-ui/floating-ui",
+      "revision": "27629b74ba36ab8ceb2a968051927b9b69511a3b",
+      "license": "MIT",
+      "localSource": "floating-ui__floating-ui",
+      "includes": ["LICENSE", "README.md", "packages/core", "packages/dom", "packages/react", "packages/react-dom", "packages/utils"]
+    },
+    {
+      "id": "cmdk",
+      "name": "cmdk",
+      "category": "command-menu",
+      "repository": "https://github.com/dip/cmdk",
+      "revision": "dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+      "license": "MIT",
+      "localSource": "dip__cmdk",
+      "includes": ["LICENSE.md", "README.md", "ARCHITECTURE.md", "cmdk"]
+    },
+    {
+      "id": "sonner",
+      "name": "Sonner",
+      "category": "notifications",
+      "repository": "https://github.com/emilkowalski/sonner",
+      "revision": "8e4662b39255120b62138312058f5d77c0139a5e",
+      "license": "MIT",
+      "localSource": "emilkowalski__sonner",
+      "includes": ["LICENSE.md", "README.md", "src"]
+    },
+    {
+      "id": "react-day-picker",
+      "name": "React DayPicker",
+      "category": "date-picker",
+      "repository": "https://github.com/gpbl/react-day-picker",
+      "revision": "19033b454689bc761d9847301de429bbbb53eed4",
+      "license": "MIT",
+      "localSource": "gpbl__react-day-picker",
+      "includes": ["LICENSE", "SECURITY.md", "packages/react-day-picker", "examples"]
+    },
+    {
+      "id": "lexical",
+      "name": "Lexical",
+      "category": "rich-text-editor",
+      "repository": "https://github.com/facebook/lexical",
+      "revision": "0e9a9f5a84e7dd6dc4152206ff946a76fb54936d",
+      "license": "MIT",
+      "localSource": "facebook__lexical",
+      "includes": ["LICENSE", "README.md", "packages/lexical", "packages/lexical-react", "packages/lexical-rich-text", "packages/lexical-list", "packages/lexical-link", "packages/lexical-table", "packages/lexical-markdown", "packages/lexical-history", "packages/lexical-selection", "packages/lexical-utils", "packages/lexical-clipboard", "packages/lexical-code"]
+    }
+  ]
+}

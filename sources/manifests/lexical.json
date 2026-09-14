@@ -1,0 +1,1573 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:53:00.133Z",
+  "source": {
+    "id": "lexical",
+    "name": "Lexical",
+    "category": "rich-text-editor",
+    "repository": "https://github.com/facebook/lexical",
+    "revision": "0e9a9f5a84e7dd6dc4152206ff946a76fb54936d",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/facebook/lexical/tar.gz/0e9a9f5a84e7dd6dc4152206ff946a76fb54936d",
+      "bytes": 7052824,
+      "sha256": "fa2ac507b6a5d7fc293a15138631cbe89af72ccdc6d9752d53010c2f714890e0"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 309,
+  "totalBytes": 2482694,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-clipboard/flow/LexicalClipboard.js.flow",
+      "bytes": 2046,
+      "sha256": "266a816b2dd9ce88dd3f48404b6da538b8f1de2dfb21f4745fedd97efa8b2e31"
+    },
+    {
+      "path": "packages/lexical-clipboard/LexicalClipboard.js",
+      "bytes": 266,
+      "sha256": "ecc5c799ba0c5385ba917a5c204d4795b5e3ad598da376991ba567843e7edd93"
+    },
+    {
+      "path": "packages/lexical-clipboard/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-clipboard/package.json",
+      "bytes": 1694,
+      "sha256": "647e49d335a72e38e102e39e9ab37d19ea8c3051ed8d5815b3c37f13fce3ad73"
+    },
+    {
+      "path": "packages/lexical-clipboard/README.md",
+      "bytes": 237,
+      "sha256": "cc05980a4311000243d6dfcad6c986ea2a30900410a89d5c539c52e8ae7c323b"
+    },
+    {
+      "path": "packages/lexical-clipboard/src/caretFromPoint.ts",
+      "bytes": 5166,
+      "sha256": "6f9627ce7bbe3b912341a5b4c73127ebb2ac17dfd4621ce56320a33a0d1a042e"
+    },
+    {
+      "path": "packages/lexical-clipboard/src/clipboard.ts",
+      "bytes": 35402,
+      "sha256": "663603226c0196f03831a5e170bf8e8115a0bedec02ba2ae848f55b996a8f94f"
+    },
+    {
+      "path": "packages/lexical-clipboard/src/ClipboardImportExtension.ts",
+      "bytes": 18712,
+      "sha256": "ef2f272b605decd8c299e66a73c2f6be6b6e260d19868fa713aa2c3e93f34294"
+    },
+    {
+      "path": "packages/lexical-clipboard/src/index.ts",
+      "bytes": 1152,
+      "sha256": "8e011711990bee03f1cbb293be0dce927cac445f2c3433bbc34b85c9f309b35b"
+    },
+    {
+      "path": "packages/lexical-code/flow/LexicalCode.js.flow",
+      "bytes": 2878,
+      "sha256": "6af6763c3a8ca49e1c35bcd6b839f5787247b4cfdaf20d5228d5eade06de16bd"
+    },
+    {
+      "path": "packages/lexical-code/LexicalCode.js",
+      "bytes": 261,
+      "sha256": "ac0048793f753a3b231fc82a3968969ec20178bbfed965a4752248f2853d8ef8"
+    },
+    {
+      "path": "packages/lexical-code/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-code/package.json",
+      "bytes": 1490,
+      "sha256": "45f9495ed99c546678c7c45942673f5c8c5234dbf6856f4e2dfa141d78c1086e"
+    },
+    {
+      "path": "packages/lexical-code/README.md",
+      "bytes": 588,
+      "sha256": "6fd2ed661a740a4999bb1800ca89531bb40d479f2d0306ffd0087980fa321242"
+    },
+    {
+      "path": "packages/lexical-code/src/index.ts",
+      "bytes": 679,
+      "sha256": "60c3a75ae38b4928202cc1af00c6c0ee7eb4efabe99bee0471d30d1a636c7798"
+    },
+    {
+      "path": "packages/lexical-history/flow/LexicalHistory.js.flow",
+      "bytes": 1705,
+      "sha256": "8eb11f135138ee4170f6796d935234e7ec69649d701b66c433a924b3ee43f8dc"
+    },
+    {
+      "path": "packages/lexical-history/LexicalHistory.js",
+      "bytes": 264,
+      "sha256": "df50301067e8616c4bf83bd5a8a534bbdb35d9e32e277cb20a471177f00742e7"
+    },
+    {
+      "path": "packages/lexical-history/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-history/package.json",
+      "bytes": 1476,
+      "sha256": "849b353d98a2cc5d3bf5b8f0b663fccd0d9c1e579913263725a3a045c7f5c910"
+    },
+    {
+      "path": "packages/lexical-history/README.md",
+      "bytes": 2010,
+      "sha256": "3e387159386a360b08521403b18baebb68351533b5f388a732af97a7fc313c45"
+    },
+    {
+      "path": "packages/lexical-history/src/index.ts",
+      "bytes": 28309,
+      "sha256": "42c42d6d3f8691201ed388d76a81f5ab2468c210b42828290dae5eb253b08cf4"
+    },
+    {
+      "path": "packages/lexical-link/flow/LexicalLink.js.flow",
+      "bytes": 4920,
+      "sha256": "9205b939ee164e0da44cdd3ef75690980216f1f4e32bf5264ad3ef9e374ecb80"
+    },
+    {
+      "path": "packages/lexical-link/LexicalLink.js",
+      "bytes": 261,
+      "sha256": "ed1767335f89c19620991495944bfc328deceb3439577cd68c18f9c7f5b1a340"
+    },
+    {
+      "path": "packages/lexical-link/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-link/package.json",
+      "bytes": 1562,
+      "sha256": "cfa87ef9bc6e2785a24d6fc4bb737b8a158a8dff20e38ef0fd4ee42712bbe3ef"
+    },
+    {
+      "path": "packages/lexical-link/README.md",
+      "bytes": 208,
+      "sha256": "a5627f9bb367e46251ea521b578e48767c4f1ab49a67df5ea80ebb17c6c9e724"
+    },
+    {
+      "path": "packages/lexical-link/src/AutoLinkAnnounceExtension.ts",
+      "bytes": 3884,
+      "sha256": "8b3e3caf63205ef205a6b5382a382f5be0c2701f2a5f59ece53db6429f931ec4"
+    },
+    {
+      "path": "packages/lexical-link/src/ClickableLinkExtension.ts",
+      "bytes": 4833,
+      "sha256": "944e2538745f1c24cd5a5e350e527e6a9edd280a754d5a65d6a4d8259fa85c16"
+    },
+    {
+      "path": "packages/lexical-link/src/index.ts",
+      "bytes": 1116,
+      "sha256": "bd13fa40a894992c099962ea31cf49ea9df6cafa71c280720dff8c749e7f967d"
+    },
+    {
+      "path": "packages/lexical-link/src/LexicalAutoLinkExtension.ts",
+      "bytes": 21812,
+      "sha256": "782a839b5a67ad62c26bd0296fbf1f5e38c35c0c3386a8eb9758bd3232dcf43f"
+    },
+    {
+      "path": "packages/lexical-link/src/LexicalLinkExtension.ts",
+      "bytes": 5976,
+      "sha256": "8b3b23de7e7eff8d736c9b4c891ce7d6f9897a3d6404f34f7b1b5e7ed830ae95"
+    },
+    {
+      "path": "packages/lexical-link/src/LexicalLinkNode.ts",
+      "bytes": 27172,
+      "sha256": "8d694ec2c96a684d3869326a7ce9cc7f99456d38b0359af73d44bcd9bdb165cd"
+    },
+    {
+      "path": "packages/lexical-link/src/LinkImportExtension.ts",
+      "bytes": 1578,
+      "sha256": "bd3673677e1f113c95966d571dad628b8ce389887eb67d77ee08fe4b46f628e5"
+    },
+    {
+      "path": "packages/lexical-list/flow/LexicalList.js.flow",
+      "bytes": 3574,
+      "sha256": "6f86a6279a839f2cf096f48b84053e8a772f9cc10b8b161e273400d9d26dfe46"
+    },
+    {
+      "path": "packages/lexical-list/LexicalList.js",
+      "bytes": 261,
+      "sha256": "d3440c83420e0ec67d7a2c50072356a7ea0f3fbe6462cabf7614a3455d6b3768"
+    },
+    {
+      "path": "packages/lexical-list/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-list/package.json",
+      "bytes": 1519,
+      "sha256": "b2f6a765f1ee4c3ccab7a59d26ef10d4bac203df05c08c434aba0d1c339cb617"
+    },
+    {
+      "path": "packages/lexical-list/README.md",
+      "bytes": 3340,
+      "sha256": "a3d93b5ec4239411ba301fea22d4641a86e3b0ea58a4e2b390ee164e0c42dfcf"
+    },
+    {
+      "path": "packages/lexical-list/src/checkList.ts",
+      "bytes": 19958,
+      "sha256": "be92919eb46c6d6ba78f170d77039eda40bcd682b7c220d69653127c75cc6092"
+    },
+    {
+      "path": "packages/lexical-list/src/formatList.ts",
+      "bytes": 21703,
+      "sha256": "7afcdec6c6de8d8de8be7e18792fcc36dcd21c7c7991d45f8b3c93ea357d7703"
+    },
+    {
+      "path": "packages/lexical-list/src/index.ts",
+      "bytes": 1517,
+      "sha256": "7d227f37fa2828fe974f0d57d4f80c8f715b40b32cb81b4299403c78f3294481"
+    },
+    {
+      "path": "packages/lexical-list/src/LexicalListExtension.ts",
+      "bytes": 3168,
+      "sha256": "5d52e9249eba34a691f2ec45b810c9d3c9fa617cd073feea1a10a65acdb26308"
+    },
+    {
+      "path": "packages/lexical-list/src/LexicalListItemNode.ts",
+      "bytes": 20635,
+      "sha256": "943ef2d1962bd48d13b0850c17546e1de9389cb7a519735413b7aa2646e79f34"
+    },
+    {
+      "path": "packages/lexical-list/src/LexicalListNode.ts",
+      "bytes": 11126,
+      "sha256": "d9a3e0be95d2b942df0a00b42e96e04543163d1d49a6f332fc9bd88ca2df2a1c"
+    },
+    {
+      "path": "packages/lexical-list/src/ListImportExtension.ts",
+      "bytes": 9609,
+      "sha256": "91eca5d7786ba34a3d525a542a3b9edf211700fcbc7b1f38a9cbedf1e35d7af3"
+    },
+    {
+      "path": "packages/lexical-list/src/registerList.ts",
+      "bytes": 7435,
+      "sha256": "3eebe2e91ec13c7c1c04f275479119cdc81ddb9fd09c54312ad2c04bd235cd64"
+    },
+    {
+      "path": "packages/lexical-list/src/utils.ts",
+      "bytes": 6154,
+      "sha256": "9b62164bb95de95586909df444a3e8c1855ca0a1d937788f13e9ed27ec84583f"
+    },
+    {
+      "path": "packages/lexical-list/src/WordListImportExtension.ts",
+      "bytes": 8143,
+      "sha256": "b1f1517bf402b9124d2ed102e003f45f17d8cd1d64d90dc5774ae65f592d724b"
+    },
+    {
+      "path": "packages/lexical-markdown/flow/LexicalMarkdown.js.flow",
+      "bytes": 4187,
+      "sha256": "af9edc26520a22cd226b98dcdc9a5677753df212cbbcd2fe3db10bf691e58702"
+    },
+    {
+      "path": "packages/lexical-markdown/LexicalMarkdown.js",
+      "bytes": 265,
+      "sha256": "28d3b372139a0ed91744c5d66f4d2565b2bf3d383f0cf8da0dffee77f2c3f536"
+    },
+    {
+      "path": "packages/lexical-markdown/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-markdown/package.json",
+      "bytes": 1723,
+      "sha256": "73c0c9ed261aacbea12a721371ac8800417a8fac8a48cf0a77515ee6a2f002b5"
+    },
+    {
+      "path": "packages/lexical-markdown/README.md",
+      "bytes": 2838,
+      "sha256": "f9931bf44ce4e08c2443471953a580c748b3ab6b00816b3f492e58294ba3359e"
+    },
+    {
+      "path": "packages/lexical-markdown/src/importTextFormatTransformer.ts",
+      "bytes": 12935,
+      "sha256": "3987827779dd92f7b89603c0fcfafaf975bef38bdbac572aaa5d2eef1319afec"
+    },
+    {
+      "path": "packages/lexical-markdown/src/importTextMatchTransformer.ts",
+      "bytes": 2914,
+      "sha256": "10f7e0526b6be86b7d755788ec208724f17deaf83d82c09c46ac93ed7db281a3"
+    },
+    {
+      "path": "packages/lexical-markdown/src/importTextTransformers.ts",
+      "bytes": 5020,
+      "sha256": "b4cb505e2c7001a7f5fb4eded2e27f547b414253d39a5258f3c0b6e8e625451d"
+    },
+    {
+      "path": "packages/lexical-markdown/src/index.ts",
+      "bytes": 4894,
+      "sha256": "b5818fbd20b562e453464902397923f43f750ea5a8acb0de06e7a6e0923dd9d3"
+    },
+    {
+      "path": "packages/lexical-markdown/src/MarkdownExport.ts",
+      "bytes": 20221,
+      "sha256": "9c4858476255464dec4e2df6a24bc2f11c8d7c8e825cadc221311a32f22ad775"
+    },
+    {
+      "path": "packages/lexical-markdown/src/MarkdownImport.ts",
+      "bytes": 12166,
+      "sha256": "1630bd31cf802e1cadf1f508a73741a6c51eb602b95246c9e446dfab46852bfe"
+    },
+    {
+      "path": "packages/lexical-markdown/src/MarkdownShortcuts.ts",
+      "bytes": 20252,
+      "sha256": "e9a68860fadffd915219a33a85bd4359b059b152b6775a133ef955b6df509d53"
+    },
+    {
+      "path": "packages/lexical-markdown/src/MarkdownTransformers.ts",
+      "bytes": 48966,
+      "sha256": "38f0358d0a12be5c55ea7371b6d29cd54f2e2093c7f7dfab2ee4a3be46d5f4ae"
+    },
+    {
+      "path": "packages/lexical-markdown/src/utils.ts",
+      "bytes": 12471,
+      "sha256": "79201b4aa8b015dd92ee13fb68e1b80daee7348ae64806393ebaedd03c488145"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalAutoEmbedPlugin.js.flow",
+      "bytes": 2058,
+      "sha256": "0db678864a0437da89586b684e616551bb051d4eb7fbe844258afb856b6c43e2"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalAutoEmbedPluginUtils.js.flow",
+      "bytes": 1143,
+      "sha256": "b60f616ab42162fc178473f6e47117eb2045173fc300d9fd55b1acb848198eb5"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalAutoFocusPlugin.js.flow",
+      "bytes": 347,
+      "sha256": "359d36649e0a6cc0c81f893c94500b658f2ebdc16fc7d4cdb8a675a30a6df0d5"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalAutoLinkPlugin.js.flow",
+      "bytes": 648,
+      "sha256": "d83a09db8673d306600f7b8d8d21deaf857e23309136e87e77f7ed88690af981"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalBlockWithAlignableContents.js.flow",
+      "bytes": 571,
+      "sha256": "02ffcfde6abac87345b6a18068b548736fa0fa26a5dc09fa07ca8e547d9f064d"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalCharacterLimitPlugin.js.flow",
+      "bytes": 312,
+      "sha256": "933728b9931b8a08e1db49f0f781ec65704af5892bf0dffcc90fe799bc1cc989"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalCheckListPlugin.js.flow",
+      "bytes": 301,
+      "sha256": "c6a52a1746b23a27a2d23f1b3353b967382d25b211676cde5daf381190a4fee1"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalClearEditorPlugin.js.flow",
+      "bytes": 326,
+      "sha256": "475fb4f35b358b085e4bdad7dd088416be463246893e5e5bb5b3ad3466e3a706"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalClickableLinkPlugin.js.flow",
+      "bytes": 287,
+      "sha256": "7292b92c355e344b1b55e39de66c5790382f6f2b06650f625aef3617bcf8b602"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalCollaborationContext.js.flow",
+      "bytes": 632,
+      "sha256": "613c9124295b5531597799700a9ca2f7b33732e8e60eeb5551276f71632fc221"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalCollaborationContextUtils.js.flow",
+      "bytes": 674,
+      "sha256": "f39f877183161a711f5075b88a9498ee8241640d79db5fc726840cd35ef13d87"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalCollaborationPlugin.js.flow",
+      "bytes": 1619,
+      "sha256": "1b36a7cb5a0d1db210a9cd973fa27ac574649851361c9fc75788f5b0223fa66f"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalComposer.js.flow",
+      "bytes": 981,
+      "sha256": "f593067e1b1e68c44c3b41536975d3a21fa2c3564d6d063c32c99d89c296cb0e"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalComposerContext.js.flow",
+      "bytes": 799,
+      "sha256": "bcb9b8550e4cce97b373f6fe2976b9067e2b887fe2ab687b61bdb9cdfc5009c8"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalContentEditable.js.flow",
+      "bytes": 2242,
+      "sha256": "c2fabedbdc4c0d9dbb126913da7ddbe517dc4c3b574ce44eb2321ef17f1303d2"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalDecoratorBlockNode.js.flow",
+      "bytes": 840,
+      "sha256": "75bc648dc86b6d3881b35a65f36a340418c55594f3a96e9d069dc621cba09dff"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalDraggableBlockPlugin.js.flow",
+      "bytes": 661,
+      "sha256": "302011d999135addd14487a9d19238640d1f0d7f3a83405af72d2308f418047b"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalEditorRefPlugin.js.flow",
+      "bytes": 512,
+      "sha256": "990a79907acb5c0d2a877dc01835e819e1dde742e4bd445a2972fbd4c5ac94c7"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalErrorBoundary.js.flow",
+      "bytes": 448,
+      "sha256": "7949d5d3b47ec5c3905aaf2b1d2a16b4b6f6eb0edb0ba1046b922a0f921dba30"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalExtensionComponent.js.flow",
+      "bytes": 248,
+      "sha256": "8eabf231042538ac57b97d7add93a531c39d2734f4850096e7ee6b4a843c2571"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalExtensionComposer.js.flow",
+      "bytes": 635,
+      "sha256": "4ce2efcb1071d520203298ae08675944682d5f359f05064ba099be11d78c2f96"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalExtensionEditorComposer.js.flow",
+      "bytes": 597,
+      "sha256": "e6dcf97e7c0d9071e8490e61beea5a62acf10ff41508ccbf7ddfa57a8e3922cb"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalHashtagPlugin.js.flow",
+      "bytes": 264,
+      "sha256": "25d4eb58e9fb7e0b3a785422488cc38584e4606619bc49c717ad3d81874a39ee"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalHistoryPlugin.js.flow",
+      "bytes": 714,
+      "sha256": "8d2215d609b5066fb7617553a43dbdf8b0bee2e5514c427efd7aa04d1f58c306"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalHorizontalRuleNode.js.flow",
+      "bytes": 825,
+      "sha256": "5bf726de627875e76c329d241efd38ec140c7f4b9862821186b0bbd08c18966f"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalHorizontalRulePlugin.js.flow",
+      "bytes": 305,
+      "sha256": "6f32cf62fdc191e7e4af01c1ef7e5a6cee3bb7535765c20f02d1fc61cc3b8ee2"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalLinkPlugin.js.flow",
+      "bytes": 471,
+      "sha256": "d4d00ee06562344c56070b2ed35f48d16fd6ca046cf2cf5507a4420a81bcc063"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalListPlugin.js.flow",
+      "bytes": 386,
+      "sha256": "99c9bf32d0b89a15d21d8b73639d86262191d2222b6a437eb2b225bb44d38552"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalMarkdownShortcutPlugin.js.flow",
+      "bytes": 418,
+      "sha256": "356b1b7b1ae3dfdf5a87e6b6c7428b6aef59191190cb8f07fd2fc70c85da7547"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalMenuOption.js.flow",
+      "bytes": 526,
+      "sha256": "fba07315bc3346ebd1660948d7d8788e285307744f5103a80b2b86b0a26eca93"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalNestedComposer.js.flow",
+      "bytes": 708,
+      "sha256": "d2b76371d49af589b6e907f4721e29ab84c56becc8de11bcd462d0306594c56a"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalNodeContextMenuPlugin.js.flow",
+      "bytes": 251,
+      "sha256": "ce8d8140cad7a67da70b80441b4a390a8402bbe88d88015434d992e7481ed418"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalNodeEventPlugin.js.flow",
+      "bytes": 482,
+      "sha256": "39265be43504118ff9ba2cffab6254f15224824111aada2c6380f4351439f0e3"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalNodeMenuPlugin.js.flow",
+      "bytes": 1671,
+      "sha256": "4c57ca5ae19ffbdeadaaf985c3f0ec17dfcd1c8d24f53eafeb980b0eeaca6b0d"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalOnChangePlugin.js.flow",
+      "bytes": 486,
+      "sha256": "801162477822be067cec8eb060f5ffcf335ef1e83e6a4d0ef5a52d0aa82b8d58"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalPlainTextPlugin.js.flow",
+      "bytes": 708,
+      "sha256": "92cc8106b244a985f9398de436a298ba75e1a6df9eefa100b29bafc7456ad2e2"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalReactExtension.js.flow",
+      "bytes": 1968,
+      "sha256": "329796ea5d18cd188969332ba3578f473ccee065d235f2d6a21d041aa4cb2196"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalReactPluginHostExtension.js.flow",
+      "bytes": 2399,
+      "sha256": "18f1c15bb73ec6dbb72e445503f9a258d9c436489418eb2289c230948deed5e4"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalReactProviderExtension.js.flow",
+      "bytes": 252,
+      "sha256": "03af34367d49294de10200660b9f5646ddf5eceff4abeef9e09a609550ca361d"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalRichTextPlugin.js.flow",
+      "bytes": 707,
+      "sha256": "31206f3cdf2fba5c0f2e4d86a2db179fa95b4671b1de5296dcf9f8bb827f9adf"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalSelectionAlwaysOnDisplay.js.flow",
+      "bytes": 363,
+      "sha256": "57bff0dd4bec9ce6074e4acfe5e6e5cac5f26a73a7debc2e3e4ffb8201235579"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTabIndentationPlugin.js.flow",
+      "bytes": 484,
+      "sha256": "aff25a7f5dd8f42e2660a188926c08ebfda1cad53d36c28ce2681e83199a38c5"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTableOfContentsPlugin.js.flow",
+      "bytes": 503,
+      "sha256": "acca2b507028448a122a7698d712ab69937234515890c106e670cf2c580ab934"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTablePlugin.js.flow",
+      "bytes": 385,
+      "sha256": "300a877cdf02772765db9ac6c35b4acd56d06dc1567dc2806dbd62e5aa9bf041"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTreeView.js.flow",
+      "bytes": 623,
+      "sha256": "82112a4d61409935d00eaabd69ea610e6175e22a73b9ee61a9001dc3f0605da0"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTreeViewExtension.js.flow",
+      "bytes": 247,
+      "sha256": "c0899d33de6fd81bef66b5b9857d69ec748ed3fafe63a503ae3f98ebe3af8298"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTypeaheadMenuPlugin.js.flow",
+      "bytes": 2253,
+      "sha256": "a141c676ab2123ef2decda262495833dd574730a8736bf1173d544fa97253c2b"
+    },
+    {
+      "path": "packages/lexical-react/flow/LexicalTypeaheadMenuPluginUtils.js.flow",
+      "bytes": 895,
+      "sha256": "47a460d57185246cd4f6e8e0672c595517351590172e096089a0306b89d08336"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalAriaLiveRegion.js.flow",
+      "bytes": 286,
+      "sha256": "c19a6e4f3d7a78bbb10c86b921467d7029752757b714c008469cebed33e905e5"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalEditable.js.flow",
+      "bytes": 307,
+      "sha256": "d7e247ef87a42184aa44a9879082e559e78ce176eec4a1f3fb46abb0b303b027"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalExtensionComponent.js.flow",
+      "bytes": 251,
+      "sha256": "c178f1c4473c17841188c3168bf24239adafee7647e3c161e855b1e781d04f83"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalExtensionSignalValue.js.flow",
+      "bytes": 491,
+      "sha256": "5b59dc159f4b78ce0e844d0505b506c0d416bdd9206edabfb90b9907259a1f07"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalFocusManagerRef.js.flow",
+      "bytes": 402,
+      "sha256": "0dc2090c85666575c26f1fffe6e496648b78289e1cbdf8d21754ec2387632ab8"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalFocusTrapRef.js.flow",
+      "bytes": 475,
+      "sha256": "2879fab0c0014ca345e5a3150461817784520e4711849c33ca8780284b27e779"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalIsTextContentEmpty.js.flow",
+      "bytes": 361,
+      "sha256": "febafcbbd23e6dff9547ccfd2314be71675dfaf228380e09d313dcb3f4aae04d"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalNodeSelection.js.flow",
+      "bytes": 356,
+      "sha256": "0684abce4dd6fbafa8cf4140420637c51c05d2623e7a4e2f046eb75faa7d144f"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalRovingTabIndexRef.js.flow",
+      "bytes": 505,
+      "sha256": "00a8c2e2b149719d2fd7db7990b332aca87a1c7adc592854ab0ff20ce38e7d8f"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalSlotRef.js.flow",
+      "bytes": 434,
+      "sha256": "f74a005cde54f21efcc2f66e9db6de0bba0760d1e956f59b72ddaf8d63dead80"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalSubscription.js.flow",
+      "bytes": 505,
+      "sha256": "a83218afc562b550c2045986b50480488b501da2caa9314537958910bb42708c"
+    },
+    {
+      "path": "packages/lexical-react/flow/useLexicalTextEntity.js.flow",
+      "bytes": 498,
+      "sha256": "4384ea31fff8fbc8e703f15adeaacf6f7f30f54af52a48d5375efc7cb52d84ee"
+    },
+    {
+      "path": "packages/lexical-react/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-react/package.json",
+      "bytes": 48052,
+      "sha256": "2c8b3cc86c8733f88bbf920d4091907f7f455c0df7c94e289bf069f392ee7f44"
+    },
+    {
+      "path": "packages/lexical-react/README.md",
+      "bytes": 2568,
+      "sha256": "88dc891688a9a29e46ff06202e7359a14bb93f7f1d55ab7d535ca6e170ece533"
+    },
+    {
+      "path": "packages/lexical-react/src/ExtensionComponent.tsx",
+      "bytes": 1845,
+      "sha256": "4f463bcb38d458fee4251d5e6565d73729b32c3cf4b2b8015e327db578c001cf"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalAutoEmbedPlugin.tsx",
+      "bytes": 8358,
+      "sha256": "6f503d3b3d8ccb0d298d07afdb3f1143324c76e70c7c57acc3dc2eeedfe36490"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalAutoEmbedPluginUtils.ts",
+      "bytes": 2573,
+      "sha256": "2aefb5b4fcbde0c509215ccdc96a8304fd57a9cac279ea97ca07d1076b0835bf"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalAutoFocusPlugin.ts",
+      "bytes": 2026,
+      "sha256": "048101568efbec477d88be4ab5e70034c7e870e655be9efbce976d0b0fc26bd3"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalAutoLinkPlugin.ts",
+      "bytes": 2180,
+      "sha256": "b0b58a1a2c68175d6902506d144b37350e800bd33fca10be141df5a35b4465b7"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalBlockWithAlignableContents.tsx",
+      "bytes": 3477,
+      "sha256": "835aa38988b740cdaf1ed73dcbe04b6cbf51e92f5197c3f47632acd5abe3f470"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalCharacterLimitPlugin.tsx",
+      "bytes": 2834,
+      "sha256": "b1e3712c4cdd70931a876d03e7dbe21bab2533c27bec2215d4fe7e92694916e6"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalCheckListPlugin.tsx",
+      "bytes": 1106,
+      "sha256": "81de11b2d9dc36d9fd01b3f808f9621030717faf391800c7466c58bb31446774"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalClearEditorPlugin.ts",
+      "bytes": 1099,
+      "sha256": "ebb9901616df42a611696ef3aad9fe1e5f000b9d071904c6bf3cfcf2ec7f8e7b"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalClickableLinkPlugin.tsx",
+      "bytes": 1180,
+      "sha256": "df5c62722db07560db684d1caa574275ed4407443da0ed5f1d0f509195b21761"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalCollaborationContext.tsx",
+      "bytes": 1062,
+      "sha256": "660a9ef01615b05ff6b51a6b27e68bb5549994b9044fe7e8ee97106d8ab952ab"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalCollaborationContextUtils.ts",
+      "bytes": 3586,
+      "sha256": "da703e8c3a32bf5b84491e1f9693ecc1cec9eeb418b9bf824acfd8cd28af3302"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalCollaborationPlugin.tsx",
+      "bytes": 13116,
+      "sha256": "edcc36ee66e9896877141602ac131b9d6ed1fc443953ed3032a32b65fcf36372"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalComposer.tsx",
+      "bytes": 7614,
+      "sha256": "07a444c6d0e17b6aed941eb66f74b93a793de97ef76b799f6981942a88e32626"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalComposerContext.ts",
+      "bytes": 3335,
+      "sha256": "ff8329ee40aed04747cae9a002ed00c83ddb0140ac47b17fceb254c9204352da"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalContentEditable.tsx",
+      "bytes": 3185,
+      "sha256": "8d653ff8ec150bbe14ab9d087c2d64116c89bb94d1aa82edf0bafa79f19a2f4d"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalDecoratorBlockNode.ts",
+      "bytes": 2446,
+      "sha256": "874e763245aeff9fbb40a19ac4f769e4510cfa0299c293dfb4e40af4415197fc"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalDraggableBlockPlugin.tsx",
+      "bytes": 18925,
+      "sha256": "391cb77c39a81e760a4e2fa9ee87ed43ad761bdc3abebabfcada25bec608a4cb"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalEditorRefPlugin.tsx",
+      "bytes": 1240,
+      "sha256": "858c19cff4ea04eb374bfdd7275221a3bbd9a92fda103fb269cac2fc08c5b0f5"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalErrorBoundary.tsx",
+      "bytes": 2403,
+      "sha256": "afd2aa147864ff58c1d9c51bf62e07d81bf7410e44e61c32cc7e2b4c3a76b4cc"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalExtensionComposer.tsx",
+      "bytes": 3714,
+      "sha256": "a3ecd340604718e904cd2c83f617e391a974cd977cc6a00c566c8286104d498c"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalExtensionEditorComposer.tsx",
+      "bytes": 1809,
+      "sha256": "dae12d943a4b5023eb066b88a932472edc8f1a3214976eba234090b04198fe77"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalHashtagPlugin.ts",
+      "bytes": 1079,
+      "sha256": "6b92196330f0454706b4c1282eb535841fd7de8dc5997041b2b8f66b4f8e5803"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalHistoryPlugin.ts",
+      "bytes": 1193,
+      "sha256": "c22fb83051d3ccccbb9148f7efe768f49ea3e246bb5c9684235d7ba6cf4d74dd"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalHorizontalRuleNode.tsx",
+      "bytes": 3218,
+      "sha256": "44fe5b60cccb161fba0699387617674c10f62ac8350bc41daef07c3252fbab3d"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalHorizontalRulePlugin.ts",
+      "bytes": 1495,
+      "sha256": "0f9e242640d5dcad36dc76b715fb1b07a137d04a13d3a90977968e0b10cb49c6"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalLinkPlugin.ts",
+      "bytes": 1500,
+      "sha256": "319b9707263a5d7fab077d205f0a7aa2d839072834c3af79d090960f312d21ae"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalListPlugin.ts",
+      "bytes": 2100,
+      "sha256": "e5ed3eb4968806022fdd3847f6a8efbf1a87a35bab530ab07b3ce055c9abb292"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalMarkdownShortcutPlugin.tsx",
+      "bytes": 2500,
+      "sha256": "d6e8075e77850e6b9dd9d003a2f81e6884c7763c1e8ed5abcfd33155a1ecae71"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalMenuOption.ts",
+      "bytes": 1378,
+      "sha256": "416fe5e576fe40e958598ba688741fa4dec7030126d931826f9123ce581df37c"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalNestedComposer.tsx",
+      "bytes": 9113,
+      "sha256": "e4a5a8493782199525bea86306e039ebe57f96ec10212e2e8ce1ee076ebf9ce0"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalNodeContextMenuPlugin.tsx",
+      "bytes": 10232,
+      "sha256": "2f3fbfe3b97102617558abc99c173ceb28c944cedb71b0821b7436c977b156f1"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalNodeEventPlugin.ts",
+      "bytes": 2394,
+      "sha256": "74040e06646dc096141c4a97aefe7a2d39284a21a032277c2764f75e230e7d05"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalNodeMenuPlugin.tsx",
+      "bytes": 4068,
+      "sha256": "b172cf24c91a56ffa960138be342744cd0d1bcf2258334d73c133ba8466186b9"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalOnChangePlugin.ts",
+      "bytes": 1778,
+      "sha256": "d3d7c0600e9e2e7d00e8029b0d18c0a8c1169d5bbb1bc347fe4a653d70bc6ec6"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalPlainTextPlugin.tsx",
+      "bytes": 2224,
+      "sha256": "177aef366c16d1901a051b48a4787d293bc15b12d6cf34505ef033355e5e7825"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalRichTextPlugin.tsx",
+      "bytes": 2217,
+      "sha256": "365a2595fd77ae5ad0014cc14ac1ec291744e4c1976035485133f5fce75aae65"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalSelectionAlwaysOnDisplay.tsx",
+      "bytes": 1179,
+      "sha256": "a2f9730ba613f574a3f0e465bc943179bf6918b54798a0a6d282cda1981c946d"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalTabIndentationPlugin.tsx",
+      "bytes": 1367,
+      "sha256": "98c2b468ecbb10bc5bb5ecfc8cbb1e750a5af2533a85c1877c86a27227f1ae04"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalTableOfContentsPlugin.tsx",
+      "bytes": 9427,
+      "sha256": "8f36bb9ad5c836011ee1072a2a32d16000ca2733dee4418fd9579551ca1b614a"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalTablePlugin.ts",
+      "bytes": 3808,
+      "sha256": "718286a7ffeb848998901b4bdfde003b84fb4a493d01fe9c1b5570844af1f638"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalTreeView.tsx",
+      "bytes": 5386,
+      "sha256": "d6eebb6e27181a728229ff2c1cc181e6d06a4b218c6253b87c5241b9c84aab1c"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalTypeaheadMenuPlugin.tsx",
+      "bytes": 7789,
+      "sha256": "1c19fc50e51a4b5167d10f5f91ab3ad33d74212031003d20a4a79ccf5d4dca73"
+    },
+    {
+      "path": "packages/lexical-react/src/LexicalTypeaheadMenuPluginUtils.ts",
+      "bytes": 3042,
+      "sha256": "ad9f46b7adc48afe314e0fec493db8993c554c6336df13a9436f44e550487982"
+    },
+    {
+      "path": "packages/lexical-react/src/ReactExtension.tsx",
+      "bytes": 3605,
+      "sha256": "3df43d821527709ef6cc4d156157dde93387e12e50baddfc89582c701de416aa"
+    },
+    {
+      "path": "packages/lexical-react/src/ReactPluginHostExtension.tsx",
+      "bytes": 8958,
+      "sha256": "0d2e68a78200d3efc42e9cedb641d4796e4696d0c86a127db096ec3ea97d7c32"
+    },
+    {
+      "path": "packages/lexical-react/src/ReactProviderExtension.tsx",
+      "bytes": 681,
+      "sha256": "1e8aad6af7497a2ad106097e85e198d6e658c3ad3a8bc5c0c7cb29cd0d0c7292"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/buildEditorComponent.tsx",
+      "bytes": 1858,
+      "sha256": "7f993ee6b4b6fd1bfcd7fa7260d8e4ff12d9c3fbaa9c655437882233d733e010"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/LegacyDecorators.tsx",
+      "bytes": 1868,
+      "sha256": "0bb130c3f72b62942c46fee44e2c54959e1aa42fd2c1b387f3052e96063bb1e5"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/LexicalContentEditableElement.tsx",
+      "bytes": 5162,
+      "sha256": "2ec8f79d1595e3d47284b270fe0a777125768056e99391ceab778b40bb356d46"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/LexicalMenu.tsx",
+      "bytes": 27619,
+      "sha256": "b9ec791323befe35fa7ed49e5677ee400f67682daedded67a287cb7965499c0c"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/mergeRefs.ts",
+      "bytes": 495,
+      "sha256": "f99b31ddfdc93143dcd0500a6126390c7223e9496272f5a1ea53410fa7ca887d"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/point.ts",
+      "bytes": 1151,
+      "sha256": "198005058eb2d6151c12992f72d75e29c1407c65e4938da7c8b51d757e72f69f"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/rect.ts",
+      "bytes": 3942,
+      "sha256": "865c6634ba8b1c3957aed9ce87e485a3a8266078e6129c79b23fdf191ad9b68f"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/types.ts",
+      "bytes": 4081,
+      "sha256": "22fc655bbd887d0eca9478ed90724a09899763c402009c09d0d93f542d0ecfb5"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useCanShowPlaceholder.ts",
+      "bytes": 1362,
+      "sha256": "b3dc72a22946498034da9e22e753630265c53e470d0ff6b3dee97054087e2608"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useCharacterLimit.ts",
+      "bytes": 11222,
+      "sha256": "6bcb5b0c939852ed16638c9d05f573af9197b3dfe6ec28209a88fdf018ea670e"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useHistory.ts",
+      "bytes": 761,
+      "sha256": "4bf8464560d860eb8246e47a6f7e92e337419fff3482fc45617fd8d0541e46ec"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useLayoutEffect.ts",
+      "bytes": 563,
+      "sha256": "e65a757da7665b723e407ff1f18fe6619bb5b68a5213e0bcd78c13e1a8e3e14b"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useList.ts",
+      "bytes": 444,
+      "sha256": "18465997e9de3bf252824528f0c07036da22f5d1959a3fc039dad8249db13c1d"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/usePlainTextSetup.ts",
+      "bytes": 627,
+      "sha256": "737c1e8c6e0b04e244deb73f0ffb0e60840a51ffb653a19650d62665bb974736"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useReactDecorators.tsx",
+      "bytes": 1659,
+      "sha256": "b890ce623a6accdac936fe1eb016be522802f8b9650ea6533ef57340cb6bd6bb"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useRichTextSetup.ts",
+      "bytes": 623,
+      "sha256": "0110171541a5180dbd997026aa3a14b2e6025426207b9102f9f75354878e7471"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useRootElement.ts",
+      "bytes": 590,
+      "sha256": "17a8ff06998b2a811169908572e55abbdfaccd9a98c0a3dea94f865d7b49d3e0"
+    },
+    {
+      "path": "packages/lexical-react/src/shared/useYjsCollaboration.tsx",
+      "bytes": 22387,
+      "sha256": "1007d37e7264bec7682f3776c6ae96aea33ec709508d3899868326d9dc4927c4"
+    },
+    {
+      "path": "packages/lexical-react/src/TreeViewExtension.tsx",
+      "bytes": 2092,
+      "sha256": "a419747546730628e4dd7ab45ff13f66c1655722fb882d70e2497171b65bf0bf"
+    },
+    {
+      "path": "packages/lexical-react/src/useExtensionComponent.tsx",
+      "bytes": 2882,
+      "sha256": "5d3184f8c3aa2a38e4a2f186ff683a21d7697560e22f6c14b27e1516ef82167b"
+    },
+    {
+      "path": "packages/lexical-react/src/useExtensionSignalValue.ts",
+      "bytes": 2805,
+      "sha256": "94e62d7391fa1bfb705cf19c238f55251113bc19cacd55e605b2f0f06cabf945"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalAriaLiveRegion.ts",
+      "bytes": 963,
+      "sha256": "efae0e610790b726f9d3542f10db3f86ae73802e4c613fe7a340513b5c25b7da"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalEditable.ts",
+      "bytes": 1030,
+      "sha256": "6a9bdf7bc40d0859efeb8b0971c63104e394ad18fbc53d69c8c7f32a9a3286b1"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalFocusManagerRef.ts",
+      "bytes": 1821,
+      "sha256": "6f7e64244b997bacd050713a31b7a27b24b7cba5b5cd1d6788195eb4ecd6c01e"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalFocusTrapRef.ts",
+      "bytes": 2730,
+      "sha256": "4c93e2dd848843ec136eff29fbd36f33c375f0fa76ba98cc11f610a586531be3"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalIsTextContentEmpty.ts",
+      "bytes": 1661,
+      "sha256": "a3f89a9dba2f3170cea402b27d75a8be83122c3704b0d24b7bebf9be6c71f914"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalNodeSelection.ts",
+      "bytes": 4088,
+      "sha256": "5c097949211b8586d239d5bf7ad42abe018af8f9e052a8db8207bb3a75763bf4"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalRovingTabIndexRef.ts",
+      "bytes": 1840,
+      "sha256": "fb2f30fe38dd346b5dc35150a79fc7d20c64abbb3e741ab0c7af3aa7e9b2b928"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalSlotRef.ts",
+      "bytes": 1633,
+      "sha256": "95c18cf5496c8d8c5764ceb256a2758eebc89d29756e88ef2d0b3b6ff96e932c"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalSubscription.tsx",
+      "bytes": 1893,
+      "sha256": "82b5a912a8904518ce974dd67cac3659adadbe716dd98b25250cf3603fdd8c04"
+    },
+    {
+      "path": "packages/lexical-react/src/useLexicalTextEntity.ts",
+      "bytes": 1207,
+      "sha256": "ef61f9a479953c7751b817d95c8ceedd6d8a842201d6de1e5ca0dc44ffd099e5"
+    },
+    {
+      "path": "packages/lexical-rich-text/flow/LexicalRichText.js.flow",
+      "bytes": 3293,
+      "sha256": "9ede8e54eaf04456246db51ea81e0f0de927e4a90ad38884cfb67bd31ba225e4"
+    },
+    {
+      "path": "packages/lexical-rich-text/LexicalRichText.js",
+      "bytes": 265,
+      "sha256": "752d7f06a2d62bd6666c7ec4694c1b23a684f8a74b76c04b58b90ae9c243f725"
+    },
+    {
+      "path": "packages/lexical-rich-text/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-rich-text/package.json",
+      "bytes": 1654,
+      "sha256": "c82bff1e9565428a320e29ffbd24f71718f077593fd65727c44210b2e33ebe3b"
+    },
+    {
+      "path": "packages/lexical-rich-text/README.md",
+      "bytes": 687,
+      "sha256": "1cdbb08def344b4b7b7e74ab6fdb69c13a3c8d4110f883940eae7b7211355d4b"
+    },
+    {
+      "path": "packages/lexical-rich-text/src/HeadingAnnounceExtension.ts",
+      "bytes": 4034,
+      "sha256": "65187026f2e18361e67cf3832ece9a6950d3c32fca26bfc0e3a28501ed850a16"
+    },
+    {
+      "path": "packages/lexical-rich-text/src/index.ts",
+      "bytes": 66059,
+      "sha256": "067715712ab91f858b4f20615a451becd8c30f1eb1e7d98864ca7c10211b3e51"
+    },
+    {
+      "path": "packages/lexical-rich-text/src/LexicalRichTextExtension.ts",
+      "bytes": 4558,
+      "sha256": "8fd10194b6b1166f2f815de49dcc5f3f436676b2eb17259d433b969c4def9603"
+    },
+    {
+      "path": "packages/lexical-rich-text/src/RichTextImportExtension.ts",
+      "bytes": 5260,
+      "sha256": "a2425deebd146311b68587922f2b773b792c2962a710c31bb1a490841e0aaa05"
+    },
+    {
+      "path": "packages/lexical-selection/flow/LexicalSelection.js.flow",
+      "bytes": 3059,
+      "sha256": "55d55a64c4209e671468dcd7415157e5266cfb3dc1fc7133f074d59664a6a4dd"
+    },
+    {
+      "path": "packages/lexical-selection/LexicalSelection.js",
+      "bytes": 266,
+      "sha256": "8f81aea126f2c0ab53d2ef4681e53362fc899369880747efa47d989c02254564"
+    },
+    {
+      "path": "packages/lexical-selection/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-selection/package.json",
+      "bytes": 1481,
+      "sha256": "dd086e3a6c1d942b771d7faceb8d9a63d1998f597cea5cf619acaf95c27393c6"
+    },
+    {
+      "path": "packages/lexical-selection/README.md",
+      "bytes": 212,
+      "sha256": "a75d92a8e68131136a1c0268c69c7e4d316649264e053278eb69acefff3b9de7"
+    },
+    {
+      "path": "packages/lexical-selection/src/index.ts",
+      "bytes": 1424,
+      "sha256": "e3176531044b2c41d5aaac130c13f5ac126a41f48f89bcfaf7e3e050ee4e0fbe"
+    },
+    {
+      "path": "packages/lexical-selection/src/lexical-node.ts",
+      "bytes": 15266,
+      "sha256": "bcd60566ecdd46eec595e00f558fa800d4ccf05075d930163f83646f8fbd7cc6"
+    },
+    {
+      "path": "packages/lexical-selection/src/range-selection.ts",
+      "bytes": 25169,
+      "sha256": "6a2e31d17688335d0b2429b68ac6b994086aaa313ff46f20926b0972518bb785"
+    },
+    {
+      "path": "packages/lexical-selection/src/utils.ts",
+      "bytes": 7374,
+      "sha256": "6c78035abb992e92fc054256aceef1677d31bf72d007159a1076f5a40e1a4a7e"
+    },
+    {
+      "path": "packages/lexical-table/flow/LexicalTable.js.flow",
+      "bytes": 13215,
+      "sha256": "6e560738818f72c2f68bc35c0c276a4afd5c9960e3f88cbb6981f69d8e462058"
+    },
+    {
+      "path": "packages/lexical-table/LexicalTable.js",
+      "bytes": 262,
+      "sha256": "e50e85a8d397729356ce8b2e14312b5ff4fc397a967dda62319ed3f38a37095e"
+    },
+    {
+      "path": "packages/lexical-table/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-table/package.json",
+      "bytes": 1569,
+      "sha256": "ddc9567c2061fbb0af7076866df0add06aa8c43b2e3e1d093426fc4ac69c804c"
+    },
+    {
+      "path": "packages/lexical-table/README.md",
+      "bytes": 1968,
+      "sha256": "c012dde3071f0344a5243877a94ffeb940a437d7538362494117a31dd4d4cf9d"
+    },
+    {
+      "path": "packages/lexical-table/src/constants.ts",
+      "bytes": 408,
+      "sha256": "ff4f606ee9e3129bef793f46bd5cabc1cf61b1eabd3e89076cae66514bf89328"
+    },
+    {
+      "path": "packages/lexical-table/src/index.ts",
+      "bytes": 3055,
+      "sha256": "72da52a14da8b1af4b3dfec54162cdf61b5f2d94d0479705616bcea5252d74eb"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableCellNode.ts",
+      "bytes": 12887,
+      "sha256": "f2a6026f5b2673102c3b4fbedd7606c75546db8904a1fa820f59e21e6f491bc9"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableCommands.ts",
+      "bytes": 648,
+      "sha256": "aa80399b669662517d5b45ddd786a6f9551e7e685b3cbb7086f20577c1acbf8e"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableExtension.ts",
+      "bytes": 7781,
+      "sha256": "81445313a33e91864268a26c5ce47d2f7fb080cba46c6cf079a3fbcec87c2f82"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableNode.ts",
+      "bytes": 27513,
+      "sha256": "84135a94f0c71fb1e2c34eca51d9a798a4d5b5cb24e0a4015f056c584ab7db94"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableObserver.ts",
+      "bytes": 19562,
+      "sha256": "971e06f056ba49d9ec5bc9495a0c0b6102f6ab3bccb0e95de04d326a91c5529a"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTablePluginHelpers.ts",
+      "bytes": 16065,
+      "sha256": "92417edaa9760292e49bd5a89544380d9c23ed702290f30a15bca74dc7a26505"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableRowNode.ts",
+      "bytes": 3503,
+      "sha256": "c61bcdfad4fb5e5582d9bcccd3e49832bbc06adc1a72bcc925fd54b16b9e85b9"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableSelection.ts",
+      "bytes": 15081,
+      "sha256": "169ffa5f4aba2e5d359d8431c9c43f4d07ce0df1ecd952ea68a097b4d37358c3"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableSelectionHelpers.ts",
+      "bytes": 87788,
+      "sha256": "4345e7af373cc5c503beed13e436d94460a1ceb690a2f1ff6c5448abdd0ab3f6"
+    },
+    {
+      "path": "packages/lexical-table/src/LexicalTableUtils.ts",
+      "bytes": 53402,
+      "sha256": "a6a141b09a8caa894de7118642856e905424cc9d4cc780ee5903a644aa561d45"
+    },
+    {
+      "path": "packages/lexical-table/src/TableImportExtension.ts",
+      "bytes": 9848,
+      "sha256": "867b86b455f0d649ba2374a2a30db9d04c223fd18e8da02bb50a4bd6a37b8bbe"
+    },
+    {
+      "path": "packages/lexical-utils/flow/LexicalUtils.js.flow",
+      "bytes": 7589,
+      "sha256": "a27eda6a8434cb9d4287e1eba06a57ee7f5c617b6d7e17a85fa1841653b3df9d"
+    },
+    {
+      "path": "packages/lexical-utils/LexicalUtils.js",
+      "bytes": 262,
+      "sha256": "cbd5eef7f9add544b7d7c553c1a17241ab22ff7d4363d8f9f302a4e94f6caa28"
+    },
+    {
+      "path": "packages/lexical-utils/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical-utils/package.json",
+      "bytes": 1452,
+      "sha256": "dd47615435a2d9b088039b663d28800241724b0a4454e6e7539e6fc0b2286664"
+    },
+    {
+      "path": "packages/lexical-utils/README.md",
+      "bytes": 201,
+      "sha256": "be50655b3ef173ab8b2ff695ce0d992de1cc99210e6e2e07451a59d21dc56022"
+    },
+    {
+      "path": "packages/lexical-utils/src/dedupeSelectionRects.ts",
+      "bytes": 3396,
+      "sha256": "44ee15e611867e1c202f8a57f6b82e5d96b27dac4c5a0fa6e10f1e39dadf0d8f"
+    },
+    {
+      "path": "packages/lexical-utils/src/getScrollParent.ts",
+      "bytes": 1883,
+      "sha256": "60f978271322c1e88c7e4a93bdde20875920c598396b68f313d4cd604c7121d5"
+    },
+    {
+      "path": "packages/lexical-utils/src/index.ts",
+      "bytes": 45665,
+      "sha256": "2caf10147d4a9c44796d103f4e7a4cc9edd869c8563daa649deb1f7b765fae00"
+    },
+    {
+      "path": "packages/lexical-utils/src/markSelection.ts",
+      "bytes": 6066,
+      "sha256": "0bbca05a46b671ea38999e39cbded471c896b56c3b6049c046fd4b02bd855ee4"
+    },
+    {
+      "path": "packages/lexical-utils/src/positionNodeOnRange.ts",
+      "bytes": 5817,
+      "sha256": "71ba6862d3f45e7dfe83418c9c37dd7fa4bb2abd50c5f8f73de57a21e102cf57"
+    },
+    {
+      "path": "packages/lexical-utils/src/px.ts",
+      "bytes": 264,
+      "sha256": "4f4ea005a1436d67eb11839e79579dcb91d504912d81a82790101648f2e6eda6"
+    },
+    {
+      "path": "packages/lexical-utils/src/selectionAlwaysOnDisplay.ts",
+      "bytes": 2265,
+      "sha256": "d2c291c9995c29472ee1f3dc45efd5be5f97fbab9fd089580d0d55ee66f6480e"
+    },
+    {
+      "path": "packages/lexical/flow/Lexical.flowtest.js.flow",
+      "bytes": 2595,
+      "sha256": "3a25c3d6986a5af662fc2f0a88f83a7306be66996d15931d992a179e46ac5d4e"
+    },
+    {
+      "path": "packages/lexical/flow/Lexical.js.flow",
+      "bytes": 79170,
+      "sha256": "6624b137e0909b75a23639bd1288a4dda61e701060bafade0e697d83ffbc52dd"
+    },
+    {
+      "path": "packages/lexical/Lexical.js",
+      "bytes": 257,
+      "sha256": "3f4318944e0b960263d97fbbf98dd7c1fdccad7de4a54a488908e794f4af0271"
+    },
+    {
+      "path": "packages/lexical/LICENSE",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "packages/lexical/package.json",
+      "bytes": 1428,
+      "sha256": "5ffb663eafc5ceb80386d4a80c82d81d03fdac1b6e1be5a6e6b59256f3dd4d3e"
+    },
+    {
+      "path": "packages/lexical/README.md",
+      "bytes": 7196,
+      "sha256": "54ec2c4b6e58a729e2d661820b54c70dc5a63f8d380ed018ff509dfd842fa2fb"
+    },
+    {
+      "path": "packages/lexical/src/__bench__/_utils.ts",
+      "bytes": 924,
+      "sha256": "ebd5bd60c03df1f4e3fa7cacf7054e10c1f4603553bbfd1e9c857d3ecddebfe6"
+    },
+    {
+      "path": "packages/lexical/src/__bench__/dom/_utils.ts",
+      "bytes": 1723,
+      "sha256": "17bd9b28682c52c1142d45868a313f356b4f4d74859a0c6417d772a68c1410b8"
+    },
+    {
+      "path": "packages/lexical/src/__bench__/dom/editorCycle.bench.ts",
+      "bytes": 5556,
+      "sha256": "1ea88112df3a2d27293fcd9eb966779a5f9bafedd07d51a8dcd9deca4d276def"
+    },
+    {
+      "path": "packages/lexical/src/__bench__/dom/editorOperations.bench.ts",
+      "bytes": 9025,
+      "sha256": "519d9d4c8e8092d4a4276ef9e4ffe66fa6da270639b10ed442e193ac88c587c2"
+    },
+    {
+      "path": "packages/lexical/src/__bench__/nodeMap.bench.ts",
+      "bytes": 5077,
+      "sha256": "cf7ebab33facd2fe53a0e15c0ea6f92996b78ad4903aa9b25a7ab2e3ae4ec3fa"
+    },
+    {
+      "path": "packages/lexical/src/__bench__/README.md",
+      "bytes": 5262,
+      "sha256": "3af0d2b5dc03128e485a3796854fd6d0b7a5662a4ef68c6d3bc9bc0bf6b63929"
+    },
+    {
+      "path": "packages/lexical/src/caret/LexicalCaret.ts",
+      "bytes": 48576,
+      "sha256": "1acf0eed75df69a7c5d7ac16604eaef495a4f2f76673071c4a39b0ef75880071"
+    },
+    {
+      "path": "packages/lexical/src/caret/LexicalCaretUtils.ts",
+      "bytes": 31511,
+      "sha256": "e8f69539d07766e4d4389807ed4a5d3ef90da6ada0258408cb988f32f20ce072"
+    },
+    {
+      "path": "packages/lexical/src/environment.ts",
+      "bytes": 4050,
+      "sha256": "a96c4faef12ad3e55e1a491d5075e60f61cb99f47e494af806f7bf12ed4eb901"
+    },
+    {
+      "path": "packages/lexical/src/extension-core/defineExtension.ts",
+      "bytes": 3948,
+      "sha256": "2605d32219376afbe73bb05b465a3f01e2dc46d1d6aa0584ffea65ce59494b93"
+    },
+    {
+      "path": "packages/lexical/src/extension-core/index.ts",
+      "bytes": 1214,
+      "sha256": "e4daf915bd8d9309ea7d06f5e1cc262a4bb814120fdf2e4ce3c332d7da041623"
+    },
+    {
+      "path": "packages/lexical/src/extension-core/internal.ts",
+      "bytes": 1035,
+      "sha256": "d49a34403c6a4bd691989f1dd0e6ee7789ba6667b88186a704088d29450a8e0e"
+    },
+    {
+      "path": "packages/lexical/src/extension-core/safeCast.ts",
+      "bytes": 510,
+      "sha256": "c68f98027e8d689c72afa9e39f2da135df9d088e5bbd1f4550727bfa9dcd4b8f"
+    },
+    {
+      "path": "packages/lexical/src/extension-core/shallowMergeConfig.ts",
+      "bytes": 821,
+      "sha256": "a09136f6793e8622e861f4974e19e8cb00aa265b0284796565be0ee30f9c01af"
+    },
+    {
+      "path": "packages/lexical/src/extension-core/types.ts",
+      "bytes": 14739,
+      "sha256": "bade4ddbf53e9ca0e240de3708e1f4846e5c5933d506c5ac14b1fe63191bc8b1"
+    },
+    {
+      "path": "packages/lexical/src/index.ts",
+      "bytes": 12605,
+      "sha256": "b04cef00b8588207d37703d5cadb12341f19314d9abb68c431dd122f294e3623"
+    },
+    {
+      "path": "packages/lexical/src/LexicalCommands.ts",
+      "bytes": 11267,
+      "sha256": "8743ac8934b247bd0cbefbd2270b7ef640251323fe5a8ee2fe16b7d7751cf2c5"
+    },
+    {
+      "path": "packages/lexical/src/LexicalConstants.ts",
+      "bytes": 6425,
+      "sha256": "a23cf9aa0d85e9f61e6d4bf137a2a786e4e365a70756e610f7503f913284ddca"
+    },
+    {
+      "path": "packages/lexical/src/LexicalDequeSet.ts",
+      "bytes": 1135,
+      "sha256": "77e5786c96636b1e11cb00a7799f8045be8ff286833b16a68f8944cfcbd9e7f8"
+    },
+    {
+      "path": "packages/lexical/src/LexicalDOMSlot.ts",
+      "bytes": 21779,
+      "sha256": "069db7629074a06b9370f89e8bae2d523cc9acbb5a9f7cd493c0f74771d9ce72"
+    },
+    {
+      "path": "packages/lexical/src/LexicalEditor.ts",
+      "bytes": 68129,
+      "sha256": "8ad47f7d33a804bdf47cecc6ec03f5b963262c8d5e29fa10ea9b87d37dc7951e"
+    },
+    {
+      "path": "packages/lexical/src/LexicalEditorState.ts",
+      "bytes": 5939,
+      "sha256": "f62d7e91ebd9d0bef6f88f0052f06fc4bf7531020f815eef5ef02678b04a1dee"
+    },
+    {
+      "path": "packages/lexical/src/LexicalEvents.ts",
+      "bytes": 77891,
+      "sha256": "afe64178491995c3c04d2920030f12f0294a11df4cec03e04710a439eb88d43c"
+    },
+    {
+      "path": "packages/lexical/src/LexicalGC.ts",
+      "bytes": 6182,
+      "sha256": "6305fdda2f37e01b37125e6f2faf04fcaf62abc457ebe07b614f5d280cb889d7"
+    },
+    {
+      "path": "packages/lexical/src/LexicalGenMap.ts",
+      "bytes": 7106,
+      "sha256": "5135c2d8b4ff354d26773f7547ed9e991bef60139946b2171042937d60a5b1a6"
+    },
+    {
+      "path": "packages/lexical/src/LexicalKeyboardShortcuts.ts",
+      "bytes": 10362,
+      "sha256": "f9a5a43fcb716ef62c6827d9938db29476201bb9d9379befd82dd0eee5a7d5c0"
+    },
+    {
+      "path": "packages/lexical/src/LexicalMutations.ts",
+      "bytes": 11656,
+      "sha256": "d55aab4033f1b2b775df06df35772a1f261a2de7b74153cf1b77f0946195a7b0"
+    },
+    {
+      "path": "packages/lexical/src/LexicalNode.ts",
+      "bytes": 73823,
+      "sha256": "6e4d560507da70f9f6687ab03fbec370d1eb383bd2388bf97503ecc53d5e3059"
+    },
+    {
+      "path": "packages/lexical/src/LexicalNodeState.ts",
+      "bytes": 34973,
+      "sha256": "d8070fa61bd69dcbca8222421e5740110ffa6355ba648b8d8c06abb939853767"
+    },
+    {
+      "path": "packages/lexical/src/LexicalNormalization.ts",
+      "bytes": 3611,
+      "sha256": "32930a03a86d706f6de0b3836366422dce82c6a1667bc87a744085cc47a14937"
+    },
+    {
+      "path": "packages/lexical/src/LexicalReconciler.ts",
+      "bytes": 82905,
+      "sha256": "843a33cb3100b3cd58567cefa86ae9f7d1da558eabbd7d9d4978088f8322fe0e"
+    },
+    {
+      "path": "packages/lexical/src/LexicalRefCountedRegistry.ts",
+      "bytes": 3391,
+      "sha256": "d49d69fe92f658645337b425c148ca13831b8e26841ac64130fdf78f01fe369f"
+    },
+    {
+      "path": "packages/lexical/src/LexicalSelection.ts",
+      "bytes": 169242,
+      "sha256": "addf74d3c4abf9509f659a9f066f37fdd7bb548e2d56f97512ba2db03357420d"
+    },
+    {
+      "path": "packages/lexical/src/LexicalSlot.ts",
+      "bytes": 23247,
+      "sha256": "4e4a3bade49a6487cdbb809a82c0623f5c7e6889ced86553dc0368d64c60beee"
+    },
+    {
+      "path": "packages/lexical/src/LexicalUpdates.ts",
+      "bytes": 44288,
+      "sha256": "bd375ccc68392f66bc6709c59edab8e3dfcf3c6dd1280d28a84a58f2165300d6"
+    },
+    {
+      "path": "packages/lexical/src/LexicalUpdateTags.ts",
+      "bytes": 2925,
+      "sha256": "6da7ae1b40cf7c14fcae701bad395e64112ae9b4ff8f942acbde6dec9d6d3972"
+    },
+    {
+      "path": "packages/lexical/src/LexicalUtils.ts",
+      "bytes": 125258,
+      "sha256": "f87c999629bb274d0b834ece4a82aa458ae1b6b68bab98a662617518359d7da5"
+    },
+    {
+      "path": "packages/lexical/src/nodes/ArtificialNode.ts",
+      "bytes": 766,
+      "sha256": "e325bfc298b00a30ae5d4a9007bbff725b650fd17139445672238172f3517819"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalDecoratorNode.ts",
+      "bytes": 2968,
+      "sha256": "45e6e3f85c8f3a7f354ef84bd3bdfdd0f6830d4f3be577d4a458bc1cf09b8482"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalElementNode.ts",
+      "bytes": 33706,
+      "sha256": "32f74afb629c9e8bd91369836fdf97116a4439a0df44e82475b14d1158d84eb6"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalLineBreakNode.ts",
+      "bytes": 3778,
+      "sha256": "b8711edb6de8c1009c664cd90ce11f3179bab979e15ccda9a31c5e0df685d6b2"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalParagraphNode.ts",
+      "bytes": 6552,
+      "sha256": "b136c5a1bd091527b2b4040f284d495b57145146ed5ff1a715d036968705d826"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalRootNode.ts",
+      "bytes": 2909,
+      "sha256": "d13cca1995cc1477843110b55402da3e0f0939085de5052051ce58e4de8e9b91"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalTabNode.ts",
+      "bytes": 3216,
+      "sha256": "02d58418fab3ea69297054fee83c8aa94f3d8d10e764fba30d8961e2cb132b2f"
+    },
+    {
+      "path": "packages/lexical/src/nodes/LexicalTextNode.ts",
+      "bytes": 44810,
+      "sha256": "9537ef7f5ded35380561a9ab25ab9b60af15e1ad3ea6dcde8d761153f5d59d36"
+    },
+    {
+      "path": "packages/lexical/src/utils/classNames.ts",
+      "bytes": 2042,
+      "sha256": "d99b6fdab208a1390683c2ba4ddd501c266f0b1b9193f125070af2b2bbfb5fb8"
+    },
+    {
+      "path": "packages/lexical/src/utils/mergeRegister.ts",
+      "bytes": 1724,
+      "sha256": "4e0fd79b5a27f81f71737f997f30c1bc6237aa6e5935a2d046689f495009a276"
+    },
+    {
+      "path": "packages/lexical/src/utils/registerEventListener.ts",
+      "bytes": 3322,
+      "sha256": "9abea7a1f1af44be2dfacf2267e646d9d6ae1c2a1c57c28331ee3011d01be556"
+    },
+    {
+      "path": "packages/lexical/src/utils/registerEventListeners.ts",
+      "bytes": 2433,
+      "sha256": "96d89dcdf1477bc5a2ef506aee183437f2308d5aa8c2e9a71a37b7ec184eea46"
+    },
+    {
+      "path": "packages/lexical/src/utils/setDOMStyle.ts",
+      "bytes": 6309,
+      "sha256": "a828ce75fbfb6f33d3f72623160090872154507632c6cc1682e7fcd76510b774"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5563,
+      "sha256": "c9c358b87dfb3b0bdda8735cfdadba1ea5c086ada74f2288e8e762e3a8f7778b"
+    }
+  ]
+}

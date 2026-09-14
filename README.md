@@ -4,17 +4,19 @@
 
 ## 当前状态
 
-已收录 Fancy Components 的 45 个原始特效组件、99 个作者演示、40 篇组件文档，共 285 个原始文件。文件与固定上游版本逐字节一致；完成源码分析，尚未运行视觉验收。GitHub 同步状态以实际远程仓库和提交结果为准。
+已收录 Fancy Components 的 45 个原始特效组件，以及 14 个前端基础源码项目。新增部分覆盖无障碍组件、成品区块、表格、虚拟列表、表单、图表、图标、拖拽、轮播、浮层、命令面板、通知、日期选择和富文本编辑器，共 7,848 个固定版本文件。
 
 - [按分类找特效和源码](effects/fancy/README.md)
 - [源码结构与重点拆解](analysis/fancy-source-analysis.md)
 - [五个来源站的检查结果](analysis/source-sites.md)
 - [机器可读总索引](catalog.json)
 - [字体来源与字体索引](fonts/README.md)：已登记 Google Fonts，具体字体尚未下载。
+- [精选前端源码分类](sources/README.md)
+- [精选源码安全审查](analysis/curated-source-security.md)
 - 原始源码在 `vendor/fancy/`；分析在 `analysis/`、`effects/`，严格分开。
 
-运行 `node scripts/verify-library.mjs` 可离线检查原始文件是否被修改，无需安装第三方依赖。
-ni
+运行 `node scripts/verify-library.mjs` 可离线检查所有原始文件是否被修改，无需安装第三方依赖。
+
 ## 给小u的日常指令
 
 - 收录：把这个网站的导航和作品展示区整理到我的 UI 库，保存源码、截图和来源，并同步到 GitHub。
@@ -33,7 +35,9 @@ ni
 | templates/ | 新条目的说明和元数据模板 |
 | catalog.json | 按用途、风格、技术栈等检索的索引 |
 | vendor/fancy/ | 固定版本、未经修改的第三方原始源码及许可 |
+| vendor/curated/ | 14 个固定版本、未经改写的前端基础源码项目 |
 | effects/fancy/ | 特效分类、逐项拆解、依赖链和哈希清单 |
+| sources/ | 精选源码的分类、版本、安全状态和逐文件哈希清单 |
 | analysis/ | 来源核查、源码分析和已知限制 |
 | fonts/ | 字体来源、语言/字重信息和逐字体授权记录 |
 

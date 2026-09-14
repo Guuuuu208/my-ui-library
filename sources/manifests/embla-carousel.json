@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:58.530Z",
+  "source": {
+    "id": "embla-carousel",
+    "name": "Embla Carousel",
+    "category": "carousel",
+    "repository": "https://github.com/davidjerleke/embla-carousel",
+    "revision": "85a5e3cdb69756d6e139e697665cee72e1150e05",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/davidjerleke/embla-carousel/tar.gz/85a5e3cdb69756d6e139e697665cee72e1150e05",
+      "bytes": 13025026,
+      "sha256": "850cd7275643cbf470df1fdd1bdd269879490004f85a3bf3a2bafc2e36f3cd1f"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [
+      {
+        "path": "packages/embla-carousel-accessibility/src/components/Accessibility.ts",
+        "kind": "html-injection",
+        "occurrences": 1
+      }
+    ],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 124,
+  "totalBytes": 348635,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "992490064b90ec94c302fe5f29dcc14cb44145857064e46f9ffe6c8f511c1093"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/package.json",
+      "bytes": 1839,
+      "sha256": "5300f8639882396a41ce0618da03d45d0a0f099bfc2a0ddebf670a7fb32fd401"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/README.md",
+      "bytes": 19137,
+      "sha256": "24e3de2af7e553ac5769cd46f59229a8633325d0ef46d24c71f6d414fdba3e99"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/rollup.config.js",
+      "bytes": 1155,
+      "sha256": "d28df173b40bc0dfd311b6a2237fa1c0d9ae24b35037bdb6f1729297792bdc83"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/src/components/Accessibility.ts",
+      "bytes": 12087,
+      "sha256": "f28e2ac99e4253f45ab1b5ca3ff260975434111c2460fc5568192b621f6a4201"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/src/components/AttributeHandler.ts",
+      "bytes": 1225,
+      "sha256": "a911d24f2191e96975a9d01bc04e2b38a072dbf5c6ac26f6f33cc3abc9554ef2"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/src/components/Options.ts",
+      "bytes": 3078,
+      "sha256": "9e4157970c55d5f25c4d30e98a6d595c33753435f599066c6cbd595114444ab2"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/src/components/utils.ts",
+      "bytes": 1114,
+      "sha256": "fc7f85a13e45ec019132c5d42305d6f69aefa802c58f36b2d4e929016ed09d2b"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/src/index.ts",
+      "bytes": 146,
+      "sha256": "6d164dbb7c490eaa2e23111e05aabd333d4a8ccf470528a53b4b648b04a1f760"
+    },
+    {
+      "path": "packages/embla-carousel-accessibility/tsconfig.json",
+      "bytes": 433,
+      "sha256": "2022e54a16309855c8d620e45f8e38c87c21be1bd8d6afb57c8cfb8bc4d7bc97"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/package.json",
+      "bytes": 1825,
+      "sha256": "76048e168da386d2655e7c55b52c3b407e89359c070eb3f5cf9c7fb9e97bee67"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/README.md",
+      "bytes": 19127,
+      "sha256": "ec7fde14d21f0363819e79c592d0b314a098d1d5b372919ac2b72345be627fa4"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/rollup.config.js",
+      "bytes": 1155,
+      "sha256": "d28df173b40bc0dfd311b6a2237fa1c0d9ae24b35037bdb6f1729297792bdc83"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/src/components/AutoHeight.ts",
+      "bytes": 3724,
+      "sha256": "7d7d94a18768da187667952bb16d345be488483b6c3dbe5c57be0d306940fe73"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/src/components/Options.ts",
+      "bytes": 249,
+      "sha256": "12b11d85842506e8ee359ce26622e3f34956dc5e8ed835a40b507a668b6fd82f"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/src/index.ts",
+      "bytes": 130,
+      "sha256": "1f9d9da6d4e43bf7aef41564f90398d4e99a2d0c2129c66163730916f4234e9a"
+    },
+    {
+      "path": "packages/embla-carousel-auto-height/tsconfig.json",
+      "bytes": 433,
+      "sha256": "2022e54a16309855c8d620e45f8e38c87c21be1bd8d6afb57c8cfb8bc4d7bc97"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/package.json",
+      "bytes": 1825,
+      "sha256": "d78d73b106e41ccb101db69d841e62ef4d07a8a76ac2b6d61c89a7a8199e1e77"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/README.md",
+      "bytes": 19127,
+      "sha256": "7142eb524384692e552ca8c97c3cb937f138a2277e07017baceac6eb36e998f2"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/rollup.config.js",
+      "bytes": 1155,
+      "sha256": "d28df173b40bc0dfd311b6a2237fa1c0d9ae24b35037bdb6f1729297792bdc83"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/src/components/AutoScroll.ts",
+      "bytes": 8657,
+      "sha256": "b015889c3c70965efa20ab92fbcdfb0d3d9a5dacecce565c7992e037750508c2"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/src/components/Options.ts",
+      "bytes": 503,
+      "sha256": "289192bb8e0a3a8ced6c2186219fefa2bdff2597ba39fc9297a43b581fbb327c"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/src/components/utils.ts",
+      "bytes": 315,
+      "sha256": "c6bc75730af3541c854d6549bd121e9f0c34c25a29c57d16b7932b9dbbb1d361"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/src/index.ts",
+      "bytes": 130,
+      "sha256": "870391d2a7e2d9c79055f6884e2067a36cf78213d6c08a0a2d6930abe8de71af"
+    },
+    {
+      "path": "packages/embla-carousel-auto-scroll/tsconfig.json",
+      "bytes": 433,
+      "sha256": "2022e54a16309855c8d620e45f8e38c87c21be1bd8d6afb57c8cfb8bc4d7bc97"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/package.json",
+      "bytes": 1801,
+      "sha256": "b55708396af69ee619f495f8c6d9b27364c902c2cdf96f0845391dabe64d3fe1"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/README.md",
+      "bytes": 19112,
+      "sha256": "d368f4cb5735be92b434bb709f842608109283604b64ba89be0c2e6ed51e4b3c"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/rollup.config.js",
+      "bytes": 1155,
+      "sha256": "d28df173b40bc0dfd311b6a2237fa1c0d9ae24b35037bdb6f1729297792bdc83"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/src/components/Autoplay.ts",
+      "bytes": 8353,
+      "sha256": "07a7361085e7110cda318a9d8bc89bb38f84958ccbd398e33d9e7b61b3df6a59"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/src/components/Options.ts",
+      "bytes": 634,
+      "sha256": "8467ecb5d7aa3322e527cefc64ef52cc395541e66a20624fb571ec8ba45d80d0"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/src/components/utils.ts",
+      "bytes": 595,
+      "sha256": "bd0411c3b5e17fa6cf23acf6a23d920faf6110fbdcead2f2077cd63b8dc092d0"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/src/index.ts",
+      "bytes": 122,
+      "sha256": "d310bf1c4a6f63eabbfed6ae6a02b2a1df1e725aeefa6d363294f5d7b07e8f9d"
+    },
+    {
+      "path": "packages/embla-carousel-autoplay/tsconfig.json",
+      "bytes": 433,
+      "sha256": "2022e54a16309855c8d620e45f8e38c87c21be1bd8d6afb57c8cfb8bc4d7bc97"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/package.json",
+      "bytes": 1830,
+      "sha256": "ab7399f2649a9cba06970347f8ddc3840e49a0012e148031de62eebafb8aeae3"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/README.md",
+      "bytes": 19127,
+      "sha256": "6545478fd59f1fd9028ae5ce08377f5def11418e5c8398a0b64d0062b27b2e12"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/rollup.config.js",
+      "bytes": 1155,
+      "sha256": "d28df173b40bc0dfd311b6a2237fa1c0d9ae24b35037bdb6f1729297792bdc83"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/src/components/ClassNames.ts",
+      "bytes": 4845,
+      "sha256": "0df574e123a06041de525e459c084305ee8274b1f58987073b0eb30f04fb134a"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/src/components/Options.ts",
+      "bytes": 564,
+      "sha256": "7d25b845a0dcd9f2ccd689d44720940076ca7d656a007333c1d9d973506fddd3"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/src/components/utils.ts",
+      "bytes": 559,
+      "sha256": "c33e601a6a8b7d6b0d2b7dd7ef88ac0ebefeca66ccb17f563d5e775e710b4f07"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/src/index.ts",
+      "bytes": 130,
+      "sha256": "9e9d8240703c16af81ab237f6d362072394c56c75c3b114fc0fa61755b8be77d"
+    },
+    {
+      "path": "packages/embla-carousel-class-names/tsconfig.json",
+      "bytes": 433,
+      "sha256": "2022e54a16309855c8d620e45f8e38c87c21be1bd8d6afb57c8cfb8bc4d7bc97"
+    },
+    {
+      "path": "packages/embla-carousel-fade/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-fade/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-fade/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-fade/package.json",
+      "bytes": 1768,
+      "sha256": "fc87d0297b780afe98dbb50b4fe318f5a63b1590dbd9323e7a74f38e29b021f7"
+    },
+    {
+      "path": "packages/embla-carousel-fade/README.md",
+      "bytes": 19092,
+      "sha256": "eed032583671bc043a246737c48a5f46c1cff0aac072be5794b79eaf266c49df"
+    },
+    {
+      "path": "packages/embla-carousel-fade/rollup.config.js",
+      "bytes": 1155,
+      "sha256": "d28df173b40bc0dfd311b6a2237fa1c0d9ae24b35037bdb6f1729297792bdc83"
+    },
+    {
+      "path": "packages/embla-carousel-fade/src/components/Fade.ts",
+      "bytes": 10362,
+      "sha256": "9fc3e2cce9b65936197b71aaa5fd63c8e57372b0c8bf9860bdedeb9c1eef5ab4"
+    },
+    {
+      "path": "packages/embla-carousel-fade/src/components/Options.ts",
+      "bytes": 182,
+      "sha256": "9eab9cf718a67b1a517631a9fcbb0b732ebe0902f32ae95064d018de4fcf93f2"
+    },
+    {
+      "path": "packages/embla-carousel-fade/src/components/utils.ts",
+      "bytes": 249,
+      "sha256": "bbc9f3a018f7b4fedf7f591834acfa4b32fd4e2830b7fc690f18f00a110335cb"
+    },
+    {
+      "path": "packages/embla-carousel-fade/src/index.ts",
+      "bytes": 106,
+      "sha256": "f9aac2ff3595648e79f075c68a9ad13fd53df5f0d106c1b473258caeedbd28b9"
+    },
+    {
+      "path": "packages/embla-carousel-fade/tsconfig.json",
+      "bytes": 433,
+      "sha256": "2022e54a16309855c8d620e45f8e38c87c21be1bd8d6afb57c8cfb8bc4d7bc97"
+    },
+    {
+      "path": "packages/embla-carousel-react/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel-react/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel-react/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel-react/package.json",
+      "bytes": 1994,
+      "sha256": "554968f7d00f240f41faf16f5864fdc21ce498337d37ffec17af042b5706c4e0"
+    },
+    {
+      "path": "packages/embla-carousel-react/README.md",
+      "bytes": 19097,
+      "sha256": "8afaa21df873040fb1e63b018b4df6f5f79ed1bf2b8583cfe407541d0fa2dca5"
+    },
+    {
+      "path": "packages/embla-carousel-react/rollup.config.js",
+      "bytes": 1747,
+      "sha256": "91afd629113f375322252d5421309ae109ec0cbf691e6a320b4dd9a1107cf9fe"
+    },
+    {
+      "path": "packages/embla-carousel-react/src/components/useEmblaCarousel.ts",
+      "bytes": 2170,
+      "sha256": "c4d3f3cba426ba7d96ecc731e1fe9196a37bb108cb99bf0e411b294f334de5d2"
+    },
+    {
+      "path": "packages/embla-carousel-react/src/index.ts",
+      "bytes": 151,
+      "sha256": "d23e407c74e783b5c6ffa114a0d09d5a17946c8c94bc82e798545a728db1525e"
+    },
+    {
+      "path": "packages/embla-carousel-react/tsconfig.json",
+      "bytes": 433,
+      "sha256": "6510c850679ac17ad7dd55856a6553be6bda138ad6d0ffdf1ae7b1a2416a42cf"
+    },
+    {
+      "path": "packages/embla-carousel/.prettierrc.js",
+      "bytes": 49,
+      "sha256": "b41f68273f8e95b5a4e37ccf25196c112fdfa17ed79a09c77555ead30aa888d6"
+    },
+    {
+      "path": "packages/embla-carousel/eslint.config.mjs",
+      "bytes": 50,
+      "sha256": "7a8cfef13928307e2abe3356dc166b13b3286e397129dc86cb703645d90016f0"
+    },
+    {
+      "path": "packages/embla-carousel/jest.config.js",
+      "bytes": 212,
+      "sha256": "6a3e83c075f5a63e76b18763264e584ee97ba312b669eedfa9a9b47fba031e8e"
+    },
+    {
+      "path": "packages/embla-carousel/package.json",
+      "bytes": 1696,
+      "sha256": "6763d4fe0f8f8b577650e059793e758a8d589ff7ec06ce0f52f1d404617f7ce5"
+    },
+    {
+      "path": "packages/embla-carousel/README.md",
+      "bytes": 19067,
+      "sha256": "bfd9a086e54d98ada17a65324496c122b751af67c4dcc4028ffd5d3d2ffd4bbe"
+    },
+    {
+      "path": "packages/embla-carousel/rollup.config.js",
+      "bytes": 995,
+      "sha256": "795c109736b861daed772376f1b99ea95783d2bf3555495b7654c99038a0b853"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Alignment.ts",
+      "bytes": 819,
+      "sha256": "f2b565e52eed61b74a92e731faa56a3add7154e827a24b436958655db0f5e6e8"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Animations.ts",
+      "bytes": 2182,
+      "sha256": "61ea0120a7731d85d17869956ac6c64eb1df912f04657e2f9946b7c939819719"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Axis.ts",
+      "bytes": 1611,
+      "sha256": "7c2b27b9eaff93a2c1909f4bc9a5895b9281bebc1035a53caa28afd78e8c0075"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Counter.ts",
+      "bytes": 926,
+      "sha256": "c87c98fd8a8b5648d9de1de6b2ac1ec3b38712d73b0de5ee8150a8ac0ec9f34b"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/DragHandler.ts",
+      "bytes": 6813,
+      "sha256": "b39d02ed98b284fe1e628f401604416c3fcae56b394a159a3db909b2bb363888"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/DragTracker.ts",
+      "bytes": 2107,
+      "sha256": "ff241a0e04f865b377c636a9ba7605ac909993be23877aaaef19d98a6ccbc683"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/EmblaCarousel.ts",
+      "bytes": 7745,
+      "sha256": "901874d71a18315e4653a68f7428eda3f5af063d4bfc83331b49ed45a15f491f"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Engine.ts",
+      "bytes": 8095,
+      "sha256": "134fbd7e48634c774462706dedb9124073123d9ea8fa07392d245e3786467513"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/EventHandler.ts",
+      "bytes": 3926,
+      "sha256": "f4d16bb04276b71ec5d545319e160c95121ba242c7051f5e11b58fe173ef3b88"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/EventStore.ts",
+      "bytes": 1348,
+      "sha256": "53133d467023d653b986fc8272551795812005db9e7f64732f321b94cb74ed58"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Limit.ts",
+      "bytes": 1388,
+      "sha256": "d1bc88fd0d5c5da4162bfae8018e408d25bf49bbbb72d7f53f9e5579c5dabd0f"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/NodeHandler.ts",
+      "bytes": 2615,
+      "sha256": "15a2e250d26bb1ced4332075aa71af6469f05082445d292e8657c13bd989b211"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/NumberStore.ts",
+      "bytes": 1076,
+      "sha256": "a10331f075aa5c8637076a999e7c29b35a554f2061b4021684ee85c9c241e6e9"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Options.ts",
+      "bytes": 1769,
+      "sha256": "e2754ff9b3bb0aaf670c70c3f760ebc20b34af5a0955c314e175755d3d7bb875"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/OptionsHandler.ts",
+      "bytes": 1993,
+      "sha256": "d64f3db9b16addf4fc81b53058dad5668d65b2b51103a731127d634f1ff3a12f"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/PercentOfView.ts",
+      "bytes": 296,
+      "sha256": "63b2e7f0199a79a41e61418172c520fc2f872393ea8e78b9ed9c0dcf31a079fc"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Plugins.ts",
+      "bytes": 714,
+      "sha256": "2078b825d0a2ee6f5ad3ee412954ced2dac63b983bad3ffb829cb06a7ca054a5"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/PluginsHandler.ts",
+      "bytes": 949,
+      "sha256": "2b41766ed9a88aa2e5ec00fd4536081cdb3c63119ce7df89c5129c7021146498"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ResizeHandler.ts",
+      "bytes": 1959,
+      "sha256": "e28db125fd221238cefe3e3d07f997ee589c967e0ae95a4719f073a5e7b227c2"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollAnimator.ts",
+      "bytes": 1928,
+      "sha256": "cbf87e893510be00e8979b72101415b08325b6dec1de859126f7ce8435fb35d2"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollBody.ts",
+      "bytes": 2431,
+      "sha256": "1c666b0714f91724c6dde677a766cc1133b1320ce8e9575e1863e8b6bf246387"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollBounds.ts",
+      "bytes": 1704,
+      "sha256": "366d2e30e30ec159bfba468a84837d2dcbbfa4f350dcd51535c623c778eb4f48"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollContain.ts",
+      "bytes": 1987,
+      "sha256": "0313d78754e5993a35439d63dae69f818b586ecf7aa98ac0b72b87c690320f7a"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollLimit.ts",
+      "bytes": 438,
+      "sha256": "d9a1748c6f5c4c1125be012310ce765a104086c9c63f7df439a9bd40c7860d6a"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollLooper.ts",
+      "bytes": 946,
+      "sha256": "cb56de15feb163c7ec1fc7cd28a577b3129472454919b8b32933952acc9983e5"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollProgress.ts",
+      "bytes": 514,
+      "sha256": "b19bb3c24dee0f58cb45460a4a71dfb6c6e52b26940eec7cab09ed6f6620dc0a"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollSnapList.ts",
+      "bytes": 2148,
+      "sha256": "66519f27e152481469e53b0195a51dcca873a9042ca349848dbca38b583d8a5f"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollSnaps.ts",
+      "bytes": 1284,
+      "sha256": "f2e8d98899f7bffe644bb4d6ec6353e9eed878b63de4bb7e3fa61a9893c5e384"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollTarget.ts",
+      "bytes": 2588,
+      "sha256": "18844df8465c95952a09685cadf54da49c465e8676f89aacfe09dadc73e7b1f1"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/ScrollTo.ts",
+      "bytes": 2309,
+      "sha256": "22c1672429fb1f83b5fa357a25d588c85f03f9a01f9fc06479d64bced6146ed2"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SlideFocus.ts",
+      "bytes": 1832,
+      "sha256": "5cda662255d9c40d5d26ba654a9c23bbe99f495ec7e8c59e6d4b8e1b0d8b887f"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SlideLooper.ts",
+      "bytes": 3297,
+      "sha256": "aa75a82c435aa7fd3b64425c572ce7fa9a03b3dae14cba60dbb5d2dd6a57ce91"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SlidesHandler.ts",
+      "bytes": 1167,
+      "sha256": "a0c373313ed24f09c5e9c81b8d326bf63c88bf4630a88ddafbb9c06be9677ae4"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SlidesInView.ts",
+      "bytes": 2068,
+      "sha256": "201e5e6c7ae8a9af84417361459d49a71f7d3f361faca696d48bb3b79e30b9b2"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SlideSizes.ts",
+      "bytes": 1726,
+      "sha256": "9a032190172b2517b52e167f8b2fe36a5d6fbec855fd091913aad3e82f91e66d"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SlidesToScroll.ts",
+      "bytes": 2080,
+      "sha256": "8f2e9edbd520eed12d4f2126af77cda31fb1acc1a2ff199d2eacf42002f24e8e"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/SsrHandler.ts",
+      "bytes": 832,
+      "sha256": "8f67a71af69e60270df614ef819e32c211fac0ccfe58639e58bbeddfe93b2d77"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/Translate.ts",
+      "bytes": 1235,
+      "sha256": "cb183f3bf3715fec1c283394e88a968e3c5e1de3a6bf574edb50a6e727c60239"
+    },
+    {
+      "path": "packages/embla-carousel/src/components/utils.ts",
+      "bytes": 3348,
+      "sha256": "4d8b9ca2d1abc6dab578139530dc3f7df93fac7407c0e7cfecf0ec3a5cdf42ee"
+    },
+    {
+      "path": "packages/embla-carousel/src/index.ts",
+      "bytes": 857,
+      "sha256": "b4e1fcf52db93ef546f52802a9972460ead0b8847f29e611cf7f4858e1db5061"
+    },
+    {
+      "path": "packages/embla-carousel/tsconfig.json",
+      "bytes": 417,
+      "sha256": "01c1ae4c718935465aa9a2228d63e0054b12627573de40ed142230452eb2d9a4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19067,
+      "sha256": "bfd9a086e54d98ada17a65324496c122b751af67c4dcc4028ffd5d3d2ffd4bbe"
+    }
+  ]
+}

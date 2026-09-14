@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:49.813Z",
+  "source": {
+    "id": "tanstack-virtual",
+    "name": "TanStack Virtual",
+    "category": "virtualization",
+    "repository": "https://github.com/TanStack/virtual",
+    "revision": "2c0a0ea101c360ea15832c060008aa163cae2f7c",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/TanStack/virtual/tar.gz/2c0a0ea101c360ea15832c060008aa163cae2f7c",
+      "bytes": 1313702,
+      "sha256": "f40eb0d9d0436aec93d4589da77858a1f6b6adc8a0b51e3aa0ef4cb52a2e2a6b"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 132,
+  "totalBytes": 271124,
+  "files": [
+    {
+      "path": "examples/react/chat/.gitignore",
+      "bytes": 18,
+      "sha256": "c8015948b6eaefde5eaa3862f2fe5ce0245fcde4d6e66f7441dcdcbbed46e652"
+    },
+    {
+      "path": "examples/react/chat/index.html",
+      "bytes": 316,
+      "sha256": "e4679221787df837fb13363c41ac66da8d6fc994424fdccc2397888a3fe589fd"
+    },
+    {
+      "path": "examples/react/chat/package.json",
+      "bytes": 492,
+      "sha256": "ff2f1bec362f1f3f152d22ce2114b80c7b947fe49b510d6e8aef930944f9172f"
+    },
+    {
+      "path": "examples/react/chat/README.md",
+      "bytes": 379,
+      "sha256": "17eeb073bbcba0829cf8da1363dadbc7bd646711268fda35f630cd96fe878be1"
+    },
+    {
+      "path": "examples/react/chat/src/index.css",
+      "bytes": 1398,
+      "sha256": "6f4632301ddd3d5da964f09562b018bed6f61299eeccd1285ad8b624eaaaae0d"
+    },
+    {
+      "path": "examples/react/chat/src/main.tsx",
+      "bytes": 6538,
+      "sha256": "188901107973a6f9760e91dd502108817ee6c97523544719ee63cfc2ef1403fc"
+    },
+    {
+      "path": "examples/react/chat/tsconfig.json",
+      "bytes": 531,
+      "sha256": "d64e47637e37826a7012fe9bf705a45038a6a517b2acee21635615c4e25b1688"
+    },
+    {
+      "path": "examples/react/chat/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/dynamic/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/dynamic/index.html",
+      "bytes": 267,
+      "sha256": "4bb8dbadfb1764ac5be102fe485010861c0c9038f13fa3d6b91e8c5b91c5930e"
+    },
+    {
+      "path": "examples/react/dynamic/package.json",
+      "bytes": 558,
+      "sha256": "011e802e155eb8c32cd2fc97c2b24e30d9180a8eb47cc634310b19d3e70b3c26"
+    },
+    {
+      "path": "examples/react/dynamic/README.md",
+      "bytes": 95,
+      "sha256": "10e9563eb7207b2a6919114f5232f339bb24a01d457a13d255ddd4c9937c19ff"
+    },
+    {
+      "path": "examples/react/dynamic/src/index.css",
+      "bytes": 241,
+      "sha256": "4e1ae9af72133631ae5798a738e0aa13bad16e8130dbcb88bacfa3364dea5d82"
+    },
+    {
+      "path": "examples/react/dynamic/src/main.tsx",
+      "bytes": 11984,
+      "sha256": "1e7955c6e41d25aa911760144024dc1eec56422237a109e3c8e1f762c8973aec"
+    },
+    {
+      "path": "examples/react/dynamic/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/dynamic/vite.config.js",
+      "bytes": 163,
+      "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+    },
+    {
+      "path": "examples/react/fixed/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/fixed/index.html",
+      "bytes": 267,
+      "sha256": "4bb8dbadfb1764ac5be102fe485010861c0c9038f13fa3d6b91e8c5b91c5930e"
+    },
+    {
+      "path": "examples/react/fixed/package.json",
+      "bytes": 523,
+      "sha256": "656f26255f307f7fc12475be615d60b91b99f328b933603710dc9ffb613868b1"
+    },
+    {
+      "path": "examples/react/fixed/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/fixed/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/fixed/src/main.tsx",
+      "bytes": 5590,
+      "sha256": "9fdef61ffcdd36c9b69a424f4c840cc42716f2f3abf17ac6744589e980c43519"
+    },
+    {
+      "path": "examples/react/fixed/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/fixed/vite.config.js",
+      "bytes": 163,
+      "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+    },
+    {
+      "path": "examples/react/infinite-scroll/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/infinite-scroll/package.json",
+      "bytes": 542,
+      "sha256": "114f7f0de9ed8765abc62717872b6634201ead79aa4b54f04665d039e6d77d88"
+    },
+    {
+      "path": "examples/react/infinite-scroll/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/infinite-scroll/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/infinite-scroll/src/main.tsx",
+      "bytes": 4199,
+      "sha256": "94e9863355b7b9f327f64e747b8acdf1166025987b665d3c83ee7b53086361d0"
+    },
+    {
+      "path": "examples/react/infinite-scroll/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/infinite-scroll/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/padding/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/padding/package.json",
+      "bytes": 494,
+      "sha256": "d6c9eb485bd53bd01a2243074334346e4e11d013ad03e80fa89c55e62a272dd5"
+    },
+    {
+      "path": "examples/react/padding/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/padding/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/padding/src/main.tsx",
+      "bytes": 7412,
+      "sha256": "de7a3b093888b7831edd24f7fc032cc03e88566e2acef857a4c9903822055ec0"
+    },
+    {
+      "path": "examples/react/padding/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/padding/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/pretext/index.html",
+      "bytes": 267,
+      "sha256": "4bb8dbadfb1764ac5be102fe485010861c0c9038f13fa3d6b91e8c5b91c5930e"
+    },
+    {
+      "path": "examples/react/pretext/package.json",
+      "bytes": 560,
+      "sha256": "5185e4a7463e717183eb94c2addb3b38ab95f4336967fd80a5f9d1c12f34ccc4"
+    },
+    {
+      "path": "examples/react/pretext/README.md",
+      "bytes": 111,
+      "sha256": "3a1997ee5286b075a4d8534f3487cfe9c4aba14741d9df12d1ba3d735d9664c8"
+    },
+    {
+      "path": "examples/react/pretext/src/index.css",
+      "bytes": 1703,
+      "sha256": "ac227a1a2b324229ccd4c8550eb8058aa255fc67b86feddffcd8b20776556251"
+    },
+    {
+      "path": "examples/react/pretext/src/main.tsx",
+      "bytes": 8013,
+      "sha256": "45fd91e00eab45783ba32e5387dadd5bd8c970c8b1e55b290f76f4cc41d8687b"
+    },
+    {
+      "path": "examples/react/pretext/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/pretext/vite.config.js",
+      "bytes": 163,
+      "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+    },
+    {
+      "path": "examples/react/scroll-padding/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/scroll-padding/package.json",
+      "bytes": 536,
+      "sha256": "752768f0f7fa3f27ffd35c8dd09b13d0adc835487a9079698923083e0066d37b"
+    },
+    {
+      "path": "examples/react/scroll-padding/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/scroll-padding/src/index.css",
+      "bytes": 664,
+      "sha256": "6a464eb6b9de837f5e712f8a442721cf982d483189494b993df2f73ed09c2902"
+    },
+    {
+      "path": "examples/react/scroll-padding/src/main.tsx",
+      "bytes": 2738,
+      "sha256": "4f262d8cde0f2f7387062ef3515da401b5f844d93331ee6b458924e9cd264d09"
+    },
+    {
+      "path": "examples/react/scroll-padding/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/scroll-padding/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/smooth-scroll/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/smooth-scroll/package.json",
+      "bytes": 500,
+      "sha256": "571145ab90317ea556232e15b043ee4c184cee8819825b9090823202c7d00b05"
+    },
+    {
+      "path": "examples/react/smooth-scroll/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/smooth-scroll/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/smooth-scroll/src/main.tsx",
+      "bytes": 3395,
+      "sha256": "ed2be08dba3f74f59b15dab7c9f890d636d3dad19f0aee6a8a9eb28dc3f80d89"
+    },
+    {
+      "path": "examples/react/smooth-scroll/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/smooth-scroll/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/sticky/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/sticky/package.json",
+      "bytes": 585,
+      "sha256": "5af036cfc77c4266f647235349710791d7d896f08c50641db99a46e21b5287c4"
+    },
+    {
+      "path": "examples/react/sticky/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/sticky/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/sticky/src/main.tsx",
+      "bytes": 3355,
+      "sha256": "d067ba5e003eafcda72f291453dec8bb4e3309616a1d34c5360f64d57ad6ec0a"
+    },
+    {
+      "path": "examples/react/sticky/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/sticky/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/table/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/table/index.html",
+      "bytes": 295,
+      "sha256": "aac7ad1ae7ed8124de5c4b53abf51958690de23b078637ab8a94f3e8c0c142da"
+    },
+    {
+      "path": "examples/react/table/package.json",
+      "bytes": 565,
+      "sha256": "3f464bf430fecf501a8d3e0b274b261fd49f829fb3ad3ead426e673594f9be4a"
+    },
+    {
+      "path": "examples/react/table/README.md",
+      "bytes": 95,
+      "sha256": "10e9563eb7207b2a6919114f5232f339bb24a01d457a13d255ddd4c9937c19ff"
+    },
+    {
+      "path": "examples/react/table/src/index.css",
+      "bytes": 185,
+      "sha256": "a1767c4e830bc0946ef1eb83e6ead2aa7468b11af09773fe8be42cd9b279cacb"
+    },
+    {
+      "path": "examples/react/table/src/main.tsx",
+      "bytes": 5332,
+      "sha256": "990118dbfa95e1bdb9e1ea0519e48c33b5147dcb94c540553d6130e573c1caa7"
+    },
+    {
+      "path": "examples/react/table/src/makeData.ts",
+      "bytes": 1089,
+      "sha256": "33595ad53defb3e2a4b398691429f2671beee3475ed966902bfb1d8d86a46c74"
+    },
+    {
+      "path": "examples/react/table/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/table/vite.config.js",
+      "bytes": 163,
+      "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+    },
+    {
+      "path": "examples/react/variable/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/variable/package.json",
+      "bytes": 495,
+      "sha256": "f5ab213c84b85fc7689b14724eb85fa462e3636fabcea184e4205722ad60cb12"
+    },
+    {
+      "path": "examples/react/variable/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/variable/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/variable/src/main.tsx",
+      "bytes": 9080,
+      "sha256": "c2023fc07974aeb9cf66b579e01e91f6f6879a887055b3421477fac0926c8f97"
+    },
+    {
+      "path": "examples/react/variable/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/variable/vite.config.js",
+      "bytes": 133,
+      "sha256": "6dc0ce25c4170ac9fbadb4dbd19ca5c2ceb57b9c5efc5090b82e2923f53dd679"
+    },
+    {
+      "path": "examples/react/window/.gitignore",
+      "bytes": 45,
+      "sha256": "519e334a031a31da20aa9a903fdac291e0c50a9c4f223b664a08d1af90075a54"
+    },
+    {
+      "path": "examples/react/window/index.html",
+      "bytes": 267,
+      "sha256": "4bb8dbadfb1764ac5be102fe485010861c0c9038f13fa3d6b91e8c5b91c5930e"
+    },
+    {
+      "path": "examples/react/window/package.json",
+      "bytes": 524,
+      "sha256": "01c483019bf0c900e7a986b5a47707c64eefd7497379fe4ce8069676e9f6d4e8"
+    },
+    {
+      "path": "examples/react/window/README.md",
+      "bytes": 93,
+      "sha256": "24a10a43cf099d52183727152cb27c15d7f28d8697716fc1d2de19fa13b306ef"
+    },
+    {
+      "path": "examples/react/window/src/index.css",
+      "bytes": 327,
+      "sha256": "32851c552d93eacd41ead0d93776f0b1ca7ea8fa226c3b1f8ace8d189a31bfd9"
+    },
+    {
+      "path": "examples/react/window/src/main.tsx",
+      "bytes": 2299,
+      "sha256": "757695eae50e86c3f410387478c22c594ac901b6b5d3cfa9e548088c2fa38aad"
+    },
+    {
+      "path": "examples/react/window/tsconfig.json",
+      "bytes": 572,
+      "sha256": "72c5263ce52a298582fb2f722e0f1506cc52b6c9831723a287293d39a76703f2"
+    },
+    {
+      "path": "examples/react/window/vite.config.js",
+      "bytes": 163,
+      "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "a405ee70c632bb938acb7ac5f210e814409b3760ea9d2329d8ed8ffcfd11a0e7"
+    },
+    {
+      "path": "packages/react-virtual/CHANGELOG.md",
+      "bytes": 11712,
+      "sha256": "205caf93472db23842db08535cb627573aa5d33488b0a0a02b006b72270624a1"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/cached-measurements/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/cached-measurements/main.tsx",
+      "bytes": 2038,
+      "sha256": "f9cfb356070e547384b2cd1d76c9911b8a276d5ff48a832490121453d0b56565"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/chat-resize/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/chat-resize/main.tsx",
+      "bytes": 2636,
+      "sha256": "5266811cecca2d66c3d54d88124aca6d10d7f07ce44d10b37d8dfe18990c4988"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/chat/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/chat/main.tsx",
+      "bytes": 3931,
+      "sha256": "bbec1af25299c98933489fecdab72079d1ff82a9f383ef1cb26c3c89292bc57c"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/direct-dom-updates/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/direct-dom-updates/main.tsx",
+      "bytes": 2188,
+      "sha256": "f424a0b35267c02df505ff6af088c22d495440fc719c5b4f79efd83a44780ec5"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/measure-element/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/measure-element/main.tsx",
+      "bytes": 3235,
+      "sha256": "4b8cdde22aec9d92974be64f426defa0ebdca58d7731f46b6bf05f5d77674eb3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/react-compiler-vite.config.ts",
+      "bytes": 717,
+      "sha256": "a813656acc097dc735ea5c6928ab3630eac0f90088a1bccc1fea93b023f5080f"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/react-compiler/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/react-compiler/main.tsx",
+      "bytes": 2665,
+      "sha256": "2b9ebd897680f6ba66fe47881c84dae55e00732080dd886baee7a24dca365b4e"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/scroll-anchor/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/scroll-anchor/main.tsx",
+      "bytes": 1750,
+      "sha256": "4a5b54a6c1d37a6283e113bd4e3a35efff90fddfa9469c3260fef8767c489663"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/scroll/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/scroll/main.tsx",
+      "bytes": 2272,
+      "sha256": "75dbb00678e6f0d667e339edc54765262046561b87e5736f8b61989017c58350"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/smooth-prepend/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/smooth-prepend/main.tsx",
+      "bytes": 3400,
+      "sha256": "8682398ce8cb6432a52c5e3f4831fa308fec7da0ad513267db6bc43b77fa1006"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/smooth-scroll/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/smooth-scroll/main.tsx",
+      "bytes": 3216,
+      "sha256": "ebd742e9b04126cb43d9b98ef609eb5bd65a24f5c7ff676adf945cd065a45d8a"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/stale-index/index.html",
+      "bytes": 187,
+      "sha256": "dadabe05bce2d5ca4fce88a2a3c8dc78c1ceb0891bf4b8820f3aa357162004b3"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/stale-index/main.tsx",
+      "bytes": 2727,
+      "sha256": "c53286d6dde0d5aa0a481ecb659751db03d8a60771b15ba4963418343c385438"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/tsconfig.json",
+      "bytes": 303,
+      "sha256": "7914af5490efd118a774ea8cbbcef1c878bf1df4896c5e7e22edcb9644aa9512"
+    },
+    {
+      "path": "packages/react-virtual/e2e/app/vite.config.ts",
+      "bytes": 1338,
+      "sha256": "60928c665e4aa522902efe0f3337bbafd37f49b8de92187162770c03d2ade9d4"
+    },
+    {
+      "path": "packages/react-virtual/eslint.config.js",
+      "bytes": 94,
+      "sha256": "27a6c8919c2c2eeeff699da959fe5c492d6772d06e098f8a5229d7896abbcfc9"
+    },
+    {
+      "path": "packages/react-virtual/package.json",
+      "bytes": 1890,
+      "sha256": "1d4647b180c1c08c8a18d1973bcb072413b610f7e711484a6ff792e2872de99f"
+    },
+    {
+      "path": "packages/react-virtual/playwright.config.ts",
+      "bytes": 1229,
+      "sha256": "c854ba91f3d9db838d1b5a4ad6b30a2f5793177eec1e391acad9a432745a9aa1"
+    },
+    {
+      "path": "packages/react-virtual/src/index.tsx",
+      "bytes": 10062,
+      "sha256": "a18d33ccd5af5c50091e173640c8459a17271394e05b689da88662689a1aebea"
+    },
+    {
+      "path": "packages/react-virtual/tsconfig.json",
+      "bytes": 150,
+      "sha256": "3c31e09334e9a45ea925587ccc1d6398c1c4d7a4fcb2d1fb346841b3f47c7311"
+    },
+    {
+      "path": "packages/react-virtual/vite.config.ts",
+      "bytes": 526,
+      "sha256": "30c86cddceb2bd06cdc2fac0024a1269123aedd0757111e739a0a12071307668"
+    },
+    {
+      "path": "packages/virtual-core/CHANGELOG.md",
+      "bytes": 26241,
+      "sha256": "27bc80a1c6c7d713d17438edd86caaf09e357bb970a63849b5c558241dc7529e"
+    },
+    {
+      "path": "packages/virtual-core/eslint.config.js",
+      "bytes": 94,
+      "sha256": "27a6c8919c2c2eeeff699da959fe5c492d6772d06e098f8a5229d7896abbcfc9"
+    },
+    {
+      "path": "packages/virtual-core/package.json",
+      "bytes": 1339,
+      "sha256": "d88725fd14cc78421542ff43796fa8923bff8f46223998f094a5f4f5061bafbd"
+    },
+    {
+      "path": "packages/virtual-core/src/index.ts",
+      "bytes": 75685,
+      "sha256": "c46d5eb6c085f168150c0186d41b30084be5110c1be2cc7cc9e1b11ac1c3a94a"
+    },
+    {
+      "path": "packages/virtual-core/src/lazy-measurements.ts",
+      "bytes": 1509,
+      "sha256": "24308cea11906958506bc1dcdb3859f61d2e562024db7ee8690adce2f030d453"
+    },
+    {
+      "path": "packages/virtual-core/src/utils.ts",
+      "bytes": 3299,
+      "sha256": "e779d61893863314e1864a4cc3863eb3981a7c288cecd8c6d9f4f77d7c057f91"
+    },
+    {
+      "path": "packages/virtual-core/tsconfig.json",
+      "bytes": 79,
+      "sha256": "5bdfcb518b1cc2fc80c8853e371288a8bc4884560a6ae29e6fba93b09d6a3a58"
+    },
+    {
+      "path": "packages/virtual-core/vite.config.ts",
+      "bytes": 419,
+      "sha256": "9cb7e1581cbf84dfa6b35c4ba503217e3f58864575392d39a114c59b302af926"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5226,
+      "sha256": "24bd3ff93da253313681dbe66adab7b012caca06f03edc516dfd875a1274ff00"
+    }
+  ]
+}

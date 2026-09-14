@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:53:00.146Z",
+  "sources": [
+    {
+      "id": "radix-primitives",
+      "name": "Radix Primitives",
+      "category": "accessible-primitives",
+      "repository": "https://github.com/radix-ui/primitives",
+      "revision": "f7ecd5ab16f5e1e820eb5786a1419a98a2d594ae",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/radix-primitives",
+      "manifestPath": "sources/manifests/radix-primitives.json",
+      "fileCount": 420,
+      "totalBytes": 1270455,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 2,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "shadcn/ui",
+      "category": "styled-components-and-blocks",
+      "repository": "https://github.com/shadcn-ui/ui",
+      "revision": "2b3e6d4f8d9161fe5c19340dc383aade392012dd",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/shadcn-ui",
+      "manifestPath": "sources/manifests/shadcn-ui.json",
+      "fileCount": 502,
+      "totalBytes": 1283257,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 1,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "tanstack-table",
+      "name": "TanStack Table",
+      "category": "data-table",
+      "repository": "https://github.com/TanStack/table",
+      "revision": "ce123bc6651bcbf188f3198627c6bb0b10588162",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/tanstack-table",
+      "manifestPath": "sources/manifests/tanstack-table.json",
+      "fileCount": 1210,
+      "totalBytes": 4103042,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "tanstack-virtual",
+      "name": "TanStack Virtual",
+      "category": "virtualization",
+      "repository": "https://github.com/TanStack/virtual",
+      "revision": "2c0a0ea101c360ea15832c060008aa163cae2f7c",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/tanstack-virtual",
+      "manifestPath": "sources/manifests/tanstack-virtual.json",
+      "fileCount": 132,
+      "totalBytes": 271124,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "react-hook-form",
+      "name": "React Hook Form",
+      "category": "forms",
+      "repository": "https://github.com/react-hook-form/react-hook-form",
+      "revision": "38efe7b54d1171c2c40b444ccfbc26b8de0b4699",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/react-hook-form",
+      "manifestPath": "sources/manifests/react-hook-form.json",
+      "fileCount": 209,
+      "totalBytes": 444784,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "recharts",
+      "name": "Recharts",
+      "category": "charts",
+      "repository": "https://github.com/recharts/recharts",
+      "revision": "7acde2e0ccd847300948c9fbfbcecdb895bdd3fc",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/recharts",
+      "manifestPath": "sources/manifests/recharts.json",
+      "fileCount": 412,
+      "totalBytes": 2285028,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 9,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide",
+      "category": "icons",
+      "repository": "https://github.com/lucide-icons/lucide",
+      "revision": "a79b2d131dab2bf20cb224bd0937b439a9c4fa99",
+      "license": "ISC",
+      "sourcePath": "vendor/curated/lucide",
+      "manifestPath": "sources/manifests/lucide.json",
+      "fileCount": 3740,
+      "totalBytes": 1433769,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "dnd-kit",
+      "name": "dnd kit",
+      "category": "drag-and-drop",
+      "repository": "https://github.com/clauderic/dnd-kit",
+      "revision": "e522d9c6a3cbe39e6e980ee3b6fd7a78f238ab94",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/dnd-kit",
+      "manifestPath": "sources/manifests/dnd-kit.json",
+      "fileCount": 279,
+      "totalBytes": 608465,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "embla-carousel",
+      "name": "Embla Carousel",
+      "category": "carousel",
+      "repository": "https://github.com/davidjerleke/embla-carousel",
+      "revision": "85a5e3cdb69756d6e139e697665cee72e1150e05",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/embla-carousel",
+      "manifestPath": "sources/manifests/embla-carousel.json",
+      "fileCount": 124,
+      "totalBytes": 348635,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 1,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "floating-ui",
+      "name": "Floating UI",
+      "category": "positioning",
+      "repository": "https://github.com/floating-ui/floating-ui",
+      "revision": "27629b74ba36ab8ceb2a968051927b9b69511a3b",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/floating-ui",
+      "manifestPath": "sources/manifests/floating-ui.json",
+      "fileCount": 158,
+      "totalBytes": 443825,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "cmdk",
+      "name": "cmdk",
+      "category": "command-menu",
+      "repository": "https://github.com/dip/cmdk",
+      "revision": "dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/cmdk",
+      "manifestPath": "sources/manifests/cmdk.json",
+      "fileCount": 7,
+      "totalBytes": 58571,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "sonner",
+      "name": "Sonner",
+      "category": "notifications",
+      "repository": "https://github.com/emilkowalski/sonner",
+      "revision": "8e4662b39255120b62138312058f5d77c0139a5e",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/sonner",
+      "manifestPath": "sources/manifests/sonner.json",
+      "fileCount": 8,
+      "totalBytes": 71562,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "react-day-picker",
+      "name": "React DayPicker",
+      "category": "date-picker",
+      "repository": "https://github.com/gpbl/react-day-picker",
+      "revision": "19033b454689bc761d9847301de429bbbb53eed4",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/react-day-picker",
+      "manifestPath": "sources/manifests/react-day-picker.json",
+      "fileCount": 338,
+      "totalBytes": 615668,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    },
+    {
+      "id": "lexical",
+      "name": "Lexical",
+      "category": "rich-text-editor",
+      "repository": "https://github.com/facebook/lexical",
+      "revision": "0e9a9f5a84e7dd6dc4152206ff946a76fb54936d",
+      "license": "MIT",
+      "sourcePath": "vendor/curated/lexical",
+      "manifestPath": "sources/manifests/lexical.json",
+      "fileCount": 309,
+      "totalBytes": 2482694,
+      "securityReview": {
+        "status": "static-scan-complete-runtime-untested",
+        "forbiddenExecutableFiles": 0,
+        "lifecycleScriptCount": 0,
+        "reviewSignalCount": 0,
+        "thirdPartyCodeExecuted": false
+      }
+    }
+  ]
+}

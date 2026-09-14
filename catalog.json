@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "name": "我的 UI 源码资料库",
   "description": "源码、参考、预览和设计偏好的统一检索索引",
+  "curatedSourcesIndex": "sources/index.json",
   "sourceSites": [
     {
       "id": "mobbin",

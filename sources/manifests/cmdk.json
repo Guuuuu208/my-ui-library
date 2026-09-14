@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:58.867Z",
+  "source": {
+    "id": "cmdk",
+    "name": "cmdk",
+    "category": "command-menu",
+    "repository": "https://github.com/dip/cmdk",
+    "revision": "dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/dip/cmdk/tar.gz/dd2250ed608443e8f32bafc5fa2d1d07a3746aa3",
+      "bytes": 530124,
+      "sha256": "a29e8bd4039c2945bd5056150d89008365a772d26d976c441b46b66d79a858c2"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 7,
+  "totalBytes": 58571,
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 4020,
+      "sha256": "a36037ed18de8ea5efc7d3115fd34d8d458ed25e5932ea3c873c66c97fea73bd"
+    },
+    {
+      "path": "cmdk/package.json",
+      "bytes": 1221,
+      "sha256": "16e60e25484075fb0f7803fcb54f24d9d3101cfa0546f80f999e5e380a2620bf"
+    },
+    {
+      "path": "cmdk/src/command-score.ts",
+      "bytes": 5761,
+      "sha256": "ccfd0d66e3d31b8197fc4dbb217c9672e7562569775ec3a4f3b7e567eb81dfc7"
+    },
+    {
+      "path": "cmdk/src/index.tsx",
+      "bytes": 32341,
+      "sha256": "3ca0e61686834305043a4c5000ee0ada7322988df85340067ad1894b734820a6"
+    },
+    {
+      "path": "cmdk/tsup.config.ts",
+      "bytes": 180,
+      "sha256": "a1bf9b452c2c513018c808eaa835c56186dccae608735a79cedd2ae858abb749"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1069,
+      "sha256": "b5acfd21b3b61508365224c40ec1b03ec71091248baaf989d4be916551e7d532"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13979,
+      "sha256": "82b87cd7e3908a3573843c54ce2d7574b66bdca426d28e8932fe5314f502cb36"
+    }
+  ]
+}

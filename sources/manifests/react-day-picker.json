@@ -1,0 +1,1718 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:59.433Z",
+  "source": {
+    "id": "react-day-picker",
+    "name": "React DayPicker",
+    "category": "date-picker",
+    "repository": "https://github.com/gpbl/react-day-picker",
+    "revision": "19033b454689bc761d9847301de429bbbb53eed4",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/gpbl/react-day-picker/tar.gz/19033b454689bc761d9847301de429bbbb53eed4",
+      "bytes": 2385422,
+      "sha256": "bac48b6b9d897d24ed941808f55af868707da08376d45a207d77b766cf221fc4"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 338,
+  "totalBytes": 615668,
+  "files": [
+    {
+      "path": "examples/AccessibleDatePicker.tsx",
+      "bytes": 724,
+      "sha256": "fb4c2862015b7fd9e447e7e61c00b431b58dd2f285b5ff40dfc4f955bb88aaf5"
+    },
+    {
+      "path": "examples/Anatomy.tsx",
+      "bytes": 651,
+      "sha256": "9941ea4cdd394884748eaa78161ddf5ccf61182f51cdf03407057dda3a83e97b"
+    },
+    {
+      "path": "examples/Animate.tsx",
+      "bytes": 315,
+      "sha256": "25b7cf1171e0da7c18f2abdd5ed77b2ff2a18818bd5a9f26ff31a4a60bc84e25"
+    },
+    {
+      "path": "examples/AnimateCSSVars.tsx",
+      "bytes": 370,
+      "sha256": "9e0f141d4b484306234989ca298ac3f37de6ffad27efa89ca26830180a03f9db"
+    },
+    {
+      "path": "examples/AnimateRange.tsx",
+      "bytes": 348,
+      "sha256": "669072cbd6b94434ae6e56972d695cf04f8fdf81b1f5015daea11a0499fc3e8b"
+    },
+    {
+      "path": "examples/AnimateRtl.tsx",
+      "bytes": 463,
+      "sha256": "18f67e8c105eb9089172675cd4daec03c9f734a110f0397e7fd56894df4f63ed"
+    },
+    {
+      "path": "examples/AsiaSaigonTimezone.tsx",
+      "bytes": 331,
+      "sha256": "ce08620df4907c6f6de4eff00c4ddab5cb188609bbf694c9f4aa41cfa8a669d7"
+    },
+    {
+      "path": "examples/AutoFocus.tsx",
+      "bytes": 258,
+      "sha256": "3257e76db7ba2f1b09aa61110d19b88b772738e923077bcd04101f670db93e19"
+    },
+    {
+      "path": "examples/BroadcastCalendar.tsx",
+      "bytes": 171,
+      "sha256": "8d346a61998ba53d9f3441447f9072ec4db8a4f93ca261c57894d228d30b7039"
+    },
+    {
+      "path": "examples/Buddhist.tsx",
+      "bytes": 132,
+      "sha256": "dbe66481818f81a1a0adaa96b419eaab53bbcc443a28fc441bafb38c9c9cdca9"
+    },
+    {
+      "path": "examples/BuddhistEn.tsx",
+      "bytes": 211,
+      "sha256": "b0496e5b9b407066bb9824a2fa99426e0fa605ab4c15fec4bd2a0eb5edbdca39"
+    },
+    {
+      "path": "examples/ContainerAttributes.tsx",
+      "bytes": 291,
+      "sha256": "9fb9791ac1a07a41baac053c88b84423cf74043cbaadad27135ed61a6cdc6e35"
+    },
+    {
+      "path": "examples/Controlled.tsx",
+      "bytes": 622,
+      "sha256": "0afdf0a06e061e16dc615d696ba61d52f5ef939fcc1f6a22cd00344ee3382d3a"
+    },
+    {
+      "path": "examples/ControlledMonthFocus.tsx",
+      "bytes": 1608,
+      "sha256": "bf0e3fcf26d890d1b728acae0163edffa5e24924e529ef1f3043f59ad2831a78"
+    },
+    {
+      "path": "examples/ControlledSelection.tsx",
+      "bytes": 705,
+      "sha256": "dae9a085805ec0d2e671cd6bb7a8942921e46f277ff094f6237edbfef50db63a"
+    },
+    {
+      "path": "examples/CssModules.tsx",
+      "bytes": 229,
+      "sha256": "9ae8983e68cca2e0ccff60e1e80dff19f6516257f1faa8917fb4a7ff5c6f2784"
+    },
+    {
+      "path": "examples/CssVariables.tsx",
+      "bytes": 220,
+      "sha256": "9806a717eadbd550dd122ceb323752c2a9cd3d7995e8806049d0dac95321b386"
+    },
+    {
+      "path": "examples/CustomCaption.tsx",
+      "bytes": 1099,
+      "sha256": "edd3fb6974c4f987061996dae7f2b2b7af3e19f85490eed6b62c362652aa043e"
+    },
+    {
+      "path": "examples/CustomDayButton.tsx",
+      "bytes": 1150,
+      "sha256": "21b8dbfb94289dd711f06d3a644041a8bfc3ccba94e5b0008db4b7ccd467dd59"
+    },
+    {
+      "path": "examples/CustomDropdown/CustomDropdown.tsx",
+      "bytes": 2230,
+      "sha256": "a63a99a008b8d779092a707720f7a77df12d7768d2aa6236bd166d65d4003333"
+    },
+    {
+      "path": "examples/CustomDropdown/index.ts",
+      "bytes": 34,
+      "sha256": "a7af1a5b7ff7f4e30d900d75b1050af55ccce966b20ad615c56244e23d2729c0"
+    },
+    {
+      "path": "examples/CustomDropdown/Select.tsx",
+      "bytes": 4868,
+      "sha256": "4ec39b20bbc8ea07540272b5a1c42958869c2d4c2737ec7f64eeb7428c357497"
+    },
+    {
+      "path": "examples/CustomMonthSelection.tsx",
+      "bytes": 982,
+      "sha256": "0977601561323382f5b1aa858fdb4947bbf2984bf3db236cf70fed8e3bc3ab7a"
+    },
+    {
+      "path": "examples/CustomMultiple.tsx",
+      "bytes": 1002,
+      "sha256": "38756049b817c0e43d42c3b2f34d36f7d3f6a7ea5b1b866944c52afbc663f66b"
+    },
+    {
+      "path": "examples/CustomRollingWindow.tsx",
+      "bytes": 1093,
+      "sha256": "8be498ea2afdb56bea2f8d497452491f9e888cb70d31cfe7a943fa58960dc8fe"
+    },
+    {
+      "path": "examples/CustomSingle.tsx",
+      "bytes": 657,
+      "sha256": "e75cfc800311d73f16493f9e56caad9e5183c6c09570b5f69a308baa87e874eb"
+    },
+    {
+      "path": "examples/CustomWeek.tsx",
+      "bytes": 1148,
+      "sha256": "5ffe81963df1a3f796058df9f09af2e1a72eca34371f4ea8af2e798a3e92a002"
+    },
+    {
+      "path": "examples/declarations.d.ts",
+      "bytes": 104,
+      "sha256": "7eecf5264abd4537c411e24ef8867c3cf48634bac80ad2578b7fb6ed57391cbc"
+    },
+    {
+      "path": "examples/DefaultMonth.tsx",
+      "bytes": 166,
+      "sha256": "64bcb6cdd7592b1ce0a43b979c5e621276912a983da99d04d5ac6e4ab89a1cb7"
+    },
+    {
+      "path": "examples/Dialog.tsx",
+      "bytes": 3815,
+      "sha256": "8b44ce266b01d975f1c70ef6e873d5481abd52b94508ca4336692bb704683025"
+    },
+    {
+      "path": "examples/Disabled.tsx",
+      "bytes": 147,
+      "sha256": "3582c2264f26bccd01edd1bea1cfe1024c7cb90f349ac78813414cc5aa1198d5"
+    },
+    {
+      "path": "examples/DisabledSelectedDate.tsx",
+      "bytes": 584,
+      "sha256": "1812720354e97224d73d105a096380fbe1abaacad62da86cc6f9d6f3ce6eff8f"
+    },
+    {
+      "path": "examples/DisableNavigation.tsx",
+      "bytes": 156,
+      "sha256": "101c697d89f74a7f552ba73bd5104b49b0dcd004178c64b26d805a5050066350"
+    },
+    {
+      "path": "examples/Dropdown.tsx",
+      "bytes": 285,
+      "sha256": "69126d70e666ee0e7affb9fc96a7cbd21f672382ca367871484fc49befa398c8"
+    },
+    {
+      "path": "examples/DropdownMonths.tsx",
+      "bytes": 167,
+      "sha256": "31817b46e3b4f2957716735169865b249d8943024593ea307d37e7419264f570"
+    },
+    {
+      "path": "examples/DropdownMultipleMonths.tsx",
+      "bytes": 324,
+      "sha256": "f27398037041f847fdce75157abb444bc25608639a85881a6361ad07bd140135"
+    },
+    {
+      "path": "examples/Ethiopic.tsx",
+      "bytes": 188,
+      "sha256": "c0fec80c0bce7d1075e3c853aa6432246c2c45a150e58fadc628465ef2b32729"
+    },
+    {
+      "path": "examples/EthiopicLatin.tsx",
+      "bytes": 153,
+      "sha256": "9602c097e78f7f261e6ed4919797416df631ea4d0ed9ba6e02c57d877b1e53e5"
+    },
+    {
+      "path": "examples/Fixedweeks.tsx",
+      "bytes": 157,
+      "sha256": "efaef51e4f71fbc5d06293a78681719386345bd12fb5803654504ba2fcfa1e0b"
+    },
+    {
+      "path": "examples/FocusedDisabledNav.tsx",
+      "bytes": 314,
+      "sha256": "b10f1c0b48fbc6d20fe41809b0767695fb3d0ad4acbc98bb3889b81a9750e98c"
+    },
+    {
+      "path": "examples/FocusRecursive.tsx",
+      "bytes": 450,
+      "sha256": "4123dc2a66ed65d0c377e3ec7edad5e4d2e298de79d1e3df52359214d84fc061"
+    },
+    {
+      "path": "examples/Footer.tsx",
+      "bytes": 407,
+      "sha256": "04fe709ad2a63c68edd24bfe52cc732282ef159b2051a7ba990cb4c37469c9c6"
+    },
+    {
+      "path": "examples/Formatters.tsx",
+      "bytes": 934,
+      "sha256": "47b653585fd28a42e2c1e06546550b86717da1a78b6aee123ca99f5f8b099fd1"
+    },
+    {
+      "path": "examples/FromToMonth.tsx",
+      "bytes": 294,
+      "sha256": "b5bd8f5bda1485cde6a54b7bc0724ba0f7727ffa4d8ee46894e4f2c0e2e842e6"
+    },
+    {
+      "path": "examples/FromToYear.tsx",
+      "bytes": 257,
+      "sha256": "1d0423a9ecb51158e069b2a627932086bc181b9b2faa4540af70a0952d5ace3a"
+    },
+    {
+      "path": "examples/Hebrew.tsx",
+      "bytes": 128,
+      "sha256": "cea3d4af84ea388012feadfd0ef7bae02c9fab1ec08a046eb3e566a69bc97b8c"
+    },
+    {
+      "path": "examples/HebrewEn.tsx",
+      "bytes": 176,
+      "sha256": "b950c4f605af5723c3466f1a1ef444c0e874d1f1e9373447258e9a5429b16867"
+    },
+    {
+      "path": "examples/HideNavigation.tsx",
+      "bytes": 175,
+      "sha256": "68353079a2f2235d5bba85f0ab428c7f841892cde760c665e1bba2d417a05822"
+    },
+    {
+      "path": "examples/Hijri.tsx",
+      "bytes": 140,
+      "sha256": "f49251ce6cbbdee8656292dc4a412561a46c4addc60b5e26ffb3f0043fffb8f4"
+    },
+    {
+      "path": "examples/HijriEn.tsx",
+      "bytes": 205,
+      "sha256": "c800a2fac3864c413f6cf3366019bcd302ba37426019ae6f200074eab9ce2feb"
+    },
+    {
+      "path": "examples/index.ts",
+      "bytes": 3809,
+      "sha256": "83ad6f8617b49078af9efdabcfe765b7e8974cce58f10c96ab8e85aa83786850"
+    },
+    {
+      "path": "examples/Input.tsx",
+      "bytes": 2323,
+      "sha256": "274e2e2ae19db6d541c86991044a296c9f70569e0595d57561b36b7f06cf75df"
+    },
+    {
+      "path": "examples/InputRange.tsx",
+      "bytes": 2240,
+      "sha256": "c0cf1a33601c008ab83fc3735b3619acecf9187327d88c03b6160950cf72f54c"
+    },
+    {
+      "path": "examples/InputTime.tsx",
+      "bytes": 1914,
+      "sha256": "eb15ee203d2784efa37149913984a0c144f8799ceac5a52ad3fdb32f93aec3bb"
+    },
+    {
+      "path": "examples/InvalidMonth.tsx",
+      "bytes": 372,
+      "sha256": "b90e1b8fdfd8c032e1ff958f92726264a8c95f4d28c9b987b1f9ea76adee50ea"
+    },
+    {
+      "path": "examples/InvalidMonthDefaultLimit.tsx",
+      "bytes": 399,
+      "sha256": "cece24c4556b12ea568f48615204f2c230d83e22cd1fdc0508b0ea871b50c5fd"
+    },
+    {
+      "path": "examples/ItalianLabels.tsx",
+      "bytes": 794,
+      "sha256": "4d119e996187b65397284fdcc2ec508ef117c980e923be3defcdfc0c5d76d7be"
+    },
+    {
+      "path": "examples/Keyboard.tsx",
+      "bytes": 439,
+      "sha256": "c6a3af42f97897a3d4d9096249ebdcb4c11889aa001d2358243da875c7ac536d"
+    },
+    {
+      "path": "examples/ModifiersClassnames.tsx",
+      "bytes": 595,
+      "sha256": "fd820902118375b672d493e6f1a55109bf0ab2dc180f763392ab7caf1d363c76"
+    },
+    {
+      "path": "examples/ModifiersCustom.tsx",
+      "bytes": 963,
+      "sha256": "721bc28f11aecdb992fff8d2d424fc0ff1aebb9ac8c0be6d386f2577d9c34553"
+    },
+    {
+      "path": "examples/ModifiersDisabled.tsx",
+      "bytes": 184,
+      "sha256": "1ad7a084d12951a985f1deffc23eb2713d0ded79e99600aeca4f10deaad00f7b"
+    },
+    {
+      "path": "examples/ModifiersHidden.tsx",
+      "bytes": 295,
+      "sha256": "fbde529a882b53633c50f3c737ccdd86e78caf787734a7787109bbd0f8fd114d"
+    },
+    {
+      "path": "examples/ModifiersSelected.tsx",
+      "bytes": 537,
+      "sha256": "ee2e7d3f28b42fd500f7787d546e46e9f9422bbcb2e17ec300c813acf07c5864"
+    },
+    {
+      "path": "examples/ModifiersStyle.tsx",
+      "bytes": 480,
+      "sha256": "d4639e6d817ac7ada8cc554300426d6ef50b2e928f1f7fa5536957e6d6c5a490"
+    },
+    {
+      "path": "examples/ModifiersToday.tsx",
+      "bytes": 582,
+      "sha256": "39fc117fff4a30e2f75befcc01db7285d3d05bcecc7e657e4bc65042bddf1338"
+    },
+    {
+      "path": "examples/Multiple.tsx",
+      "bytes": 145,
+      "sha256": "119d44adeaa5d1076ed16978d18fcf95b78e2f8a65a52138080cc70bf658a554"
+    },
+    {
+      "path": "examples/MultipleMinMax.tsx",
+      "bytes": 280,
+      "sha256": "3b176bddb43af8d04e59d12404fd0475e26c448ded26750ea6ca46fd52aa7629"
+    },
+    {
+      "path": "examples/MultipleMonths.tsx",
+      "bytes": 154,
+      "sha256": "8a38459748d5f14a3dcd6714b10b2f0bae33fc57056397884e7bc08562f1cb41"
+    },
+    {
+      "path": "examples/MultipleMonthsPaged.tsx",
+      "bytes": 175,
+      "sha256": "cc1e889d03b982e21f1216bba940d53b67da66423b22734da398484996a13309"
+    },
+    {
+      "path": "examples/MultipleMonthsWithEndMonth.tsx",
+      "bytes": 244,
+      "sha256": "9e77bb40324f29386db8cd94e3fb3bf0069b31832deff754b9884984de47f7a5"
+    },
+    {
+      "path": "examples/MultipleRequired.tsx",
+      "bytes": 186,
+      "sha256": "0aa2644339f9d34ea3efeb6821d136dae8b73979d2da30aa2965a7262a3db2b5"
+    },
+    {
+      "path": "examples/NavLayout.tsx",
+      "bytes": 149,
+      "sha256": "5b8a388deb887f73ae73cbeaa6e0ea39e56f478d3d6e238d998f756933c6b265"
+    },
+    {
+      "path": "examples/NavLayoutAfter.tsx",
+      "bytes": 153,
+      "sha256": "25841b3a8fb8ab0e410c548211cfb4e39b06b70b9a02a116a3ae2705c25b5dbe"
+    },
+    {
+      "path": "examples/Numerals.tsx",
+      "bytes": 203,
+      "sha256": "9a457b9a1673ad8fe688841cc783e4b6bae93d65a310a4fedcb6a711f592154d"
+    },
+    {
+      "path": "examples/OutsideDays.tsx",
+      "bytes": 179,
+      "sha256": "ed12704e115112a974e37b8806772d080252d7aeed4f86b50ea6970851d2ce79"
+    },
+    {
+      "path": "examples/PastDatesDisabled.tsx",
+      "bytes": 186,
+      "sha256": "86c1a713a9957b483b9706b3188b903d22d6bac910dc6077b1410fb801f332a9"
+    },
+    {
+      "path": "examples/Persian.tsx",
+      "bytes": 144,
+      "sha256": "412cc168a5627bbad6063d2679df69c5729265429b6362ba9b9869a1e29b9e3c"
+    },
+    {
+      "path": "examples/PersianEn.tsx",
+      "bytes": 209,
+      "sha256": "4d99032c5ddeeed4a0978d0a6bd734bb993cb1ef6cfbb356a4383d35eada1472"
+    },
+    {
+      "path": "examples/PersianFormatted.tsx",
+      "bytes": 483,
+      "sha256": "398cf98b028c47c97ab84f40e3350e3ed89043a723de657ba766393d507965d6"
+    },
+    {
+      "path": "examples/Range.tsx",
+      "bytes": 957,
+      "sha256": "9aee1effba3f4ebf29c29a156b39eb7e8a337b8f28de6b96dd7ac71c9d18aa9d"
+    },
+    {
+      "path": "examples/RangeExcludeDisabled.tsx",
+      "bytes": 213,
+      "sha256": "caa7f043df036613e595a66143c5887f8a329906a312ee5d367ab3da98ece55c"
+    },
+    {
+      "path": "examples/RangeLong.tsx",
+      "bytes": 428,
+      "sha256": "cf1e4dedc262f63cace4272411b2e4f56d0ca1a84452049f4466f0d80e1ceff7"
+    },
+    {
+      "path": "examples/RangeLongExcludeDisabled.tsx",
+      "bytes": 503,
+      "sha256": "6c488b02bfb98622f42ef4941590f51163ff7a4c2a5f9f8395f8bd0c2b1e334a"
+    },
+    {
+      "path": "examples/RangeMinMax.tsx",
+      "bytes": 717,
+      "sha256": "c11e074d5d77f5d5fb5272a2448b05c070393fdf0d785c898a3d4b6aa2cb90da"
+    },
+    {
+      "path": "examples/RangeRequired.tsx",
+      "bytes": 731,
+      "sha256": "a1985eaaec78cac47d829ea7b9efb3c23b7b111911321ae300c4f3ba8651c92f"
+    },
+    {
+      "path": "examples/RangeResetSelection.tsx",
+      "bytes": 803,
+      "sha256": "905decc10e87f58cf202f58d0874770fbbee238677a809522e1f1223f15cc93c"
+    },
+    {
+      "path": "examples/RangeShiftKey.tsx",
+      "bytes": 1329,
+      "sha256": "8f2c58f4625d8e731fe83ea290c503b0d8c8192c72c3efbef512ae5e4e9f6484"
+    },
+    {
+      "path": "examples/Rtl.tsx",
+      "bytes": 196,
+      "sha256": "c2bac96bbafc81bf5767fda8a0a0b0ff4b03574a186b3b48b970419cee740050"
+    },
+    {
+      "path": "examples/Single.tsx",
+      "bytes": 141,
+      "sha256": "068709a1833a5cf91cd17ee9205ea499c899779c4366049cdd14ec59895ade12"
+    },
+    {
+      "path": "examples/SingleControlled.tsx",
+      "bytes": 264,
+      "sha256": "465f08f3a6158beb02d14e083f8e808dea8ef7aaa79b1f9d3a8e854171a91b05"
+    },
+    {
+      "path": "examples/SingleRequired.tsx",
+      "bytes": 342,
+      "sha256": "1c7dabf015308599ca7719265bafc9796119a284cacffe7c502833b837d5a513"
+    },
+    {
+      "path": "examples/Spanish.tsx",
+      "bytes": 186,
+      "sha256": "2cd3d1ab5e3a0d3261628aa6a30e4331d5a74f98d9ad78745ad89bb5f52ee9c7"
+    },
+    {
+      "path": "examples/SpanishWeekStartsOn.tsx",
+      "bytes": 215,
+      "sha256": "aba4f3b5ba333d915d836127010f6e2af6f4ac02e5f23dea867327a8282a78e2"
+    },
+    {
+      "path": "examples/Start.tsx",
+      "bytes": 399,
+      "sha256": "bf644ace7fddd0abe430d62f92f2cd03314bf17735ef95c9e1bc36f9cc52b53e"
+    },
+    {
+      "path": "examples/StartEndMonths.tsx",
+      "bytes": 261,
+      "sha256": "b3355734e8d1cdd89e4306b851aa9c26a95627e95760d5476b87e19cc46e702b"
+    },
+    {
+      "path": "examples/StartEndMonthsShowOutsideDays.tsx",
+      "bytes": 492,
+      "sha256": "de190f2d4874783b59fa7ce76ae66943d8c593193c84b71714dae96a2084009a"
+    },
+    {
+      "path": "examples/styles/css-variables.module.css",
+      "bytes": 46,
+      "sha256": "389a8647efc4d7c12a7dce19cce8d186ce35b5add3d6844c70a95cb6e6d33825"
+    },
+    {
+      "path": "examples/styles/styles.css",
+      "bytes": 591,
+      "sha256": "c2ae6d8f5d0d22b5c06f534fceefa9631eda9dcddd19ede96774279beceec64a"
+    },
+    {
+      "path": "examples/styles/styling-modifiers.module.css",
+      "bytes": 55,
+      "sha256": "47b9e387de9ad1ad1400585741b9807c488db31a66fef182f531232edd2a89c0"
+    },
+    {
+      "path": "examples/StylingCss.tsx",
+      "bytes": 393,
+      "sha256": "a8f1ed0f5ab1a86dd825b8edc38131e2bee3bef486eaac86d59e08593700fa37"
+    },
+    {
+      "path": "examples/StylingInline.tsx",
+      "bytes": 214,
+      "sha256": "e4943f0abed24e20dc2ef3063e6b1f61a99db8c7c4e34ae5e154bcd88d095fa0"
+    },
+    {
+      "path": "examples/StylingModifiers.tsx",
+      "bytes": 654,
+      "sha256": "0a961ae323825747be71a6ddcb907d4097158f786359d7af433e115a6da43863"
+    },
+    {
+      "path": "examples/TailwindCSS.tsx",
+      "bytes": 909,
+      "sha256": "1972e8e02e227ce3aee3538f86f003f80a46acb98e3d59ea1ca1fff927663c8d"
+    },
+    {
+      "path": "examples/Testcase1567.tsx",
+      "bytes": 786,
+      "sha256": "5562c5d21e51fa10dbb5d4b4cdc91722402076b525fb3fd29e90a7c424b60dc7"
+    },
+    {
+      "path": "examples/TestCase2047.tsx",
+      "bytes": 506,
+      "sha256": "e3cc356bcd0540118c62f1942b6e14e1e414012a52e48b2e7923c0f6c5dca424"
+    },
+    {
+      "path": "examples/TestCase2389.tsx",
+      "bytes": 427,
+      "sha256": "46ed15ee2dfb5784794288da6f9e519eba191ec578f3147c3b63b8005ebfb13d"
+    },
+    {
+      "path": "examples/TestCase2511.tsx",
+      "bytes": 385,
+      "sha256": "12c1d42e5c9d167ee12164a68fc5fc6dce5fdf8d834616dbf48563280a12794e"
+    },
+    {
+      "path": "examples/TestCase2585.tsx",
+      "bytes": 373,
+      "sha256": "48aa004d4718a637f45e9e3e4cdcbd8fc81473988590d9a9bdba769975b13709"
+    },
+    {
+      "path": "examples/TestCase2835.tsx",
+      "bytes": 465,
+      "sha256": "d5fab7fe4a3afa2bddc870bb5b8aa4fd8a4958c83251da87cd88793c31a9f07b"
+    },
+    {
+      "path": "examples/TestCase2843.tsx",
+      "bytes": 740,
+      "sha256": "4dfcf3b41fea1be54e0ffbeb76fb86096178cea772f20190bd9b3132912a2148"
+    },
+    {
+      "path": "examples/TestCase2864.tsx",
+      "bytes": 594,
+      "sha256": "47a5828cf8204018ce85998aaba79d4f6407d51e44bb0c6e916d75ef62eabdc7"
+    },
+    {
+      "path": "examples/TimeZone.tsx",
+      "bytes": 533,
+      "sha256": "7cec4e9c638163c48206f87844110d1de556ab9e972f62b35279ae88a2eb192b"
+    },
+    {
+      "path": "examples/timezone/TestCase2833.tsx",
+      "bytes": 526,
+      "sha256": "67aee63e7690a7ada965d6b1c7e6ed822e6b341d9a1103873a3df64c4a003718"
+    },
+    {
+      "path": "examples/TimeZoneNoonSafe.tsx",
+      "bytes": 1656,
+      "sha256": "26c56e90db431647916d8831cdf0283ae070bb8d69a9ac8895ae97cc07b085ab"
+    },
+    {
+      "path": "examples/TimeZoneNoonSafeSimple.tsx",
+      "bytes": 1119,
+      "sha256": "fd5fa4c0aa8621951fde056ea2c9d95886f1399b3167f795d85b918915d89254"
+    },
+    {
+      "path": "examples/Utc.tsx",
+      "bytes": 420,
+      "sha256": "3b2e60402c9a2969544e9e3562e339d9829859e7d56d1db0c13a6ea608585bd5"
+    },
+    {
+      "path": "examples/WeekIso.tsx",
+      "bytes": 167,
+      "sha256": "d1f3913de8d548d6aec954ff25b918e4e97b02b73f144b999bb3f9534297070e"
+    },
+    {
+      "path": "examples/Weeknumber.tsx",
+      "bytes": 146,
+      "sha256": "eb627ad141c74d8de5bcbb04782fcfac3c987b1e2daf9eb3aa56c1c1e56d8d69"
+    },
+    {
+      "path": "examples/WeeknumberCustom.tsx",
+      "bytes": 761,
+      "sha256": "6bf0d6ae7df3aac6dfb69de553016da0f8e7294bd0d7d62925dd4b95fa8b6cdc"
+    },
+    {
+      "path": "examples/WeeknumberIso.tsx",
+      "bytes": 157,
+      "sha256": "55e37b4047582d3f30e01d9dafbb63bd9a29c3933c594b3f57010b32fca9b41d"
+    },
+    {
+      "path": "examples/WeekStartsOn.tsx",
+      "bytes": 150,
+      "sha256": "b8c35095a9decf4c26eeab9019ecfc42c6b81735e835b464e778dc1dd05f8abb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1122,
+      "sha256": "22cdffdf17a2b6b4d2e1a8c93df0ad35535193b84e6d32ed4945373126f4f3e6"
+    },
+    {
+      "path": "packages/react-day-picker/CHANGELOG.md",
+      "bytes": 115719,
+      "sha256": "9471d4fb6130ed0dd0894dcb90bcbb027a3cd498b37d319a46683327e5daf2e6"
+    },
+    {
+      "path": "packages/react-day-picker/LICENSE",
+      "bytes": 1122,
+      "sha256": "22cdffdf17a2b6b4d2e1a8c93df0ad35535193b84e6d32ed4945373126f4f3e6"
+    },
+    {
+      "path": "packages/react-day-picker/locale.d.ts",
+      "bytes": 131,
+      "sha256": "af4be399a845f1cdc6554df49e3f3a529aa2d66e41563bf62c05cdedd0a564b2"
+    },
+    {
+      "path": "packages/react-day-picker/locale.js",
+      "bytes": 73,
+      "sha256": "a84b6cfa7727058da5f0ec7bd8a99d3e863090a9ab2e2e4add733ebb50b14cd6"
+    },
+    {
+      "path": "packages/react-day-picker/package.json",
+      "bytes": 4675,
+      "sha256": "22aaa25f5086af9c4370b12f74a4d76589d7ad902bf32fe48252a9b6f07d15f4"
+    },
+    {
+      "path": "packages/react-day-picker/README.md",
+      "bytes": 7208,
+      "sha256": "f819303b321f1fba4398d9ad5886dde8a8c98e894ecc7a483b06a29a01c7af31"
+    },
+    {
+      "path": "packages/react-day-picker/src/classes/CalendarDay.ts",
+      "bytes": 2291,
+      "sha256": "defdc5f33c56268bede681ec3404717ace120611a796c3919d6194c1485ab932"
+    },
+    {
+      "path": "packages/react-day-picker/src/classes/CalendarMonth.ts",
+      "bytes": 476,
+      "sha256": "ea8068f4e41f9a647ea8e77ee8dbfa8fad0bd9d9b2db7039e6357bef1f1e7209"
+    },
+    {
+      "path": "packages/react-day-picker/src/classes/CalendarWeek.ts",
+      "bytes": 469,
+      "sha256": "bc839e51baa0fe0b9efbcfd6b2f6026417208adffda8f7f1b4f9a01b30b1a41b"
+    },
+    {
+      "path": "packages/react-day-picker/src/classes/DateLib.ts",
+      "bytes": 20136,
+      "sha256": "356231bf31548601726fcface8167d423907b3c5b82af8d6eed3dd6a9934e839"
+    },
+    {
+      "path": "packages/react-day-picker/src/classes/index.ts",
+      "bytes": 135,
+      "sha256": "0c06897f7ab3830cef0701e0e083b2c684ed783ae820b306aedd501f32e9562d"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/CaptionLabel.tsx",
+      "bytes": 415,
+      "sha256": "e979bc2d95a9ba266784c322a9e6ef1ec2fdcbc4091a7fc982a97b52f798cbee"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Chevron.tsx",
+      "bytes": 1482,
+      "sha256": "a48d7bd9eae7b9e7c027e47be8a93ed859dde95cdc4d235c70c6c6bb3d8bb759"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/custom-components.tsx",
+      "bytes": 793,
+      "sha256": "4671d0d245fbc00acc0a9f5dcbc06f2b7167e72d9de3b2f22732b66828f13b0c"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Day.tsx",
+      "bytes": 852,
+      "sha256": "12ecedf7464db400c0beba28b1e47214479c01a42749f78cd2f03e7d9095c94a"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/DayButton.tsx",
+      "bytes": 902,
+      "sha256": "2bb34ba428b080c36a35fa58a2f991bc960ee1b9fd5b374dba974c9a89dbb1f1"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Dropdown.tsx",
+      "bytes": 2030,
+      "sha256": "5e32c1ce081777d5b8f0ee0c18eb62704a61ced2e36d6b96f29052f4ac826dd1"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/DropdownNav.tsx",
+      "bytes": 420,
+      "sha256": "e212dfb79e9e1977065add59d0f831dac29b57306bd15f91e7ab14be3c7e2fd2"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Footer.tsx",
+      "bytes": 385,
+      "sha256": "12fd4f161b439371fea2607af7b17b0cbca76d60693953cda79784d5caefd56a"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Month.tsx",
+      "bytes": 750,
+      "sha256": "73602a56f5579d83ac8355477d7f26f6988bfd0a34bc45330bd9e460e9725dd4"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/MonthCaption.tsx",
+      "bytes": 718,
+      "sha256": "c1eff21b64d16482977b7a2415a2be52a9c6e43c0ec260f3c65bfe92294159d0"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/MonthGrid.tsx",
+      "bytes": 422,
+      "sha256": "480f2cd5888af1a924c55581b998a964270b15767b0cf9c6d2143f3ee3c140b8"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Months.tsx",
+      "bytes": 395,
+      "sha256": "a644b15f570d9f2179cf5e80541fea871e1649475f78aa224c597684c44b9cf7"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/MonthsDropdown.tsx",
+      "bytes": 428,
+      "sha256": "e2e9dd14ec5e37aa90fd253f98b06638ea2aa8a43af94ecb7c717c0f45c1257f"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Nav.tsx",
+      "bytes": 2790,
+      "sha256": "dd27481403744fed7df4c6af7a344594541bd8c75525d98649fec4e8760cbdd9"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/NextMonthButton.tsx",
+      "bytes": 474,
+      "sha256": "9f0e26f0a8cd9439885063a729bdb4f0fb38cf7f8ae7d349a2898cea86f68084"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Option.tsx",
+      "bytes": 396,
+      "sha256": "8d5389ca73cbb5c6554d8a750ddbdbbaf9391969aa96e0f3f91ca563c55b9fbd"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/PreviousMonthButton.tsx",
+      "bytes": 498,
+      "sha256": "98b3e02c76ed45eeda73e8e26a1bac866069ee6a68a52d9a2d543eaf44733fe4"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Root.tsx",
+      "bytes": 560,
+      "sha256": "4fdc9eac12cf85709d9d550d5dbe30f1bf6c65a252616945995fbd2bd1feafc8"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Select.tsx",
+      "bytes": 395,
+      "sha256": "752979638e8dd52bc0d139fb3bbc09f8aa90abdeac8cb95e8f9e961af09ed7ca"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Week.tsx",
+      "bytes": 568,
+      "sha256": "1166c16baf3d523de33fc9ec1e365b880cb397b4c980b3b53228269455cf55c2"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Weekday.tsx",
+      "bytes": 437,
+      "sha256": "7241eed4eca36ce073ddf45424a2a3e24bc8e1e8ed1dac8f4c2998920108079d"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Weekdays.tsx",
+      "bytes": 462,
+      "sha256": "606cbede83d53264e479d23cf092b19cf0177aa3cb35dfe836ba277d46678f36"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/WeekNumber.tsx",
+      "bytes": 597,
+      "sha256": "d6ec5a809cd5d8d6add2a4bd6caec621e7602587b7f9aa647c97749226285008"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/WeekNumberHeader.tsx",
+      "bytes": 456,
+      "sha256": "bb049750dc1720dc14d2b52957779f6c7c1d74066e5b1e6974bda90831e3c61d"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/Weeks.tsx",
+      "bytes": 411,
+      "sha256": "75c7edd033a73c6d05cc0cc0cf93e3f7e23074a2b1c3dbba561b2951ae0bc1f1"
+    },
+    {
+      "path": "packages/react-day-picker/src/components/YearsDropdown.tsx",
+      "bytes": 426,
+      "sha256": "39f7eb907ef08f179e8067203393f93e6f77efda1e6a3f3bdb8be2b0a1ef646b"
+    },
+    {
+      "path": "packages/react-day-picker/src/DayPicker.tsx",
+      "bytes": 31296,
+      "sha256": "77444c27e82b273a8208a90f9a0f2ecdf61d44e7e81b72c4132ccd2ebe8effb3"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatCaption.ts",
+      "bytes": 730,
+      "sha256": "519d60d5c2adea8ecf683b9ad8723f8a1e18e3361f38708c64f4cfa8284acc1b"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatDay.ts",
+      "bytes": 654,
+      "sha256": "3bf884be8e27f749352504bb77fc41b2050e0c3a08c67b2f65772dffc0e3032c"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatMonthDropdown.ts",
+      "bytes": 603,
+      "sha256": "da9cb09f37d6e541de210fff6d4cd04f8154b9e9c2ad1c5bd8710d9d27743bea"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatWeekdayName.ts",
+      "bytes": 743,
+      "sha256": "0011cf7d00995007946e5132584d46412b9d84012d985d6cb8f5db77ca13cfae"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatWeekNumber.ts",
+      "bytes": 711,
+      "sha256": "09a21c805b38f891b691d25518c4b4d2dd4184c3ac5bb82bbc04392e1b3f4393"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatWeekNumberHeader.ts",
+      "bytes": 302,
+      "sha256": "5766176193e1802daca738921aea04a94abfe240809a004bbd14983c95bdbf67"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/formatYearDropdown.ts",
+      "bytes": 531,
+      "sha256": "7c872ec7c2f953788c04cc3feaff8145de36e350a5e0c789ee007551d0a116ec"
+    },
+    {
+      "path": "packages/react-day-picker/src/formatters/index.ts",
+      "bytes": 275,
+      "sha256": "12bcf6af851be8dd5f3e66c152bb77a83829a6a8ba8c5acc267e7b15e11aa9ab"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/calculateFocusTarget.ts",
+      "bytes": 2811,
+      "sha256": "0f066a1238e0027846d4d00fe785bfe7a4e20a07e2142f886b4ccd63b889d773"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/createGetModifiers.ts",
+      "bytes": 3948,
+      "sha256": "dfe2ee538a2801fcbe3b768cb75f23f5ff8b8c937850c3e8067feae77cb23616"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/endOfBroadcastWeek.ts",
+      "bytes": 855,
+      "sha256": "81399a62fc3a3ec2b4289dc7947bceb98b314e8408c629bf21a6e089f7828b3d"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getBroadcastWeeksInMonth.ts",
+      "bytes": 1234,
+      "sha256": "3212e22b22b99d057a2d9a68a2ce7984abd3c9f182d9626c34a39658b454cc23"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getClassNamesForModifiers.ts",
+      "bytes": 1410,
+      "sha256": "c4bb8b993e0bb22e3bc554733347e3527ae5ab0ecb8225f22cdfcc6a960e137d"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getComponents.ts",
+      "bytes": 646,
+      "sha256": "4da83e9898d0cfe97626a86056c34edcaa2a5df18355545d10c7c236590c395f"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getDataAttributes.tsx",
+      "bytes": 1056,
+      "sha256": "48a282bf99998385ab393e2aa570b389510bdfa59dae4405c500b273b9abdbf6"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getDates.ts",
+      "bytes": 2824,
+      "sha256": "715a4b864949779338ef16c12e3d286c202ed1629b5fddd5992980531ff59dd5"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getDays.ts",
+      "bytes": 710,
+      "sha256": "856fc6c10317f2c5b2195a3c2e4be6da4acb13f04e967e21ae8c4c2cbdcd81bd"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getDefaultClassNames.ts",
+      "bytes": 1155,
+      "sha256": "d704132c6f8ba41f4d4ce169f8c5ff827be9aaddf38a618c37e4313edae42528"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getDisplayMonths.ts",
+      "bytes": 1006,
+      "sha256": "740ed4f91a9f1a2e0a5f9744b88fd096604b7b6c9640086d1ea6bbca18475025"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getFocusableDate.ts",
+      "bytes": 2154,
+      "sha256": "867296544813d55b0f1c9852ae555e67b48a7af11d4f674394d4e01df9aa7ebf"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getFormatters.ts",
+      "bytes": 480,
+      "sha256": "99e9138815d04f8b3c921840a7b71d845cbd00141fb62bb3e28521d56aa27cac"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getInitialMonth.ts",
+      "bytes": 1363,
+      "sha256": "099628aeaad915e1663df209f467c80bc2f08140988121f6514db1cb71920268"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getLabels.ts",
+      "bytes": 3165,
+      "sha256": "d133da2ea829c7e0fae655396beb97a6981a638328330ea05d157e4fc04dc782"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getMonthOptions.ts",
+      "bytes": 1637,
+      "sha256": "9bd4c97f484ad32db12116f6f9c99f305e94e103c4ea0c95af84d3ce30dd4359"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getMonths.ts",
+      "bytes": 3102,
+      "sha256": "c114dded6a283c2fffb6158faac3de4dc83853610d549076691f26d777030d19"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getNavMonth.ts",
+      "bytes": 1360,
+      "sha256": "c7400af71b37c1483c3e7cdc3157e8d7cac47b6a93aa802c1ff614491aecd8c1"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getNextFocus.tsx",
+      "bytes": 2387,
+      "sha256": "cc3a6d3b63146c126e8c3b2590896cce81f742b8b231f70fa9f07713f0c1b10f"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getNextMonth.ts",
+      "bytes": 1636,
+      "sha256": "21f8f1bcd08fe6d0d4b8bf4394787380491840158193fc89b0435bcba6aa9d03"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getPreviousMonth.ts",
+      "bytes": 1633,
+      "sha256": "e9b09ba8160424feded47466a8bb3fd89c0a8eaef239953c34e1f8f285fe1c5f"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getStyleForModifiers.ts",
+      "bytes": 1006,
+      "sha256": "eeb932c83a4d47a5e2c359b60cede728b367ecadc100da99d8d795eb007e948d"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getWeekdays.ts",
+      "bytes": 1114,
+      "sha256": "2a6a0f2c889b4f82f109b620dbda0049d6a2a6eadf451cc3d1dd137dc3303b9c"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getWeeks.ts",
+      "bytes": 457,
+      "sha256": "3f51c6f5c8fbf9f8aea06f4113c6c30d677f72d61df4621b0d656fb40cf7758d"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/getYearOptions.ts",
+      "bytes": 1559,
+      "sha256": "9ec7b4c58289049c876b54e23f8edc7910d415de5471060ef6c705e89d46d84a"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/index.ts",
+      "bytes": 106,
+      "sha256": "7ed56dda3749d64dfcbe87f786badab57c2f2928eed7cd8f921c445d3af20698"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/startOfBroadcastWeek.ts",
+      "bytes": 900,
+      "sha256": "b1581bbb3be47a6e087fcc58cf38e742dd7c2af81f3ab15a3431d1656a5f4c9e"
+    },
+    {
+      "path": "packages/react-day-picker/src/helpers/useControlledValue.ts",
+      "bytes": 1381,
+      "sha256": "962e58cccd19863f79f51ca3f6e3faea3b928f9824b7471df53e4019ab5b71be"
+    },
+    {
+      "path": "packages/react-day-picker/src/index.ts",
+      "bytes": 398,
+      "sha256": "ce31321c1913bdfe36f4fcafa575a2da0f4978243444caafa7597d9435008a57"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/index.ts",
+      "bytes": 434,
+      "sha256": "bc43af2a5fa30a36be4a3ed195ff29ffb8067bf4925aa350ace9d9f18f380cc2"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelDayButton.ts",
+      "bytes": 1049,
+      "sha256": "36d0e91b8d61a74bf1fd669b599022ec4b8d94ebe374464a35cbf84d34c8c6de"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelGrid.ts",
+      "bytes": 752,
+      "sha256": "589f54ebd639b97536494dd2c1513df333fc8ca0cf8c75ae3b16f5e7b0f73ef6"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelGridcell.ts",
+      "bytes": 866,
+      "sha256": "e1895c8993de8cd4c971ed0a0fd3d86b77add911f49d125a50bfc76391243c89"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelMonthDropdown.ts",
+      "bytes": 463,
+      "sha256": "a6a74e2f6fc3774f9b08df68d4a12d567b0eeaade514d5b5b4bab8b37db819ff"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelNav.ts",
+      "bytes": 272,
+      "sha256": "d39488b2b69bb08ef2672b453f025c8277f7721db667c4f5417ec720eb5690c3"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelNext.ts",
+      "bytes": 559,
+      "sha256": "55718948a01e5ec8028be78b0de44ce87dab63cdf29fc454fdb2cd61b7af05ef"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelPrevious.ts",
+      "bytes": 462,
+      "sha256": "e8de127cbc12fea883238a30446264debbea81c31309e05dcb9e55c5ee4f5368"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelWeekday.ts",
+      "bytes": 742,
+      "sha256": "5ebb84efe04c3c3788543267a8004cf5f8c488984d64a2e7d8a1f9f4a3daf902"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelWeekNumber.ts",
+      "bytes": 572,
+      "sha256": "e6a5e6b61acea0cdf1f4cce6bcf4cd92a228b38819e7175c0cb74e29800e6933"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelWeekNumberHeader.ts",
+      "bytes": 478,
+      "sha256": "5670d866ef03e00f146da1a442379769adecf8852ecf7973a7cf846f22ad7f33"
+    },
+    {
+      "path": "packages/react-day-picker/src/labels/labelYearDropdown.ts",
+      "bytes": 458,
+      "sha256": "31ee0d14dc99070622cdd9f4429c6d404928c8c1483310339ac1c3a513ad6308"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale.ts",
+      "bytes": 3972,
+      "sha256": "12a24714b2fed3f51ca5369e89c204250bd5c7e7296fd9d7113769264279dc13"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/af.ts",
+      "bytes": 1667,
+      "sha256": "10af90a656bf2f6f3aaaf09f50c15dd289b83e1a07064cea7e18d0f5ba93b14a"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ar-DZ.ts",
+      "bytes": 1774,
+      "sha256": "47abacadae26332c9cd6e32825a1e3379276db1cbfd447992f29ac45fb3a4193"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ar-EG.ts",
+      "bytes": 1772,
+      "sha256": "d588894a7a9fffef20ae258e8ada931b37972287b81960022f9a0eaec149c008"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ar-MA.ts",
+      "bytes": 1774,
+      "sha256": "83a9dd4726c4ece6efb9bb547145e23cc259ac42c12002c630d1548b7886705f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ar-SA.ts",
+      "bytes": 1779,
+      "sha256": "8dc6cb1a22c78fe0006856275e67151497f8107f43f0bfcb0ee4fed13509832d"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ar-TN.ts",
+      "bytes": 1774,
+      "sha256": "52afc9c908eeb7c9f14836f88e9abc1bcae476945d1fdc6feb47fb0e88f51553"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ar.ts",
+      "bytes": 1753,
+      "sha256": "79888e6e0f8e76ffd5a1b1cbc49bb90b87c4110a60a2116b7a06cccd503366e1"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/az.ts",
+      "bytes": 1678,
+      "sha256": "e30ab17c736ba1aa4958825cb95f555d225968bd9ccc05bc07914ea99e2ff701"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/be-tarask.ts",
+      "bytes": 1875,
+      "sha256": "10d1571f1d0ba6aa708774adea363e406a5a6ff34856f307e21b3ba64af82da6"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/be.ts",
+      "bytes": 1810,
+      "sha256": "c204ff4f803243b7067a02725a504e3837eb3a020dbe9bae991b9586eb52c24f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/bg.ts",
+      "bytes": 1789,
+      "sha256": "698ef5c231f47f24dd299646f6a95b3b7282b3b540b49fec3a5517cec3914814"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/bn.ts",
+      "bytes": 1867,
+      "sha256": "8d7e75b7337d5abd55b59b33cee32450eb609a2dd7d8ab0827972f063cbb86d8"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/bs.ts",
+      "bytes": 1684,
+      "sha256": "140febaa25c58e0912e2d508b2edd3a812222773395374bf5ff686503910dfb5"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ca.ts",
+      "bytes": 1673,
+      "sha256": "87a38a9a504fbbd35599c841893c93373e9180c346c8e65602ff6f24244b8492"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ckb.ts",
+      "bytes": 1795,
+      "sha256": "3b764f3dc216c9e3488424e9fd00a76da67a8d306cd22aae8317c3923c8dbbb1"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/cs.ts",
+      "bytes": 1686,
+      "sha256": "6c0f2386c035c188b15b0335ec9662f5f1d5f4ad1103afe49f26772a9effee90"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/cy.ts",
+      "bytes": 1679,
+      "sha256": "98f21bc1b36b656f644307d36329c5c3e32885e15dec519d26936ac4a5c0f683"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/da.ts",
+      "bytes": 1657,
+      "sha256": "9d6921639d92aec9c43d19b21c0de4215f0ff553e820bc79b94b2e4b45aaa1b6"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/de-AT.ts",
+      "bytes": 1696,
+      "sha256": "368cb69cafb27a39c91ccb1f508a2aed2e0b06aebee0e7f6248284673fee2f6d"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/de.ts",
+      "bytes": 1675,
+      "sha256": "da998587c6336b49c1e6d210c7d3f2b4ab3dfa39845911bab741f7e69528daa6"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/el.ts",
+      "bytes": 1829,
+      "sha256": "a306ae5399b5c3aa310ee3220069d892d3f01e0a95cf14991ba894a111d8940b"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-AU.ts",
+      "bytes": 1696,
+      "sha256": "9e3be9e85c4ebcf4080abe1111d80b783b74f5ab3c01673af7a6f7fb54f08c81"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-CA.ts",
+      "bytes": 1693,
+      "sha256": "14903db75de1e8026936a4602f8a94e7397ddf2e8a4141d1c0877d1b50a80e3b"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-GB.ts",
+      "bytes": 1708,
+      "sha256": "a8a980cc80fe1f8a9e2d58599c96e851929886b60cfa028bd2af24319bb3c015"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-IE.ts",
+      "bytes": 1694,
+      "sha256": "31f7890fcbf9e397c25fc78c3cce027d3a1ce47baf3ca1f805dcfa54c10b6c55"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-IN.ts",
+      "bytes": 1692,
+      "sha256": "a8a8c2e8fe506a95d8602ff8bb82b3f61f9ee0c341404fb1df0f46d827c481a7"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-NZ.ts",
+      "bytes": 1698,
+      "sha256": "ed83e43c8e355f9f7350d99b77567b78640e8a1c9d32c345ced0ffba2a6cdcef"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-US.ts",
+      "bytes": 2772,
+      "sha256": "402784b842d78dea2f613022eef97c2eec74adea1d6a2b2abfcb8321d27847dc"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/en-ZA.ts",
+      "bytes": 1699,
+      "sha256": "79c472c728e97edde22cded33f7c68407b973f612e3e13aee55c96842d2fa913"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/eo.ts",
+      "bytes": 1686,
+      "sha256": "59ad2b995c8b2167f916aff868fc1621b102535c2a65e115c982a3fe62f3c406"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/es.ts",
+      "bytes": 1676,
+      "sha256": "5a8e2bde3cc0320fa9e488b7a75d9c5f43b0813465db89c5d1e2f627678f3e95"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/et.ts",
+      "bytes": 1665,
+      "sha256": "9598c31fe704fd8d2b191d218d3e02ecf047b0bdbc05e78a87c28db7fc3cd953"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/eu.ts",
+      "bytes": 1676,
+      "sha256": "5c6fb6b0d910e1d4ecc2a2d29402254772fb2580e07801ff543e54c3bf1828a3"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/fa-IR.ts",
+      "bytes": 1779,
+      "sha256": "c296f0820dd040837aaf6c05046a2896773357673d722cb6dcdaf6e3a8697427"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/fi.ts",
+      "bytes": 1695,
+      "sha256": "9f4f4da66e4adb8fb17e68441806f8f0a73e3c32ca3696d5d2cb72dc610e112a"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/fr-CA.ts",
+      "bytes": 1726,
+      "sha256": "3be599ecf9e474c5a7a8cfdf9899ab8db05a2017cb2d31295b6006558234e382"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/fr-CH.ts",
+      "bytes": 1731,
+      "sha256": "ff1004680ee69d69d2ea6a1f7372ecf64a8a8bfca7008becb143c92e8ea631ed"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/fr.ts",
+      "bytes": 1706,
+      "sha256": "78fa2c154e3689d1cfe7533d049c750257bf4b5df23d4bc49c93bf1b042800ba"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/fy.ts",
+      "bytes": 1665,
+      "sha256": "a6daf10e439fcf1f741ba57ad01c8466c89a0a17b56693493d7493e5f3751033"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/gd.ts",
+      "bytes": 1706,
+      "sha256": "005a8a8b41027345663a591d2975d51705020e1545308c3944e4194f3bdc8028"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/gl.ts",
+      "bytes": 1679,
+      "sha256": "c83df4d73e497c20909f287e82c2d802854170c6f0bf3b7d671f8f3ac411be5b"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/gu.ts",
+      "bytes": 1857,
+      "sha256": "24e2e6cc75bdf04ea0aaeb8837535cb94a961edf072f99046bb085f5fae161ac"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/he.ts",
+      "bytes": 1716,
+      "sha256": "6fd10e444a2a71445f095fab31cf56f6eaa22e5f861350b09a971aa441398b06"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/hi.ts",
+      "bytes": 1823,
+      "sha256": "5e4a46e7c69ec9838a13aabd78fb53992ea72aec3e1ba01d486a66ddaa6debb5"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/hr.ts",
+      "bytes": 1693,
+      "sha256": "2071671499d5db8d96a903687144bb87b23f9836d4977b0810e7b8da0dd77880"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ht.ts",
+      "bytes": 1668,
+      "sha256": "f6bab9c251abaf1a44bb7c5dcea3b7fc14c075b702f6879d9ea08b737f304f04"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/hu.ts",
+      "bytes": 1700,
+      "sha256": "84d1deab94ee5e1b022ad9054547ac79ab375061544a1f5f08a7809a4f42b591"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/hy.ts",
+      "bytes": 1778,
+      "sha256": "cb75dd60cb5a1d3dfb9c73aa2d5328d1b2236d4808f3fcd1ea231cfad86561c7"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/id.ts",
+      "bytes": 1669,
+      "sha256": "c0d893181de71c122783ce8f56b6913eeeb89d7632453fd6f206ae02f7410c11"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/is.ts",
+      "bytes": 1669,
+      "sha256": "e986a534cfd6b63217b73377fcfed10259671d85a8850c824d8a968a62aa0251"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/it-CH.ts",
+      "bytes": 1711,
+      "sha256": "a1f9c3583c3622b20bd277601574164841569cf0286b88d291fe50888e005b4d"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/it.ts",
+      "bytes": 1688,
+      "sha256": "2f6c13dd074d10270beea09ba8b8688e48ac3b23524088deb3e49651e957539f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ja-Hira.ts",
+      "bytes": 1752,
+      "sha256": "05da88fd8792f1ecf3bf537c0617844a9fcf6106d05c373920d53fc434b46706"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ja.ts",
+      "bytes": 1668,
+      "sha256": "9acbc26b99a0fd94ab987ac00da122867fa7f3a9df2dc8357ca1cf2ea9a9ed5f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ka.ts",
+      "bytes": 1875,
+      "sha256": "b7906789826bdc406608a45e5593d12566e2d8123cb3384493c15251de82cafd"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/kk.ts",
+      "bytes": 1758,
+      "sha256": "07e51d6d4a6242e2f7b4aa93bdf671abe8944211fe78bcf3ced624c5b7ea57be"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/km.ts",
+      "bytes": 1801,
+      "sha256": "1f451d19e1657257ee761c054d4e02addac6557d50b67bd9b6274d17821c21ea"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/kn.ts",
+      "bytes": 1866,
+      "sha256": "2a49965ad9ac4d0094595662e6c4ae91e724a2a459649a218aa316442a6dd4c6"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ko.ts",
+      "bytes": 1660,
+      "sha256": "c1e2d1040b067e6a34d51c680a6b208705f85cf4990ab130446e43f3be5b5882"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/lb.ts",
+      "bytes": 1674,
+      "sha256": "853c45b18f4dc84639261a807c0ad6c1b850c4e350faf11ebe8782ce5ebeb9b6"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/lt.ts",
+      "bytes": 1714,
+      "sha256": "0c81d8c7e1617b56b95f44115eee3f71dde8c2c2f5145944bab76c6e925898b8"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/lv.ts",
+      "bytes": 1696,
+      "sha256": "feac06bd52f06e1881cbc8677b652042fda8c9d2b5a2436e3777d0ac746aaa72"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/mk.ts",
+      "bytes": 1802,
+      "sha256": "24855c888dff583df48d76b799f4056922db51e58a0c06c8c53ac5e5eaad10b0"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/mn.ts",
+      "bytes": 1827,
+      "sha256": "abd205dd1ceec0b3414cd3f09b5a7e8317ccb0b75895d614f5204a76b4cf14cb"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ms.ts",
+      "bytes": 1675,
+      "sha256": "b3b651c66c1d475bf9682fdee76665439f59d883a2b239bcf877097a8204f37f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/mt.ts",
+      "bytes": 1698,
+      "sha256": "fd41d369f4886473d1a7e20c981e634c0351b0d15c64bd2f766e74ce0ef62b7f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/nb.ts",
+      "bytes": 1665,
+      "sha256": "3202995b3ea6549dc58f39a3301c4dcff73ce90978797d5daad6cc8bae408557"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/nl-BE.ts",
+      "bytes": 1691,
+      "sha256": "dc5dbd6f945b3b22f454c4f286ee91efb5713afbde18107974cfff3cb6383e07"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/nl.ts",
+      "bytes": 1670,
+      "sha256": "fa391ae13a4fe6d5caef497efb034acd07d93d1a32f10b258c8609363b34405f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/nn.ts",
+      "bytes": 1663,
+      "sha256": "3a679828e991b209048bc968d19f2affa24195303885a35ff5b9bcaea6e773a4"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/oc.ts",
+      "bytes": 1692,
+      "sha256": "c964fcbc597b31f9c5a5df77a5d57ea0b8250fc627ba52ecdf0ef7c9af77dc29"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/pl.ts",
+      "bytes": 1703,
+      "sha256": "7f5d60c9c3359e78d67bc16b94c6b8fbb9edb4c11f095d3ecaa8de0da71154d6"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/pt-BR.ts",
+      "bytes": 1709,
+      "sha256": "b55d6c4033e34c60d2f2aef8a5ce0bc5063c58c04606438e70624fa47f32cc28"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/pt.ts",
+      "bytes": 1689,
+      "sha256": "ab178eb2e8d5bf579d85c9dc9b80dcb734be75e770901cce5a48af5bf591f335"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ro.ts",
+      "bytes": 1694,
+      "sha256": "c30dc7168fd55ef3039426a87366393df829d370bad0e6321cd45e75e690e278"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ru.ts",
+      "bytes": 1813,
+      "sha256": "9d69271bc0b5d1a9e687678374e4314168130377b7f608e7103f313161d5d5e5"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/se.ts",
+      "bytes": 1674,
+      "sha256": "2a4a7ec3df5da78677b263537510cc6bdee68c7538f5dc5c2a203463bd8ab73e"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/sk.ts",
+      "bytes": 1694,
+      "sha256": "9a4072d2b729f8e62df3326ad80532ec3258c3c2b0ba21c8edebc72728b719cd"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/sl.ts",
+      "bytes": 1683,
+      "sha256": "07c10adb97312a032052f373a843ebd2fb1936c91ae79a805830298f691873aa"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/sq.ts",
+      "bytes": 1680,
+      "sha256": "29be9178f3893002d7418cb13b93f9863e03f11f4f0e9bbc17bc876a00be30e5"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/sr-Latn.ts",
+      "bytes": 1712,
+      "sha256": "85809b9bc44c72b7ab108a3cc657267697c06866a8b49872270ed1013d57458f"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/sr.ts",
+      "bytes": 1810,
+      "sha256": "f7c2793e84fb9016347546fce5795335c3539f4fb656d6ca3eb60e9c306caab7"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/sv.ts",
+      "bytes": 1666,
+      "sha256": "bbb1b80e16b688452c61a9f6265f6dcf3ba1625887172baf9d90b0d01ec33ffb"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ta.ts",
+      "bytes": 2021,
+      "sha256": "cd1127b846e5938d0c6222a7e25e61bbc6e6332a58d4f537b4c3c7b40ce3df1d"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/te.ts",
+      "bytes": 1929,
+      "sha256": "43786084138f99db4c5a03164dc455b77152987ea4c07ef233cfc006da6bcf50"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/th.ts",
+      "bytes": 1830,
+      "sha256": "66ec30fa7c9303c9338f7b45e5ce39e3b8afd3f367dd2fa9d67867651c668127"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/tr.ts",
+      "bytes": 1660,
+      "sha256": "afcd6863e85ec1219725ba8fb84b2b34672b612b3b56ec95f07822cdede19bd1"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/ug.ts",
+      "bytes": 1769,
+      "sha256": "4f139c3bb140408179b0b87db929ce482c16f57335579dc86c9d8e74323691fc"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/uk.ts",
+      "bytes": 1827,
+      "sha256": "10d83a5471f3abb1b72ee1f472bac6b70ab05687468d86a6f7a5c5d865648df7"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/uz-Cyrl.ts",
+      "bytes": 1799,
+      "sha256": "91dc854f14fa8348c55c3ebe5aa1be3c9544b26a06adccb2fe659ffe98dc7907"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/uz.ts",
+      "bytes": 1674,
+      "sha256": "930dcf79c16d1fb60b6f75eb31b35dffaa071db19623bab363d80cbb9dd5ec6e"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/vi.ts",
+      "bytes": 1691,
+      "sha256": "6c58b24f114b1248b0539dae10ec3bacdf534ce93a3a974be1c5f7149ef32464"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/zh-CN.ts",
+      "bytes": 1675,
+      "sha256": "328f008592080026d65704de853db9b9f3801920b2332d6e5d60554836426837"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/zh-HK.ts",
+      "bytes": 1694,
+      "sha256": "33165117e077a60b59ee6ee365fc011c4d0f84f5ace01253ed34d651b32f89ca"
+    },
+    {
+      "path": "packages/react-day-picker/src/locale/zh-TW.ts",
+      "bytes": 1691,
+      "sha256": "5a16053dfb50ac1f903704920daa75068bda67c55afcbfbf47f8e72841217b72"
+    },
+    {
+      "path": "packages/react-day-picker/src/noonDateLib.ts",
+      "bytes": 6632,
+      "sha256": "a0f7aedada2fddc540c5d222afe38e009b8720a19984e38f693241a08253f107"
+    },
+    {
+      "path": "packages/react-day-picker/src/selection/useMulti.tsx",
+      "bytes": 2204,
+      "sha256": "f189b5b68bd599cfd7c3bb24d8a474d73c2b2ab71adb800066e2cb2e389f7d2e"
+    },
+    {
+      "path": "packages/react-day-picker/src/selection/useRange.tsx",
+      "bytes": 2909,
+      "sha256": "1f6dc4edd839dd8b0715eb0088bada36ccc0596c670140dd491a9449ce1ef7a5"
+    },
+    {
+      "path": "packages/react-day-picker/src/selection/useSingle.tsx",
+      "bytes": 2030,
+      "sha256": "53df5db8993e9a53d29fc048e6ff9e0f2cfce164e558dabb98f91f67cd3eec81"
+    },
+    {
+      "path": "packages/react-day-picker/src/style.css",
+      "bytes": 11314,
+      "sha256": "996ebdae962c70f68f1f8dfec7651485f4a5b0faff0814f344da5036a5837a98"
+    },
+    {
+      "path": "packages/react-day-picker/src/style.css.d.ts",
+      "bytes": 54,
+      "sha256": "03b5130fd610046446b78316ed9f18272ada2d3a6447d3fc1a79dabebcbf5949"
+    },
+    {
+      "path": "packages/react-day-picker/src/style.module.css",
+      "bytes": 10998,
+      "sha256": "94228290a07992dd7fe341ffab4a2ca3dd17bd63815e2c7ded631bfc743d67df"
+    },
+    {
+      "path": "packages/react-day-picker/src/style.module.css.d.ts",
+      "bytes": 569,
+      "sha256": "dc5028fb83144b1d4ba79e6121eb185b7e90a1879605ffa8e2023fb6117afec6"
+    },
+    {
+      "path": "packages/react-day-picker/src/types/index.ts",
+      "bytes": 89,
+      "sha256": "39b0100e0364156b2afe416027646d7b1d93292996f4e6348fd8adaaf6cffed0"
+    },
+    {
+      "path": "packages/react-day-picker/src/types/props.ts",
+      "bytes": 20637,
+      "sha256": "e390ab0796543ea6a8ad7d4142ae312ec64807e22df46ae7f3f60c7e00510176"
+    },
+    {
+      "path": "packages/react-day-picker/src/types/selection.ts",
+      "bytes": 3266,
+      "sha256": "6a0c8858acbc76ac45fa60c8bfa84e1f82578155a56047f2ccbffe3d585f718e"
+    },
+    {
+      "path": "packages/react-day-picker/src/types/shared.ts",
+      "bytes": 10661,
+      "sha256": "a53132434d3128760b0aa40909c2b11091a3c663559bbff57920aed06832843d"
+    },
+    {
+      "path": "packages/react-day-picker/src/UI.ts",
+      "bytes": 4278,
+      "sha256": "27d87eaab0ff784c4403234da9eeedbbb835b66884ff8d63cfa9d504b9922df0"
+    },
+    {
+      "path": "packages/react-day-picker/src/useAnimation.ts",
+      "bytes": 8431,
+      "sha256": "d897909f91ed1809e3ec720b35ded34654f2cd4980e6736cbe9d634026720847"
+    },
+    {
+      "path": "packages/react-day-picker/src/useCalendar.ts",
+      "bytes": 6100,
+      "sha256": "c78e44e999ad0cf85bd504c23c49a58ee5d71a32aaf2a561e84d692879ff4ad9"
+    },
+    {
+      "path": "packages/react-day-picker/src/useDayPicker.ts",
+      "bytes": 3048,
+      "sha256": "f07d847aa0ccf1885837200f3c19a7de75f496f876e164a6594dfeef7b0d804f"
+    },
+    {
+      "path": "packages/react-day-picker/src/useFocus.ts",
+      "bytes": 3266,
+      "sha256": "ec4d105f255dd775d30c49a09f231f461a098d5c0439d38763550945722a8a66"
+    },
+    {
+      "path": "packages/react-day-picker/src/useSelection.ts",
+      "bytes": 1134,
+      "sha256": "dba5b2261f5af3f6545a3000f3e9d73efc1a18ffb95b4489cfa32d7d94b63b82"
+    },
+    {
+      "path": "packages/react-day-picker/src/utc.tsx",
+      "bytes": 519,
+      "sha256": "c2a50c88f4e1a2216cbfeb22e3acd2c08e47535eab42ea5a79ede01f0fea9462"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/addToRange.ts",
+      "bytes": 3083,
+      "sha256": "e296a0fec3649a2bb3894c463b51437772c18d754ca2cc1a3a646eec55c51fe3"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/convertMatchersToTimeZone.ts",
+      "bytes": 2355,
+      "sha256": "7013b99488324d9d842923e7a2c5116ddef55f66f410f84cc1472eca5b6813d6"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/dateMatchModifiers.ts",
+      "bytes": 2347,
+      "sha256": "4ca07496404c7f8c7fe44f89273ec8bcf71b4fbdd990428e08e525e1f77c50e0"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/index.ts",
+      "bytes": 273,
+      "sha256": "7270a757071e3bc7b5e7a6175f1ac9a4ddf4de09f3664d80cb8805138f7d365b"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/rangeContainsDayOfWeek.ts",
+      "bytes": 1125,
+      "sha256": "ce2259c9a7390425a7d2d311caf9750bf6bc7338f8a5863dad4d1883b290637a"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/rangeContainsModifiers.ts",
+      "bytes": 3237,
+      "sha256": "eb80ee311470cbbc99337777692c0aa9c8f44ca6e3370dc94b7c3b55e56347e2"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/rangeIncludesDate.ts",
+      "bytes": 1216,
+      "sha256": "c283ec1735f53178a7d2c7ebcf86ff1f428fe26e7f898525cff70e27626300da"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/rangeOverlaps.ts",
+      "bytes": 849,
+      "sha256": "9787add4902136aabb951f3a9fc1c9a37ba2a649a0804ba0f3e0916e21cdce12"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/toTimeZone.ts",
+      "bytes": 436,
+      "sha256": "92153e17fe571d9e4db47417f85764b44160bd3513b00571bb09d88437fe4efc"
+    },
+    {
+      "path": "packages/react-day-picker/src/utils/typeguards.ts",
+      "bytes": 2395,
+      "sha256": "11774a9b41c04d2d545d911e41e69bcbc1bb56d9805fdef2a663b3b0632f8317"
+    },
+    {
+      "path": "packages/react-day-picker/tsconfig-cjs.json",
+      "bytes": 225,
+      "sha256": "17ac1fef7bc9e0ba21bf2bd034548e2c9626ff36e8879a8671428922ccc242af"
+    },
+    {
+      "path": "packages/react-day-picker/tsconfig-esm.json",
+      "bytes": 223,
+      "sha256": "8f579110c64f78b66da24e19058a327280783ef4c40559cffab29b21d73fd59b"
+    },
+    {
+      "path": "packages/react-day-picker/tsconfig.json",
+      "bytes": 262,
+      "sha256": "bb1e7e87ec37c4ab4995764abf08a179db191905429dbf8ed33e7e61c1484bc7"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 329,
+      "sha256": "24f9fa0d8da33ae3b78480aaab7f329a97f03921903fbc9d7c262fc1d55c0b59"
+    }
+  ]
+}

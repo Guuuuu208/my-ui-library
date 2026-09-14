@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:58.885Z",
+  "source": {
+    "id": "sonner",
+    "name": "Sonner",
+    "category": "notifications",
+    "repository": "https://github.com/emilkowalski/sonner",
+    "revision": "8e4662b39255120b62138312058f5d77c0139a5e",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/emilkowalski/sonner/tar.gz/8e4662b39255120b62138312058f5d77c0139a5e",
+      "bytes": 140308,
+      "sha256": "a4106d81192458cc4808f4a59393edeaa14f5232637522367a8abb1edf5136e1"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 8,
+  "totalBytes": 71562,
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 1070,
+      "sha256": "da9201378c36ffd81f51ad0b305f3f0981e90bc558789210ad65d1161eec3b7d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1075,
+      "sha256": "e86f0b46465595f442064a51fde2b21e3e8af24cb3361844595c30ffcbcf55b6"
+    },
+    {
+      "path": "src/assets.tsx",
+      "bytes": 3004,
+      "sha256": "5fa1ab681eb5198bba92b5fc94703a4698e54a40f4d8aa6a1d39ce73aec4ebc7"
+    },
+    {
+      "path": "src/hooks.tsx",
+      "bytes": 440,
+      "sha256": "b23d537b70618ae63072732607582f9ae88b3b5143e039339ca3dd0b75273626"
+    },
+    {
+      "path": "src/index.tsx",
+      "bytes": 30900,
+      "sha256": "7b9c1a51f422899d823854d724a60d26a18374d4c67595262b4c619b24c03e8a"
+    },
+    {
+      "path": "src/state.ts",
+      "bytes": 12149,
+      "sha256": "bba086163faaee1fc8936aba2ea818fd2e6f0d336837b6802b3ba1ab665aac91"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 17681,
+      "sha256": "8de8bfdfd239eacd5fbdbac152096735dc8e9dac32da5fcf7ddae6dd08e54a80"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 5243,
+      "sha256": "3ba0a8cfa967ec512fe93c8f1d252917e27208030a6c5479ce2a1fb13383590c"
+    }
+  ]
+}

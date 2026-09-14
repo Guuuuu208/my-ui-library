@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:58.828Z",
+  "source": {
+    "id": "floating-ui",
+    "name": "Floating UI",
+    "category": "positioning",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "revision": "27629b74ba36ab8ceb2a968051927b9b69511a3b",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/floating-ui/floating-ui/tar.gz/27629b74ba36ab8ceb2a968051927b9b69511a3b",
+      "bytes": 10806470,
+      "sha256": "6e5422cc09a2a44253bfab03a6d4bbc7f682f779c220ea8cd339dcd1ed4e2682"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 158,
+  "totalBytes": 443825,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1081,
+      "sha256": "46c97b198a78dc0befc1a823ba7bcdf993726a887d0215edcce575a61b947115"
+    },
+    {
+      "path": "packages/core/api-extractor.json",
+      "bytes": 361,
+      "sha256": "f9eb683fa52a7e6ee08bebc629d1ab9af20ce4d3f9970a37fe1d0b0c7c09deec"
+    },
+    {
+      "path": "packages/core/babel.config.js",
+      "bytes": 87,
+      "sha256": "193aac68113034a1841717854a5a1a986fa1b63c4f09cd15144e6fac74ae1fac"
+    },
+    {
+      "path": "packages/core/CHANGELOG.md",
+      "bytes": 4360,
+      "sha256": "433082fde3442b1416ec3981dc21ac653a42be8edd895667922a216e686c36e0"
+    },
+    {
+      "path": "packages/core/LICENSE",
+      "bytes": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+    },
+    {
+      "path": "packages/core/package.json",
+      "bytes": 1699,
+      "sha256": "1573476fc420cee049c3848e5edad2a98fb42ad069641105eb456c190a456cef"
+    },
+    {
+      "path": "packages/core/README.md",
+      "bytes": 150,
+      "sha256": "903dda64cacef01e6fdf8a6cbb3754c205be29f1881b9068f1d003486c2ddad3"
+    },
+    {
+      "path": "packages/core/rollup.config.mjs",
+      "bytes": 369,
+      "sha256": "e18c1e8c1167a2e3b1476912395cba08b0f84a8a56c58328de56783d9cd77c61"
+    },
+    {
+      "path": "packages/core/src/computeCoordsFromPlacement.ts",
+      "bytes": 1472,
+      "sha256": "8fcc36a320ebe2872423a65133c125019e04756e2c0dd8757345e36f5221d641"
+    },
+    {
+      "path": "packages/core/src/computePosition.ts",
+      "bytes": 2551,
+      "sha256": "7482bb3235b36cd31d285395b75cab145846c9cb289c3903244fd2683e4a8f0a"
+    },
+    {
+      "path": "packages/core/src/constants.ts",
+      "bytes": 53,
+      "sha256": "86233ab4b8e6c048c9d334f4a7a2445b70b81c7d504650139ce184ee0bdbb6ff"
+    },
+    {
+      "path": "packages/core/src/detectOverflow.ts",
+      "bytes": 3917,
+      "sha256": "4e72760bb244dc23a589118f39ab16cdce7160b2ca74bae1f918acc650542479"
+    },
+    {
+      "path": "packages/core/src/index.ts",
+      "bytes": 1701,
+      "sha256": "6d693d757f1039b3f82480a0bf661ba5e22b2ac6598e4a0eb6f100fabc12696e"
+    },
+    {
+      "path": "packages/core/src/middleware/arrow.ts",
+      "bytes": 3886,
+      "sha256": "423b27a1c192bc2b941c38deff13f611e670c1eb9d9bfcfda3310c72ac9360e1"
+    },
+    {
+      "path": "packages/core/src/middleware/autoPlacement.ts",
+      "bytes": 5309,
+      "sha256": "3bf00f78bd4f47eeca3a649c87df09e16301fa57c0bdace019779da54fbc9e8f"
+    },
+    {
+      "path": "packages/core/src/middleware/flip.ts",
+      "bytes": 7204,
+      "sha256": "74bfc765f23a101d7ed90e25eb233903187ec3c3e17062517b99c6262d047b2f"
+    },
+    {
+      "path": "packages/core/src/middleware/hide.ts",
+      "bytes": 2170,
+      "sha256": "20b865db1000d99d2a963992bc9699161a618412947154e084aed24a9cfff9de"
+    },
+    {
+      "path": "packages/core/src/middleware/inline.ts",
+      "bytes": 5323,
+      "sha256": "6561891f00fba95b78e7c1d85123425c2f7a7c6b84b10aa2a9ef2edd5e772ba6"
+    },
+    {
+      "path": "packages/core/src/middleware/offset.ts",
+      "bytes": 3420,
+      "sha256": "6de4eadf9f85be7cb3e737e7ee567946cff70451d40e961864242448f0bbb54d"
+    },
+    {
+      "path": "packages/core/src/middleware/shift.ts",
+      "bytes": 5971,
+      "sha256": "58082d1e604b9b9bbf3359a01234af756c1355292b7bf27d8d11c5dab0a6a532"
+    },
+    {
+      "path": "packages/core/src/middleware/size.ts",
+      "bytes": 3689,
+      "sha256": "5a44074a2b5ee2963bb5a8b8636c6f92e46994916f0702d64df41ca823916306"
+    },
+    {
+      "path": "packages/core/src/types.ts",
+      "bytes": 4798,
+      "sha256": "7422194722f35303e4528e227cbe18f82eebe3e752539a234f514bc80b5d2398"
+    },
+    {
+      "path": "packages/core/src/utils/debugRects.ts",
+      "bytes": 646,
+      "sha256": "44d7cfa412e3303f8e1c6827fae0338a2d761b0aaacbc7f67b7d1d4a331df995"
+    },
+    {
+      "path": "packages/core/tsconfig.json",
+      "bytes": 211,
+      "sha256": "b525798276cf5a6e30ed350b61569af0620cf2ac5f2260410b0a29896b725f60"
+    },
+    {
+      "path": "packages/core/tsconfig.lib.json",
+      "bytes": 327,
+      "sha256": "b1aba5d42ca51101258df77a08cd87c1e1146f447fe6950489751db4b965245c"
+    },
+    {
+      "path": "packages/core/vite.config.mts",
+      "bytes": 79,
+      "sha256": "5bae76517213db3e4fc52a54c4267289974f618f58c60632180abc7029fc104e"
+    },
+    {
+      "path": "packages/dom/api-extractor.json",
+      "bytes": 360,
+      "sha256": "68737673205e41758272e9d2bfe1de0ccf1c7026d9f8fec7c951b9ac7355c0ed"
+    },
+    {
+      "path": "packages/dom/babel.config.js",
+      "bytes": 87,
+      "sha256": "193aac68113034a1841717854a5a1a986fa1b63c4f09cd15144e6fac74ae1fac"
+    },
+    {
+      "path": "packages/dom/CHANGELOG.md",
+      "bytes": 5968,
+      "sha256": "9d05fa158f5f4008cb5a5b79d4e1502833bb82f107b971b412c17e88fefff7ec"
+    },
+    {
+      "path": "packages/dom/LICENSE",
+      "bytes": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+    },
+    {
+      "path": "packages/dom/package.json",
+      "bytes": 1978,
+      "sha256": "d28556c3b9ef7766407ac622c07e115c18e332f81a1890ffe8659341a7f17733"
+    },
+    {
+      "path": "packages/dom/playwright.config.ts",
+      "bytes": 355,
+      "sha256": "ac124354a1ddbc3d6642173909f40d659ffe41ea06cf67722362a05f8b226fe2"
+    },
+    {
+      "path": "packages/dom/README.md",
+      "bytes": 126,
+      "sha256": "30ede90517acda68fc0413cfbf435649cfb59dcd37dcde18a65bcc3262e58fa4"
+    },
+    {
+      "path": "packages/dom/rollup.config.mjs",
+      "bytes": 596,
+      "sha256": "ef45a4bb78dacad151440d88816d380d1082573b94ed899397db4bd75fac1e00"
+    },
+    {
+      "path": "packages/dom/src/autoUpdate.ts",
+      "bytes": 7427,
+      "sha256": "5a7590362aeb17a349a3c7c927aabb84fafcefc25ae3e4f2eab98ec5f7de8131"
+    },
+    {
+      "path": "packages/dom/src/index.ts",
+      "bytes": 2205,
+      "sha256": "2f735165bd0530ac1740c02d52260ca27ee1d35c80a02fb38588a9e3da106f8c"
+    },
+    {
+      "path": "packages/dom/src/middleware.ts",
+      "bytes": 4036,
+      "sha256": "17793cbb88c0c904208bca4e89a527068c294550ea85ba755659da3802250613"
+    },
+    {
+      "path": "packages/dom/src/platform.ts",
+      "bytes": 914,
+      "sha256": "9a998bf4abb9382d73d215de8b5e0b10582c50bd7c8c9fccb7d9cf6ee1ebdbbf"
+    },
+    {
+      "path": "packages/dom/src/platform/convertOffsetParentRelativeRectToViewportRelativeRect.ts",
+      "bytes": 2159,
+      "sha256": "d08fbfe3b3f8169ea0018bfc113701e2923e43b160de1b6fadf74b88b3d9d40b"
+    },
+    {
+      "path": "packages/dom/src/platform/getClientRects.ts",
+      "bytes": 194,
+      "sha256": "f821dcbcbba3eea4563d6068940bfc87338a50c2bedd30ae8f246fef23eec3ac"
+    },
+    {
+      "path": "packages/dom/src/platform/getClippingRect.ts",
+      "bytes": 5718,
+      "sha256": "a3c5d6f17b649897806580f9e93fcb7d470de7453be452250ee948de21baf705"
+    },
+    {
+      "path": "packages/dom/src/platform/getDimensions.ts",
+      "bytes": 256,
+      "sha256": "78cd72e8ac7a00f3a1b480d77765eb0254f5e811479f39e9d1d76408d036ed85"
+    },
+    {
+      "path": "packages/dom/src/platform/getDocumentElement.ts",
+      "bytes": 59,
+      "sha256": "f8a7250bd3364c77150daab59f70ae8babd9811ba02ecd0e90c780982ac61acf"
+    },
+    {
+      "path": "packages/dom/src/platform/getElementRects.ts",
+      "bytes": 788,
+      "sha256": "fc03e0d49151d5e3987ef32c6aca78690cea653b97d7cda888fc9352784047dd"
+    },
+    {
+      "path": "packages/dom/src/platform/getOffsetParent.ts",
+      "bytes": 2238,
+      "sha256": "9f9e14eec2c883df732370c3d8eeda2d95d1088cdb4cca3edd8b6545abf28c81"
+    },
+    {
+      "path": "packages/dom/src/platform/getScale.ts",
+      "bytes": 919,
+      "sha256": "37f81e1a0dba1a201ddd8e7699789fa17fd0a321a86cdae2e640d7be3732cc90"
+    },
+    {
+      "path": "packages/dom/src/platform/isElement.ts",
+      "bytes": 50,
+      "sha256": "28753ec7dfe0bdfb1fd4190f8a190c1d91c33f8ea84f233e79de75cd2e6f26ed"
+    },
+    {
+      "path": "packages/dom/src/platform/isRTL.ts",
+      "bytes": 158,
+      "sha256": "d460e9fd2ede308be77a7861d64cff252c6c9bbc7f05c66a22414bfd45f2d294"
+    },
+    {
+      "path": "packages/dom/src/types.ts",
+      "bytes": 6325,
+      "sha256": "27dc27eeffeb7db70472a2d0b01dbf5798b48328f85024dcdc2f92671a360e5c"
+    },
+    {
+      "path": "packages/dom/src/utils/getBoundingClientRect.ts",
+      "bytes": 2434,
+      "sha256": "fd54b5485bef2c7b89cac14d30a94b964dfaaea738e35e9ddc1569087af5b0cb"
+    },
+    {
+      "path": "packages/dom/src/utils/getCssDimensions.ts",
+      "bytes": 937,
+      "sha256": "ea7840e1c3cd43c3cd2be48a9e75e9a6daa127fb51f30dfcb48b11430b647435"
+    },
+    {
+      "path": "packages/dom/src/utils/getCurrentCSSZoom.ts",
+      "bytes": 111,
+      "sha256": "37c2ac748a9273c2caa0a544f51961c741e5f13a9c91256832cbec8687eca627"
+    },
+    {
+      "path": "packages/dom/src/utils/getDocumentRect.ts",
+      "bytes": 1002,
+      "sha256": "ff2eff42cb129d344611f65e27a388caf658caa8e92806b3ca30a398eaf17901"
+    },
+    {
+      "path": "packages/dom/src/utils/getHTMLOffset.ts",
+      "bytes": 437,
+      "sha256": "1ba6bcf8f359c31a78cab87e6457223b74e790b19d1819e95e2efd2426a9d402"
+    },
+    {
+      "path": "packages/dom/src/utils/getRectRelativeToOffsetParent.ts",
+      "bytes": 2450,
+      "sha256": "d70d174e71e373cb812c10e0cbd0cfca83ba292f14d2c6a414e3c8fb4e539aa0"
+    },
+    {
+      "path": "packages/dom/src/utils/getViewportRect.ts",
+      "bytes": 3060,
+      "sha256": "c5b8f418c8cdb21d179dfda7ba31c70458b461d1eeb8ec30e59f214b8239626e"
+    },
+    {
+      "path": "packages/dom/src/utils/getVisualOffsets.ts",
+      "bytes": 736,
+      "sha256": "84e6f82bd40090be899a5a58573780f3a489cefb7de120e2cc47a3bfa7a1ccd8"
+    },
+    {
+      "path": "packages/dom/src/utils/getWindowScrollBarX.ts",
+      "bytes": 555,
+      "sha256": "7a1a3eae1a306208f0839a60491068e6d19012eaf7b70047887c819eaed3cc09"
+    },
+    {
+      "path": "packages/dom/src/utils/isStaticPositioned.ts",
+      "bytes": 182,
+      "sha256": "d140d1728de25ccfd8ae1846df4d41ce79051b5c5ff053f5b79e7c27a65de0f1"
+    },
+    {
+      "path": "packages/dom/src/utils/rectsAreEqual.ts",
+      "bytes": 229,
+      "sha256": "7c945b6dc5758588ee0545144e30f6c6dd9ea7e57906c0626c8a857608ba3504"
+    },
+    {
+      "path": "packages/dom/src/utils/unwrapElement.ts",
+      "bytes": 230,
+      "sha256": "f539556aa3f1e600fbf21fcfd0d4c02e04f56b33a11e00e18b905187fedfd026"
+    },
+    {
+      "path": "packages/dom/tsconfig.json",
+      "bytes": 211,
+      "sha256": "b525798276cf5a6e30ed350b61569af0620cf2ac5f2260410b0a29896b725f60"
+    },
+    {
+      "path": "packages/dom/tsconfig.lib.json",
+      "bytes": 378,
+      "sha256": "79f4099f33951e3748b7bf6486403d6ab8f4dcc23325ebed7f71b9af736ed3b5"
+    },
+    {
+      "path": "packages/dom/vite.config.mts",
+      "bytes": 468,
+      "sha256": "b2c1cf371300d702fb5902a3a3e62930157b8cb169b7813633959a0895973976"
+    },
+    {
+      "path": "packages/react-dom/api-extractor.json",
+      "bytes": 366,
+      "sha256": "d84b06c2c277b5ffe61c0e37802a7ab5068603ee45c64d1447405b83d569185e"
+    },
+    {
+      "path": "packages/react-dom/babel.config.js",
+      "bytes": 103,
+      "sha256": "ef572622083eadb992caa6510112561ddef48883cbb9b2b3c6b08f8c0077d53a"
+    },
+    {
+      "path": "packages/react-dom/CHANGELOG.md",
+      "bytes": 2329,
+      "sha256": "b9a20b0b91af454748a63b931b2070397afed90bab0b3a773421a36ad69fb8a1"
+    },
+    {
+      "path": "packages/react-dom/LICENSE",
+      "bytes": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+    },
+    {
+      "path": "packages/react-dom/package.json",
+      "bytes": 2077,
+      "sha256": "061a757440a4fcf703e0e8edb938414c431ffcac7501ae543ed6ffea1f15a17e"
+    },
+    {
+      "path": "packages/react-dom/README.md",
+      "bytes": 81,
+      "sha256": "0a076819d2e18410f7ab074998345c042e0fb05233c63c009ebcf586c47054e1"
+    },
+    {
+      "path": "packages/react-dom/rollup.config.mjs",
+      "bytes": 434,
+      "sha256": "53f8e5df48995a1eaf07f0f4dbc8ba20d212d0568bb753f099b7f0f8ca904329"
+    },
+    {
+      "path": "packages/react-dom/src/arrow.ts",
+      "bytes": 1489,
+      "sha256": "0fcea790929d529d9d9e3dd380c11fa619fe3f4628c94662b2d696cc04cc8e26"
+    },
+    {
+      "path": "packages/react-dom/src/index.ts",
+      "bytes": 329,
+      "sha256": "3fb957228408b7da0784470ef66a49c13f255c34ec8a63282060431abdb41706"
+    },
+    {
+      "path": "packages/react-dom/src/reactiveMiddleware.ts",
+      "bytes": 4867,
+      "sha256": "092a2b47b8312f257f08b7c72d7ffe3fd8eb8d0412eca20d4f27a4ab254e4f08"
+    },
+    {
+      "path": "packages/react-dom/src/types.ts",
+      "bytes": 3812,
+      "sha256": "c36190e2aeedb7e8c1d32153e35e1e8766ce68d746d2a286ab6a5b11bdcbeb0f"
+    },
+    {
+      "path": "packages/react-dom/src/useFloating.ts",
+      "bytes": 5492,
+      "sha256": "29a81d4506ced7e1a1d6ee23dd282c22d35ff781672315174a6b71ea7e73b159"
+    },
+    {
+      "path": "packages/react-dom/src/utils/deepEqual.ts",
+      "bytes": 1180,
+      "sha256": "fbe92826d70fc66daed06b74477a47cb6e74488921d1cb3fe6306cfcbfecb5d9"
+    },
+    {
+      "path": "packages/react-dom/src/utils/getDPR.ts",
+      "bytes": 205,
+      "sha256": "e650d597f737731f643db2f549e402f90c398550e2ac234af862fc41015ae11d"
+    },
+    {
+      "path": "packages/react-dom/src/utils/roundByDPR.ts",
+      "bytes": 169,
+      "sha256": "edbb49977f175baefb11ed15a9be9f7fcda557bd911937b7354b9085db6aad0c"
+    },
+    {
+      "path": "packages/react-dom/src/utils/useLatestRef.ts",
+      "bytes": 257,
+      "sha256": "e8e6bde3ee04e66c8cf1ff9a6a87c455230e888a2387f327c5f8e61eeb34945f"
+    },
+    {
+      "path": "packages/react-dom/tsconfig.json",
+      "bytes": 211,
+      "sha256": "b525798276cf5a6e30ed350b61569af0620cf2ac5f2260410b0a29896b725f60"
+    },
+    {
+      "path": "packages/react-dom/tsconfig.lib.json",
+      "bytes": 325,
+      "sha256": "e2f9aef949fa419bcf231ed3d2bc80c2ecae338502ccf15f8ab04b97c764f331"
+    },
+    {
+      "path": "packages/react-dom/vite.config.mts",
+      "bytes": 336,
+      "sha256": "fb100c5c0025b1aeacfe61aba3ff006b0d14f41093342c7be471acf83b6e0aca"
+    },
+    {
+      "path": "packages/react/.gitignore",
+      "bytes": 7,
+      "sha256": "d74e511342fdcb4255960241f870d34dc711b25561cc05c4fc192fc57da7cad3"
+    },
+    {
+      "path": "packages/react/.postcssrc",
+      "bytes": 44,
+      "sha256": "b594fcb2b9b8067239d5e3b80489a0474279ef28271ef4907514c9e508c75ffd"
+    },
+    {
+      "path": "packages/react/api-extractor.json",
+      "bytes": 362,
+      "sha256": "0f0f4ce5da444a594d4f89b89685cd733894da80439f9f2281f65022336c0a73"
+    },
+    {
+      "path": "packages/react/api-extractor.utils.json",
+      "bytes": 368,
+      "sha256": "59764e0165496d527628a1783a1ba49c29587ae44d41c64aa13b1b8bf7cd3e27"
+    },
+    {
+      "path": "packages/react/babel.config.js",
+      "bytes": 103,
+      "sha256": "ef572622083eadb992caa6510112561ddef48883cbb9b2b3c6b08f8c0077d53a"
+    },
+    {
+      "path": "packages/react/CHANGELOG.md",
+      "bytes": 20154,
+      "sha256": "4feeec030398787015eff6777b85f194c7fb80b657d31ff4da5f001ec35a0834"
+    },
+    {
+      "path": "packages/react/LICENSE",
+      "bytes": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+    },
+    {
+      "path": "packages/react/package.json",
+      "bytes": 2924,
+      "sha256": "16473c31db3f4f1b797973baa49ae0b4b7fe6c18680e7c10c4762af962331ae6"
+    },
+    {
+      "path": "packages/react/README.md",
+      "bytes": 73,
+      "sha256": "3ac4db70290892d15b10161d4c56bb7e72872fedcc7949f63e6c3cd3675c35f3"
+    },
+    {
+      "path": "packages/react/rollup.config.mjs",
+      "bytes": 1213,
+      "sha256": "cd543222cafc257cc5e22357a0d7fdc76d1927cc6856ab2ee39e9f3946ea18d9"
+    },
+    {
+      "path": "packages/react/src/_deprecated-inner.ts",
+      "bytes": 9914,
+      "sha256": "24ea81354b7a4a1c39690e728b023519158db0c3e18808338cd3d2efcab37206"
+    },
+    {
+      "path": "packages/react/src/components/Composite.tsx",
+      "bytes": 10984,
+      "sha256": "b09593a26754cb48a989617edf52ff49844268ab5d677f60648a62bd718eb069"
+    },
+    {
+      "path": "packages/react/src/components/FloatingArrow.tsx",
+      "bytes": 5426,
+      "sha256": "ea7748b193df9032b7e1abe2425facc3c505b2302456d1e914ce5433933be07c"
+    },
+    {
+      "path": "packages/react/src/components/FloatingDelayGroup.tsx",
+      "bytes": 4766,
+      "sha256": "274368901c8833d790783ed68bcea96b8d0f43985b6d3d759622a8f7ed42804c"
+    },
+    {
+      "path": "packages/react/src/components/FloatingFocusManager.tsx",
+      "bytes": 26933,
+      "sha256": "201d1acb29dee2aada47387f5d489b89026fb13bd7f99db31a841b2b690c81f6"
+    },
+    {
+      "path": "packages/react/src/components/FloatingList.tsx",
+      "bytes": 4060,
+      "sha256": "a73d94e5cbac0237f2931e55fdcf7d4c7f86a7874cb115d060f1d6e12a6d2da0"
+    },
+    {
+      "path": "packages/react/src/components/FloatingOverlay.tsx",
+      "bytes": 3170,
+      "sha256": "25f7e149b72ef5a1d157cbc8b8bdd7bc59479e3245188dea27ed2505bbbd1362"
+    },
+    {
+      "path": "packages/react/src/components/FloatingPortal.tsx",
+      "bytes": 9490,
+      "sha256": "45792cbaf8acdaa50faf201cb8891ead4aea2d783dcb4ca263a14132cbe1c7c8"
+    },
+    {
+      "path": "packages/react/src/components/FloatingTree.tsx",
+      "bytes": 3470,
+      "sha256": "40fb8fe23a9b8349c61e770f9cc2e195d07449a53e4d7d0c52587d8a1bcdbaf2"
+    },
+    {
+      "path": "packages/react/src/components/FocusGuard.tsx",
+      "bytes": 1476,
+      "sha256": "3879a2b2faf5abfcb69159ac2a6e519c0c103edf6d31fabd46b2b71d4193334e"
+    },
+    {
+      "path": "packages/react/src/components/NextFloatingDelayGroup.tsx",
+      "bytes": 5781,
+      "sha256": "058c5b82de291a1b6625814b8f988bf57223160a829618ed4b2a7ea70922f6e9"
+    },
+    {
+      "path": "packages/react/src/env.d.ts",
+      "bytes": 37,
+      "sha256": "ead2e6beecf4faae6fe21d2063b1e16b48e7e6f7751914935fa842b53ae2f293"
+    },
+    {
+      "path": "packages/react/src/hooks/useClick.ts",
+      "bytes": 5566,
+      "sha256": "ea845ac3d37e37f6e26e0893c4cfbe2577446c817b73741ad88d78fb0783c7ac"
+    },
+    {
+      "path": "packages/react/src/hooks/useClientPoint.ts",
+      "bytes": 7447,
+      "sha256": "881b82b646ab9dac1b55cb8462ed42b4ce85cef698b81fcbef1d85f649ee9e8c"
+    },
+    {
+      "path": "packages/react/src/hooks/useDismiss.ts",
+      "bytes": 16115,
+      "sha256": "7ce8abb5266d500d5de7a5a2a81fe2a362f443644f64c927a9b9b519f494c8b5"
+    },
+    {
+      "path": "packages/react/src/hooks/useFloating.ts",
+      "bytes": 4478,
+      "sha256": "805dba5b2ef198db07443379dd881813817b84e6d2f54e491fc4182f9eca73f2"
+    },
+    {
+      "path": "packages/react/src/hooks/useFloatingRootContext.ts",
+      "bytes": 2558,
+      "sha256": "0a061047d57ee2f2cb4da99be9495d41970980423a241a41f51634a4257ff9b9"
+    },
+    {
+      "path": "packages/react/src/hooks/useFocus.ts",
+      "bytes": 5787,
+      "sha256": "f6fcb1551dac55645e47379f15759b8d2b9856966f05867a0d999f57288b03c1"
+    },
+    {
+      "path": "packages/react/src/hooks/useHover.ts",
+      "bytes": 15127,
+      "sha256": "f6d5f709a7e6b66a1925d26f6c2ed7efdc177cfdeab40fa8de5b987dd1d6b42d"
+    },
+    {
+      "path": "packages/react/src/hooks/useId.ts",
+      "bytes": 1119,
+      "sha256": "cfb3b3dbd0ddc4fbf146d68a08664b320db8f1222ae0ba7551e9b3d26107f7dc"
+    },
+    {
+      "path": "packages/react/src/hooks/useInteractions.ts",
+      "bytes": 3850,
+      "sha256": "24b9adaf02fa6d521de7ca074a921804194ec94336f2a41abbc1803044e91cc1"
+    },
+    {
+      "path": "packages/react/src/hooks/useListNavigation.ts",
+      "bytes": 31467,
+      "sha256": "a3f3d94e97f044d335f45a4c3e3fb844dc44ebd3a50e88b20e561618d79eb128"
+    },
+    {
+      "path": "packages/react/src/hooks/useMergeRefs.ts",
+      "bytes": 1582,
+      "sha256": "a9aa9b809b2702c259ea7f5da59b59b19dc8981801f49faa398fab1f96c5f43e"
+    },
+    {
+      "path": "packages/react/src/hooks/useRole.ts",
+      "bytes": 3897,
+      "sha256": "2cdf9ad56d741b26ceb3374a9f11350878554c515d0fd2d9909f3d9ce50129e3"
+    },
+    {
+      "path": "packages/react/src/hooks/useTransition.ts",
+      "bytes": 6571,
+      "sha256": "0b312e5da3b60cb3d15ea6c39e684fc89f3219bd429376a7695eaaad4dff63d1"
+    },
+    {
+      "path": "packages/react/src/hooks/useTypeahead.ts",
+      "bytes": 6458,
+      "sha256": "f49a055b3d909cc950cc7e3ffec6afcb66cc9f7335b0d37b828c921e2925e9e3"
+    },
+    {
+      "path": "packages/react/src/index.ts",
+      "bytes": 1859,
+      "sha256": "707405e21a67941aac74d1c111e985b1dafcf413923bb3eb8e617bb5b613c3a3"
+    },
+    {
+      "path": "packages/react/src/safePolygon.ts",
+      "bytes": 12099,
+      "sha256": "77ff7861823486ea869842f28d5a41abac3a411f44623cfa3b4a4bb4449733e0"
+    },
+    {
+      "path": "packages/react/src/types.ts",
+      "bytes": 7716,
+      "sha256": "452b65b856ea567c0d0648b194041182b11df649f57fcf404ada6ac51a827d98"
+    },
+    {
+      "path": "packages/react/src/utils.ts",
+      "bytes": 229,
+      "sha256": "f4fdbe19e9e428f57249d52c2dbda6f919a147d8fb46ca41cd442c1f66ae4b6b"
+    },
+    {
+      "path": "packages/react/src/utils/clearTimeoutIfSet.ts",
+      "bytes": 226,
+      "sha256": "f1b109f719c6417a1f5172e83cba95606267a4dd9137819c85f0e5aeb5412cf2"
+    },
+    {
+      "path": "packages/react/src/utils/composite.ts",
+      "bytes": 8634,
+      "sha256": "0fb5655f82ee91e2ba08e2c436717677e74e32cd8eeab909fdf72d67a4d9455e"
+    },
+    {
+      "path": "packages/react/src/utils/constants.ts",
+      "bytes": 457,
+      "sha256": "4affb30e969dec08d089ffafe9cd2e553d67cc4d79f01c66af27e60b530a2a76"
+    },
+    {
+      "path": "packages/react/src/utils/createAttribute.ts",
+      "bytes": 87,
+      "sha256": "9551ace53baf3b971fc43ea22d04e228dda4e815ec69593623f0c87fd15fd6f2"
+    },
+    {
+      "path": "packages/react/src/utils/createEventEmitter.ts",
+      "bytes": 495,
+      "sha256": "90616ce378757a211c4d6c9fa06d24a7ff713b5b40680fab660217ec38404ac1"
+    },
+    {
+      "path": "packages/react/src/utils/element.ts",
+      "bytes": 3212,
+      "sha256": "5120a9828c7321e2ad164f99eae641ebab18554e5bd4a4fc760ce25a530b3a93"
+    },
+    {
+      "path": "packages/react/src/utils/enqueueFocus.ts",
+      "bytes": 548,
+      "sha256": "c31faabf325302183cb6acb93e4de7345c2eebea503ba2d62019494cec52f747"
+    },
+    {
+      "path": "packages/react/src/utils/event.ts",
+      "bytes": 1898,
+      "sha256": "92ea39b8239266440953d6c0619dc568cfa6ab0b6b17a339dbf8d7bac1eddca2"
+    },
+    {
+      "path": "packages/react/src/utils/hooks.ts",
+      "bytes": 943,
+      "sha256": "60126e8402ab5a4f4bef0bf241cabe4ac894648904452f1c33f2270652876914"
+    },
+    {
+      "path": "packages/react/src/utils/log.ts",
+      "bytes": 506,
+      "sha256": "2d9d344a0c84b778d8e9016c0430efe6bedc7cf4088bc089446d5ef5b4933a26"
+    },
+    {
+      "path": "packages/react/src/utils/markOthers.ts",
+      "bytes": 4810,
+      "sha256": "70c41dcf808908d3fcd0973a4d92af50daaf536090bb9a16fb72234bfc1b1a02"
+    },
+    {
+      "path": "packages/react/src/utils/nodes.ts",
+      "bytes": 1633,
+      "sha256": "c5a01d11cd53576d843cc9136977a30b8cd5a4f895ec4e5e3b33bb1b68fb32bf"
+    },
+    {
+      "path": "packages/react/src/utils/platform.ts",
+      "bytes": 1155,
+      "sha256": "30add6640269c6fd406fd52ee1b467e66e20794e54f890a98d9a094c66aceb33"
+    },
+    {
+      "path": "packages/react/src/utils/safeReact.ts",
+      "bytes": 161,
+      "sha256": "df63da41255643df8dd891f7a74e71a5eabe07fa79fca8b7ffe0b782ea8fded1"
+    },
+    {
+      "path": "packages/react/src/utils/tabbable.ts",
+      "bytes": 2466,
+      "sha256": "e0e221f30a203d85ad695c01968fc8c2e947c39b1fa71eeef4c600cd0cca9a8c"
+    },
+    {
+      "path": "packages/react/src/utils/useLiteMergeRefs.ts",
+      "bytes": 393,
+      "sha256": "30651e7f2f2dc46cacf0719a70e27b9f4afb27a5c686f94036778e3e2b8986be"
+    },
+    {
+      "path": "packages/react/tailwind.config.js",
+      "bytes": 162,
+      "sha256": "91d663c5213882e623acfda153c21580444232376f53751fd7a69f28db7ca926"
+    },
+    {
+      "path": "packages/react/tsconfig.json",
+      "bytes": 235,
+      "sha256": "5db7e40e196ea839e2f70de6f9cd59acba2e70871edd33d26c700d27a79d98b5"
+    },
+    {
+      "path": "packages/react/tsconfig.lib.json",
+      "bytes": 407,
+      "sha256": "e6c7b1e89a8477c8761c9e1ade0f66265616206dfd2057154f2f351dd7133a37"
+    },
+    {
+      "path": "packages/react/vite.config.mts",
+      "bytes": 541,
+      "sha256": "b5d0f93afa6027c6f135f0127d2d5f36ac459f5dfb12f3b83dc320eab7ccc2b9"
+    },
+    {
+      "path": "packages/utils/.gitignore",
+      "bytes": 9,
+      "sha256": "39c472b3d8c7744f52dafcb6d8ae4fef014420f1b258c72945f05b750832ff75"
+    },
+    {
+      "path": "packages/utils/api-extractor.dom.json",
+      "bytes": 364,
+      "sha256": "2b9f2fed49e9e15927c1c36a848ea32cb6147121c164569779913490a3dfe812"
+    },
+    {
+      "path": "packages/utils/api-extractor.json",
+      "bytes": 362,
+      "sha256": "bdda390398e0b7ab864702a86fc98f3bf79267cefccc991965fdd1f604eb6868"
+    },
+    {
+      "path": "packages/utils/babel.config.js",
+      "bytes": 87,
+      "sha256": "193aac68113034a1841717854a5a1a986fa1b63c4f09cd15144e6fac74ae1fac"
+    },
+    {
+      "path": "packages/utils/CHANGELOG.md",
+      "bytes": 2523,
+      "sha256": "10da1251d64f940afca57140d7565166267e0b9e38228d0d98d854408ff61b80"
+    },
+    {
+      "path": "packages/utils/LICENSE",
+      "bytes": 1089,
+      "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+    },
+    {
+      "path": "packages/utils/package.json",
+      "bytes": 2028,
+      "sha256": "f5a752982df219912426f3b0c12ad6f96879a2a72619224546f956544048fde6"
+    },
+    {
+      "path": "packages/utils/README.md",
+      "bytes": 163,
+      "sha256": "0c6ce69d4fe88a56b1819520cc3b8a30d8dc46eecc27195231c4e464662f38db"
+    },
+    {
+      "path": "packages/utils/rollup.config.mjs",
+      "bytes": 447,
+      "sha256": "dbec9b08e05b43764b535383245f6b2a533b6371d8eff0af2fcf83610ba26c58"
+    },
+    {
+      "path": "packages/utils/src/dom.ts",
+      "bytes": 6163,
+      "sha256": "4621173b0bbcb8ad687326bea9cf7f17de81c05eb3d7a45f3ff6d39049279773"
+    },
+    {
+      "path": "packages/utils/src/index.ts",
+      "bytes": 5722,
+      "sha256": "7a1804021e75fe18e7e4dc600ec4112c3f0f162e2d3bf9521df8456fd459a9bc"
+    },
+    {
+      "path": "packages/utils/tsconfig.json",
+      "bytes": 211,
+      "sha256": "b525798276cf5a6e30ed350b61569af0620cf2ac5f2260410b0a29896b725f60"
+    },
+    {
+      "path": "packages/utils/tsconfig.lib.json",
+      "bytes": 269,
+      "sha256": "8a2f39549a623e0ccfc330fe6293bc5d63af2724883dc86e4e9dbef77dbe0673"
+    },
+    {
+      "path": "packages/utils/vite.config.mts",
+      "bytes": 229,
+      "sha256": "5ff3fd9e4da44a6a4f06d172f9a261ba6e0862bb23f189c7f1282f36cc34df7c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4922,
+      "sha256": "b352baf175998877bad6168b0e55cf887690ede7a85acdfea344de996744d123"
+    }
+  ]
+}

@@ -1,0 +1,2139 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:45.545Z",
+  "source": {
+    "id": "radix-primitives",
+    "name": "Radix Primitives",
+    "category": "accessible-primitives",
+    "repository": "https://github.com/radix-ui/primitives",
+    "revision": "f7ecd5ab16f5e1e820eb5786a1419a98a2d594ae",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/radix-ui/primitives/tar.gz/f7ecd5ab16f5e1e820eb5786a1419a98a2d594ae",
+      "bytes": 1186164,
+      "sha256": "d9a3b1f96c71638b2702498e05040342c0c713cc317fe50f0fb07e2d8151826e"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [
+      {
+        "path": "packages/react/scroll-area/src/scroll-area.tsx",
+        "kind": "html-injection",
+        "occurrences": 1
+      },
+      {
+        "path": "packages/react/select/src/select.tsx",
+        "kind": "html-injection",
+        "occurrences": 1
+      }
+    ],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 420,
+  "totalBytes": 1270455,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1063,
+      "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+    },
+    {
+      "path": "packages/core/number/CHANGELOG.md",
+      "bytes": 377,
+      "sha256": "8432fd8c8f46f253a2f03e062153e7cc285d0b93035d06cec85d25c25bee6ec4"
+    },
+    {
+      "path": "packages/core/number/package.json",
+      "bytes": 1221,
+      "sha256": "be2c7d172acc9a2697f1c0c1d6bd7e7ba347bc0468b78eaec39cfe7cdc0513c7"
+    },
+    {
+      "path": "packages/core/number/README.md",
+      "bytes": 72,
+      "sha256": "8a31906fea03ff170941b5df870acb397563bf559c9687251884760691a16c85"
+    },
+    {
+      "path": "packages/core/number/src/index.ts",
+      "bytes": 34,
+      "sha256": "9970a1dd126c3ca79f2fe7c113496c3ef93356a8067f0ed4092a6479d9c48871"
+    },
+    {
+      "path": "packages/core/number/src/number.ts",
+      "bytes": 137,
+      "sha256": "de3970c50c0537030d70b5de085b78e998ff307fb201bd23f6cdfa0d8a48f6c8"
+    },
+    {
+      "path": "packages/core/number/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/core/primitive/CHANGELOG.md",
+      "bytes": 609,
+      "sha256": "aa9f50cd871b00bf054b8416f869b7ea9b95f093860278c6a8fb233be6e4524a"
+    },
+    {
+      "path": "packages/core/primitive/package.json",
+      "bytes": 2475,
+      "sha256": "1ac8da260aeeb543e0ebbe06be54b76da47fe1bbc1c718ff3de38067d2b805da"
+    },
+    {
+      "path": "packages/core/primitive/README.md",
+      "bytes": 75,
+      "sha256": "86129fa5945a5c04de572149aea85b26179af170789fd4d118c4fcf9f2ea1f7e"
+    },
+    {
+      "path": "packages/core/primitive/src/index.ts",
+      "bytes": 59,
+      "sha256": "a93cd85614e18246380ec26935fff704e5cdb825c534d6184cac8b42b5a0f4cb"
+    },
+    {
+      "path": "packages/core/primitive/src/internal/is-development.false.ts",
+      "bytes": 37,
+      "sha256": "6d07a7fb6f41aeaedca995350fe40a05f68ecad44d6e5aa38bdac512e282a855"
+    },
+    {
+      "path": "packages/core/primitive/src/internal/is-development.true.ts",
+      "bytes": 36,
+      "sha256": "bc80958faa0e8db776f1acc8d28bc0ba4d4fd9c53ee241bc101925d9d0d282d5"
+    },
+    {
+      "path": "packages/core/primitive/src/primitive.tsx",
+      "bytes": 2255,
+      "sha256": "2a8100249e866cd60959b328f44d809e32c241c87320706ed655622df31f9572"
+    },
+    {
+      "path": "packages/core/primitive/src/types.ts",
+      "bytes": 165,
+      "sha256": "550f55fe00dd5dcdebe089853deecfc6c89a4a422d9c8fd481a22fc1faf9d0d3"
+    },
+    {
+      "path": "packages/core/primitive/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/core/rect/CHANGELOG.md",
+      "bytes": 375,
+      "sha256": "c5fea0391bbba905a3ddbc190f6a9f2bbf1cb071e530fb30a230625efd09f618"
+    },
+    {
+      "path": "packages/core/rect/package.json",
+      "bytes": 1217,
+      "sha256": "122069c74f458f1a228bf5455cbcb10aa06cdbacea02d628f4f6f4ee16feb0f1"
+    },
+    {
+      "path": "packages/core/rect/README.md",
+      "bytes": 70,
+      "sha256": "e6df7cea9bda89bae1ff4d4447eef03d433c92cda8af59e3d87bca9e9fecd3c0"
+    },
+    {
+      "path": "packages/core/rect/src/index.ts",
+      "bytes": 119,
+      "sha256": "289d09c092b9f4e2e5e7a66052c70fba64a4b07b45346bb8bbcfd2f82d036af1"
+    },
+    {
+      "path": "packages/core/rect/src/observe-element-rect.ts",
+      "bytes": 3367,
+      "sha256": "68eb76924f7ea48d518e382f5a89b1668aa2e600b2fc21ab102f55052a9a4f94"
+    },
+    {
+      "path": "packages/core/rect/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/accessible-icon/CHANGELOG.md",
+      "bytes": 1636,
+      "sha256": "f75a438423b922813c40bc97a6316c476081761df32677fb90b3262033403ab2"
+    },
+    {
+      "path": "packages/react/accessible-icon/package.json",
+      "bytes": 1796,
+      "sha256": "3142e2f57d99823df41082a5c0ef27204097b7a0e67cf4eff897c9edb907e867"
+    },
+    {
+      "path": "packages/react/accessible-icon/README.md",
+      "bytes": 109,
+      "sha256": "c0cf548240fb6d8115fe4b72677bc2caf9d0ccbb2c9912b50e06623321730bb3"
+    },
+    {
+      "path": "packages/react/accessible-icon/src/accessible-icon.tsx",
+      "bytes": 966,
+      "sha256": "65408441602f8364730f50fe859a3e2289b16623e2eb2ec307d077a06f6c0141"
+    },
+    {
+      "path": "packages/react/accessible-icon/src/index.ts",
+      "bytes": 144,
+      "sha256": "01f47b36e82523f90b8d2a5918183dd86b83e9f9d5cfeb2950e9c0a98c460592"
+    },
+    {
+      "path": "packages/react/accessible-icon/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/accordion/CHANGELOG.md",
+      "bytes": 4160,
+      "sha256": "6fa63a2e697e9ef4e41b88b0b390488e0947936a6e42181f9b187f584e4ae796"
+    },
+    {
+      "path": "packages/react/accordion/package.json",
+      "bytes": 2166,
+      "sha256": "70f5d7bb74ad93f288502a31692e6a8c0f5dcc52a0bbbb1006dbae4ca9d2a237"
+    },
+    {
+      "path": "packages/react/accordion/README.md",
+      "bytes": 98,
+      "sha256": "0a169a622e759e89ec1c75bd71ff3753b279d751ac87d3f05f7588ecdca360bc"
+    },
+    {
+      "path": "packages/react/accordion/src/accordion.tsx",
+      "bytes": 19095,
+      "sha256": "0075001fec45ed1add00d3459062c2629265cc6daaf1e6609622442d98804372"
+    },
+    {
+      "path": "packages/react/accordion/src/index.ts",
+      "bytes": 398,
+      "sha256": "2e0ac81ed82d80bc3efba5a4588bf40e8ce618e52f15d3579db299c05819b2c1"
+    },
+    {
+      "path": "packages/react/accordion/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/alert-dialog/CHANGELOG.md",
+      "bytes": 3024,
+      "sha256": "3c528b91755fb6e6d786741372b3ed145032d4e31c25f38e5eb22933622b35f6"
+    },
+    {
+      "path": "packages/react/alert-dialog/package.json",
+      "bytes": 1962,
+      "sha256": "ca760a25aeffc4a085acec29df31b1bc4b0ffa21f14d03e8167d24fd9a66c1ad"
+    },
+    {
+      "path": "packages/react/alert-dialog/README.md",
+      "bytes": 104,
+      "sha256": "a51f5d37472da207b68f4e1d148897ed8e977e12ba738397a966af6746387c8f"
+    },
+    {
+      "path": "packages/react/alert-dialog/src/alert-dialog.tsx",
+      "bytes": 10245,
+      "sha256": "01ab2c74852716911c96e286dd224c7ba39170e8dfe93e694500add872edab1a"
+    },
+    {
+      "path": "packages/react/alert-dialog/src/index.ts",
+      "bytes": 643,
+      "sha256": "c6eac1df795b18201d1b767f64cef801d838e6b2917b394f87117d1ede9c38ac"
+    },
+    {
+      "path": "packages/react/alert-dialog/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/announce/CHANGELOG.md",
+      "bytes": 1942,
+      "sha256": "b9cc6cfe2425291562b5556ef1fe391e8d5e7bb5af905689566f9e02815249ae"
+    },
+    {
+      "path": "packages/react/announce/package.json",
+      "bytes": 1883,
+      "sha256": "2ebf3746583f8e8588558c2f31ae094c4ca2f1194a50143375aec682c2d4f70e"
+    },
+    {
+      "path": "packages/react/announce/README.md",
+      "bytes": 95,
+      "sha256": "3de5848899f95132f9161497c577e490316b60e7fa4ea7901f80857c223610f0"
+    },
+    {
+      "path": "packages/react/announce/src/announce.tsx",
+      "bytes": 9893,
+      "sha256": "3c766b34e453c9bcd9c81e1aa3848df071b525b2d9db2ec35f0f7a5a44ee7ef4"
+    },
+    {
+      "path": "packages/react/announce/src/index.ts",
+      "bytes": 118,
+      "sha256": "195146956832102a1cb1e2d420e9fbc8da40fc4f93561b30e25f23632efe03b8"
+    },
+    {
+      "path": "packages/react/announce/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/arrow/CHANGELOG.md",
+      "bytes": 1615,
+      "sha256": "075613b6a490853ded1f08fada7203c9e21ee2eaa94385c3ead04a1e9875bc0b"
+    },
+    {
+      "path": "packages/react/arrow/package.json",
+      "bytes": 1770,
+      "sha256": "78277b3f124a75ad6320ab761259c2274376b267271e9a3e4daf252637144497"
+    },
+    {
+      "path": "packages/react/arrow/README.md",
+      "bytes": 77,
+      "sha256": "9a6847e25db7c4e4d6b67d5a9d433c2918cdfc84d138404e8b2ee17c5d43a905"
+    },
+    {
+      "path": "packages/react/arrow/src/arrow.tsx",
+      "bytes": 1247,
+      "sha256": "99745858ca187950341e49768b9d2a5e820556030c28d1c6d1e26bc8fd949133"
+    },
+    {
+      "path": "packages/react/arrow/src/index.ts",
+      "bytes": 106,
+      "sha256": "4bc422a1274465d603603f641f9a0ede9019a69b430a30f998167ae52bf9addf"
+    },
+    {
+      "path": "packages/react/arrow/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/aspect-ratio/CHANGELOG.md",
+      "bytes": 1622,
+      "sha256": "930dad2ff1903ec7bdd5901087a83572a2f97282379ad01c9b1b32b596f16c1b"
+    },
+    {
+      "path": "packages/react/aspect-ratio/package.json",
+      "bytes": 1784,
+      "sha256": "5dac98daf78878ccecc479d2704c5fb0a1bafcf2b8baa128bd4aff8785a447c5"
+    },
+    {
+      "path": "packages/react/aspect-ratio/README.md",
+      "bytes": 103,
+      "sha256": "362b1498587145d4d97ff1b63ce0baea2690c5caaace5f71d8820a24ef7bbc53"
+    },
+    {
+      "path": "packages/react/aspect-ratio/src/aspect-ratio.tsx",
+      "bytes": 1575,
+      "sha256": "c5fe06ade482b55eb2159d6e52320bdb86325e2b2503118646c1983dfe3081fa"
+    },
+    {
+      "path": "packages/react/aspect-ratio/src/index.ts",
+      "bytes": 132,
+      "sha256": "67b418fd35fd2a6c27c085b79ed1d618174982a64a5cc6e8313c1b80ac8a290f"
+    },
+    {
+      "path": "packages/react/aspect-ratio/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/avatar/CHANGELOG.md",
+      "bytes": 3223,
+      "sha256": "541470d23787b4c4611b7e00ff8a974079993e693a74e0365dd074ab61197cee"
+    },
+    {
+      "path": "packages/react/avatar/package.json",
+      "bytes": 2024,
+      "sha256": "3b1035f9dd53c549059fc48a716d70a5a054a178193f8e1118972111e4021b18"
+    },
+    {
+      "path": "packages/react/avatar/README.md",
+      "bytes": 92,
+      "sha256": "89a38b8ef8086bbe3b2ac79c9938c03b9b7c075654bd29a6cfec5e222310be92"
+    },
+    {
+      "path": "packages/react/avatar/src/avatar.tsx",
+      "bytes": 8585,
+      "sha256": "8d756922150cba1a7fcf012bc8b847a93ee55f62d0d4d2911e563d561393da66"
+    },
+    {
+      "path": "packages/react/avatar/src/index.ts",
+      "bytes": 229,
+      "sha256": "52c6ad8b5f1e9ef2c22068c8836b448f11f0f793e2452af30c59ce0252a4ee00"
+    },
+    {
+      "path": "packages/react/avatar/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/checkbox/CHANGELOG.md",
+      "bytes": 3775,
+      "sha256": "b8bda5f28f3241ed102659cedb3aacce8223fc33d04dc8cf54a4b07022a524d8"
+    },
+    {
+      "path": "packages/react/checkbox/package.json",
+      "bytes": 2070,
+      "sha256": "ca046b447c377243bac0066f94ba11ba2b4f479674e481d9c3720d71f58581c2"
+    },
+    {
+      "path": "packages/react/checkbox/README.md",
+      "bytes": 96,
+      "sha256": "0963261bbd5b9e3a6cd9e0b2c6a0aed905835137db028b1db3b9bb6769143b99"
+    },
+    {
+      "path": "packages/react/checkbox/src/checkbox.tsx",
+      "bytes": 16166,
+      "sha256": "bb1e37c0866708188435580f9ed52c39a8900ae33ff22e7cabf7be2cad777e46"
+    },
+    {
+      "path": "packages/react/checkbox/src/index.ts",
+      "bytes": 660,
+      "sha256": "c00c9b2f78d3867ea58ba769747105645c2e1231ac7538a70110bbc786d8b44e"
+    },
+    {
+      "path": "packages/react/checkbox/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/collapsible/CHANGELOG.md",
+      "bytes": 3501,
+      "sha256": "e61951f8863d3f6d873437de00e650c8809083ef410c8e64f3cdf670959b6f2b"
+    },
+    {
+      "path": "packages/react/collapsible/package.json",
+      "bytes": 2126,
+      "sha256": "d09175c594d0e0b9017c20a38cadcbe5e10ae383ba23dcd8858683813a08777f"
+    },
+    {
+      "path": "packages/react/collapsible/README.md",
+      "bytes": 102,
+      "sha256": "0b4fe574d7bc59a813ca860acdfb4536aa63c607fd9f58d540d10b0a34dfeae0"
+    },
+    {
+      "path": "packages/react/collapsible/src/collapsible.tsx",
+      "bytes": 8840,
+      "sha256": "31637fcbe1ca757de8d95b26ac0063d6a7106147aceb53f7bcbe67f1180f29b9"
+    },
+    {
+      "path": "packages/react/collapsible/src/index.ts",
+      "bytes": 284,
+      "sha256": "3b2f177ecc47f031ea5e5324478b4f3d1f06acc179abef273f04edea756e57c9"
+    },
+    {
+      "path": "packages/react/collapsible/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/collection/CHANGELOG.md",
+      "bytes": 1969,
+      "sha256": "837581e6b228da17d60208d59fa2f24800b981d75cbeeccd4857f35737c641e8"
+    },
+    {
+      "path": "packages/react/collection/package.json",
+      "bytes": 1920,
+      "sha256": "3463b9b2af35d0b7d65f2c70dc4fe614dce3f867096d4473290974d8fe6792ad"
+    },
+    {
+      "path": "packages/react/collection/README.md",
+      "bytes": 82,
+      "sha256": "e600fa9dcdc99b18caeaddf0490bc8994e18da88e0a4a128a5072402d5e92ec7"
+    },
+    {
+      "path": "packages/react/collection/src/collection-legacy.tsx",
+      "bytes": 5243,
+      "sha256": "fda48b1420f61f6bee7b2e9c499c6ed4f1b6fa3d67827d5bbdf755759d431cbd"
+    },
+    {
+      "path": "packages/react/collection/src/collection.tsx",
+      "bytes": 9789,
+      "sha256": "b7bf57c48bb5c851296cd1bd077346b8eeb1ac4044e09b3c6d19bdea024b0ca0"
+    },
+    {
+      "path": "packages/react/collection/src/index.ts",
+      "bytes": 290,
+      "sha256": "7846543a51bae06acd7b3b9929c8cf4ae78f6cfc7e5ed529e56d16de3f5543fc"
+    },
+    {
+      "path": "packages/react/collection/src/ordered-dictionary.ts",
+      "bytes": 12113,
+      "sha256": "0224d3e42ccb65eace969c1a002e8f4b1ec56a3d3e9aa59e9f341bf598ada0ab"
+    },
+    {
+      "path": "packages/react/collection/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/compose-refs/CHANGELOG.md",
+      "bytes": 491,
+      "sha256": "25440121ef62fab3f512cceae72d3eb6d8c151feb5fc92d0fedf7623f7640d92"
+    },
+    {
+      "path": "packages/react/compose-refs/package.json",
+      "bytes": 1559,
+      "sha256": "a1382973d81d7823df4b046db7def816bc43cf031c283383fbeee9db036ef5f1"
+    },
+    {
+      "path": "packages/react/compose-refs/README.md",
+      "bytes": 84,
+      "sha256": "71d27057319b994969ffd0bb9a7fb1253ba79af86b72a7b7a677250dd7891a3b"
+    },
+    {
+      "path": "packages/react/compose-refs/src/compose-refs.tsx",
+      "bytes": 1758,
+      "sha256": "958d7d87f44c080fc72f0dcf02a38f820545d8df82d851a7531624fce2ff7498"
+    },
+    {
+      "path": "packages/react/compose-refs/src/index.ts",
+      "bytes": 63,
+      "sha256": "28bab50ded3938221bf3461408fcd72a6ea9ba5fbf9d5e64344870515ba0a1c3"
+    },
+    {
+      "path": "packages/react/compose-refs/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/context-menu/CHANGELOG.md",
+      "bytes": 3942,
+      "sha256": "701e919228383dbf11d39b2263fb1732e876bda16861f8398e15de436d2d43d6"
+    },
+    {
+      "path": "packages/react/context-menu/package.json",
+      "bytes": 2013,
+      "sha256": "88069035b3d7db731750753cf40216195446763fe09552fa4c9c1a6b6ee849ad"
+    },
+    {
+      "path": "packages/react/context-menu/README.md",
+      "bytes": 104,
+      "sha256": "d08a4a21bbb9e280e2c7a33b54746ce6b8662853a80b3eb0ca6027f1388e4569"
+    },
+    {
+      "path": "packages/react/context-menu/src/context-menu.tsx",
+      "bytes": 24026,
+      "sha256": "65c957bb3f2f8955f82eeef0d7593aa9b280e38a2c03ac74efd7f8fd61956e5b"
+    },
+    {
+      "path": "packages/react/context-menu/src/index.ts",
+      "bytes": 1096,
+      "sha256": "662af479e4ca74eb53e1a9cd074426466a3faeff6f577a077f403c086c72d11f"
+    },
+    {
+      "path": "packages/react/context-menu/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/context/CHANGELOG.md",
+      "bytes": 1209,
+      "sha256": "f5b651353dcb207fb644304937dabc32d9bde71393b07820febc92b8d951166d"
+    },
+    {
+      "path": "packages/react/context/package.json",
+      "bytes": 1549,
+      "sha256": "77f0778469ec2fec074d800714cfe9c3b17038b17889df20c8dacea001b23e89"
+    },
+    {
+      "path": "packages/react/context/README.md",
+      "bytes": 79,
+      "sha256": "44d8ded922640d5d610a19428f8fdcb25d8e115ac1b3ee1da2e219b391441a08"
+    },
+    {
+      "path": "packages/react/context/src/create-context.tsx",
+      "bytes": 8726,
+      "sha256": "5a73638aa6a9b21480991a490d04baab77bff3198335e07c91e164c31bd6940c"
+    },
+    {
+      "path": "packages/react/context/src/index.ts",
+      "bytes": 130,
+      "sha256": "ad77fcf875d30873557dd0083c9790009200f65b98d80af3e8e22879a118d742"
+    },
+    {
+      "path": "packages/react/context/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/dialog/CHANGELOG.md",
+      "bytes": 5849,
+      "sha256": "98eb3d31a9ccf7c9055b7c50d8ff6dc4eb72d88b30b8579f22b981053a44ba72"
+    },
+    {
+      "path": "packages/react/dialog/package.json",
+      "bytes": 2427,
+      "sha256": "0414dfca4b3cb39f54aa7bc2e92c900b19614cd6e68b5f3ad551319ee51c81ff"
+    },
+    {
+      "path": "packages/react/dialog/README.md",
+      "bytes": 92,
+      "sha256": "067e541073a246ef0ba16e5e56929e75d3d6bb1310541db35edc40996ae7a597"
+    },
+    {
+      "path": "packages/react/dialog/src/dialog.tsx",
+      "bytes": 22705,
+      "sha256": "ad2a2c11383a4ea48093b6abfbb46b97ea7a75a66734925a67e69623582c964f"
+    },
+    {
+      "path": "packages/react/dialog/src/index.ts",
+      "bytes": 568,
+      "sha256": "182141eabebfae4453fcd1760c6036d6bdc1292852f4fc4894680dd576628eec"
+    },
+    {
+      "path": "packages/react/dialog/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/direction/CHANGELOG.md",
+      "bytes": 540,
+      "sha256": "bca2d8c98610cc94438a88ebdb45eb6a3d21aa4570780a4c99d6ceb821934d5d"
+    },
+    {
+      "path": "packages/react/direction/package.json",
+      "bytes": 1553,
+      "sha256": "4bfcf1e2bec96ab6fe615666d7e620f765279f4abc30179fb4b64b8f94a04837"
+    },
+    {
+      "path": "packages/react/direction/README.md",
+      "bytes": 97,
+      "sha256": "4c0f06f8b879b817f3a28b449c55dbfa7430b741d5aabb7c67428c48305817f3"
+    },
+    {
+      "path": "packages/react/direction/src/direction.tsx",
+      "bytes": 1086,
+      "sha256": "49606053b31f266b6a82582c614c6a6ffe43d9684f5449032cadbe0d08e7f25c"
+    },
+    {
+      "path": "packages/react/direction/src/index.ts",
+      "bytes": 104,
+      "sha256": "045cbb3f5e8be41bd4c1db9cf99dad4ce37aca95940b544ccd343f225c45727b"
+    },
+    {
+      "path": "packages/react/direction/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/dismissable-layer/CHANGELOG.md",
+      "bytes": 3216,
+      "sha256": "12ff070991c9aeb3197a329b42bfb67273eb57b52dc6bf279fcffb817aec639b"
+    },
+    {
+      "path": "packages/react/dismissable-layer/package.json",
+      "bytes": 2073,
+      "sha256": "7e84b36039413f01317f169cd227d8893d209923c90e0ec9580852c472e99752"
+    },
+    {
+      "path": "packages/react/dismissable-layer/README.md",
+      "bytes": 89,
+      "sha256": "53c96932964d0b483cc18e1e23e2643f0512a343b1265c6528eb7dff69e6c2b4"
+    },
+    {
+      "path": "packages/react/dismissable-layer/src/dismissable-layer.tsx",
+      "bytes": 21278,
+      "sha256": "9d48f976dab13c96c029966e77c3be24d112d25635313db63cd1d109624db74e"
+    },
+    {
+      "path": "packages/react/dismissable-layer/src/index.ts",
+      "bytes": 237,
+      "sha256": "11a5d8c588eadbcf160f81751b3ad4237fc2ff5be16464842a0dc6f0bcc16310"
+    },
+    {
+      "path": "packages/react/dismissable-layer/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/dropdown-menu/CHANGELOG.md",
+      "bytes": 3750,
+      "sha256": "a3dcac8a9509f02fbc0ad0499806f4b646b200f2319b365e66082cfb051bfd16"
+    },
+    {
+      "path": "packages/react/dropdown-menu/package.json",
+      "bytes": 2147,
+      "sha256": "5b58243151c167bf05376cce5c146b2784ae3b35abebef41a1e98aac5f8184b3"
+    },
+    {
+      "path": "packages/react/dropdown-menu/README.md",
+      "bytes": 106,
+      "sha256": "7d715ed849386dad4615d5624cc5c694564155174c315de736c142a3f1c59317"
+    },
+    {
+      "path": "packages/react/dropdown-menu/src/dropdown-menu.tsx",
+      "bytes": 22018,
+      "sha256": "0cf722c43345a5f9b55eb3e87806de75e5863d7a7451b7525db645fc9387a142"
+    },
+    {
+      "path": "packages/react/dropdown-menu/src/index.ts",
+      "bytes": 1131,
+      "sha256": "a2e23cc2bb536819a20a9638b504cbb05737d4eed92a216da7cc022d9c6d2e81"
+    },
+    {
+      "path": "packages/react/dropdown-menu/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/focus-guards/CHANGELOG.md",
+      "bytes": 798,
+      "sha256": "adbc828df6bc5fdc669ea4447679a04edbdaacc37ac978abdb77bf3ddf371e44"
+    },
+    {
+      "path": "packages/react/focus-guards/package.json",
+      "bytes": 1559,
+      "sha256": "183cc85d4bcceceb0eb3f5b0505b5564bb0832cc0837b233600cb5c10c8bb6b8"
+    },
+    {
+      "path": "packages/react/focus-guards/README.md",
+      "bytes": 84,
+      "sha256": "91246a0774d12140292ca2896b42cfe24d13f1dd8d6e3524e304ab9de2f48e82"
+    },
+    {
+      "path": "packages/react/focus-guards/src/focus-guards.tsx",
+      "bytes": 2308,
+      "sha256": "b7b9ec9b0444a597b13a6696ac74a8ef3e51278f1d214b4ee1ebb59ca7282aef"
+    },
+    {
+      "path": "packages/react/focus-guards/src/index.ts",
+      "bytes": 99,
+      "sha256": "fd4abf0f7ac0d8cfff383118775a784cfa1bfecde5c55e39c21d69bb284138c7"
+    },
+    {
+      "path": "packages/react/focus-guards/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/focus-scope/CHANGELOG.md",
+      "bytes": 2150,
+      "sha256": "11996828393c17fc3c9ab7137fde536f4e85a8aab7e8efc2e5b00745e7ba872c"
+    },
+    {
+      "path": "packages/react/focus-scope/package.json",
+      "bytes": 1927,
+      "sha256": "3102ee40138c11427b511bcb14e79a0bdaf2fdb720495053a918d8cefb5dff19"
+    },
+    {
+      "path": "packages/react/focus-scope/README.md",
+      "bytes": 83,
+      "sha256": "cb7004d2132d356a653ad008b5fe50185d727355fb75a0288538971fac8f2016"
+    },
+    {
+      "path": "packages/react/focus-scope/src/focus-scope.tsx",
+      "bytes": 18676,
+      "sha256": "ea3362ad60643af98dce5b73fa570becf7e66749bccbffc39142e985a36031ef"
+    },
+    {
+      "path": "packages/react/focus-scope/src/index.ts",
+      "bytes": 274,
+      "sha256": "2ccb67b49cdfb382f31511ffc4c7e312a6fad1483287d63831c4ac5027daca3d"
+    },
+    {
+      "path": "packages/react/focus-scope/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/form/CHANGELOG.md",
+      "bytes": 3295,
+      "sha256": "83e92a068ec1fb720f0b60b1c793ff42beb05f11cf9efc121e665e75e30bcc55"
+    },
+    {
+      "path": "packages/react/form/package.json",
+      "bytes": 1992,
+      "sha256": "f001aaf17acb4ec15adb5ab8be20cc2ab16431212d4c089abd89958b1835f552"
+    },
+    {
+      "path": "packages/react/form/README.md",
+      "bytes": 88,
+      "sha256": "18c2a52b41d2a5186581e6d6ef23b480b123adafc5f507580565e509dfde2af3"
+    },
+    {
+      "path": "packages/react/form/src/form.tsx",
+      "bytes": 31029,
+      "sha256": "8c65d8130a9eb97a71a978e2d8aa3297c72c25d577f82a32ee327719d2078e08"
+    },
+    {
+      "path": "packages/react/form/src/index.ts",
+      "bytes": 409,
+      "sha256": "badeb2d646aec2e49700f10f68158ec84a9bdded7b5c2c5c522877507ded27a8"
+    },
+    {
+      "path": "packages/react/form/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/hover-card/CHANGELOG.md",
+      "bytes": 4388,
+      "sha256": "c5a655bf08b9c01eaab8d30fc948c6eedd4a955413d6405f4d4d57ffdcaf69bf"
+    },
+    {
+      "path": "packages/react/hover-card/package.json",
+      "bytes": 2223,
+      "sha256": "68860572e41a8e9b868bb677c4ef8c65dc8a144491db88bede104ea75bfd359d"
+    },
+    {
+      "path": "packages/react/hover-card/README.md",
+      "bytes": 100,
+      "sha256": "7736627ad5d3c614d13ce833589b964ac7e0edbf005e0623a0ee5f71c36bd798"
+    },
+    {
+      "path": "packages/react/hover-card/src/hover-card.tsx",
+      "bytes": 16186,
+      "sha256": "5b3e08af087df5f4f9cbbfdcc340755f3d183c509495e806d210788ea9c5c45e"
+    },
+    {
+      "path": "packages/react/hover-card/src/index.ts",
+      "bytes": 371,
+      "sha256": "5f4e3aedf5b68a6741b9c876e2725d2d90287769dc0fd2e9a4d4dfb8251feac4"
+    },
+    {
+      "path": "packages/react/hover-card/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/id/CHANGELOG.md",
+      "bytes": 679,
+      "sha256": "3a91d8bd06e93bfed5e04c455c4b741f0d9e2a6ab2919c0f1697bb82fc2a5749"
+    },
+    {
+      "path": "packages/react/id/package.json",
+      "bytes": 1619,
+      "sha256": "49e5d3d5a636061aaccf6c8466c158744186d0a7126df248e0f874ad951c0f6a"
+    },
+    {
+      "path": "packages/react/id/README.md",
+      "bytes": 92,
+      "sha256": "53b7972b5a0ab8659781754cc809d255196441915eaeaa53490969c714730be4"
+    },
+    {
+      "path": "packages/react/id/src/id.tsx",
+      "bytes": 700,
+      "sha256": "f9dad475d2ec3fd8f64837d71bbd1f651707c5cfae1bc4adb2137bb5cc0ec5ad"
+    },
+    {
+      "path": "packages/react/id/src/index.ts",
+      "bytes": 30,
+      "sha256": "9c3190cc75859464eea51969c9c02f036c0e78b7bae1c6bfde2a6e6909a1f2a9"
+    },
+    {
+      "path": "packages/react/id/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/label/CHANGELOG.md",
+      "bytes": 1615,
+      "sha256": "1d6f57268649ee4f3622aaaa67c0ea677a0bde4c0d98588d4e7f6e6fdf9700c4"
+    },
+    {
+      "path": "packages/react/label/package.json",
+      "bytes": 1770,
+      "sha256": "570ef985e784150d891ab9524464c6474b2b8a7a1f7510faf83b3fa47f197fd5"
+    },
+    {
+      "path": "packages/react/label/README.md",
+      "bytes": 89,
+      "sha256": "9ac73244fa218b82b27d8c1b8df4130336c611de2c3708185dee6451e2e8b5de"
+    },
+    {
+      "path": "packages/react/label/src/index.ts",
+      "bytes": 106,
+      "sha256": "f941248d525a90a5f1a377a5ae01512075b1c9e7dbd55ec6da6092e5f75c0b34"
+    },
+    {
+      "path": "packages/react/label/src/label.tsx",
+      "bytes": 1328,
+      "sha256": "4ae357f462c3ee06fad145d502ead5463e8807d7b8ecf4bffaa3eeea519ceb7a"
+    },
+    {
+      "path": "packages/react/label/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/menu/CHANGELOG.md",
+      "bytes": 7124,
+      "sha256": "171c4956726d78eb482e612ecf0449ad312896865b86cad87634edace2ab2a5d"
+    },
+    {
+      "path": "packages/react/menu/package.json",
+      "bytes": 2592,
+      "sha256": "d14b543b2fcb44f2cca5bb87dc823a3f3756c68f8c230f947a36522d14b49f34"
+    },
+    {
+      "path": "packages/react/menu/README.md",
+      "bytes": 76,
+      "sha256": "89e15b45bb8b27aaaaed2b23d6ea175af239fc567402d228f257a647703af06e"
+    },
+    {
+      "path": "packages/react/menu/src/index.ts",
+      "bytes": 846,
+      "sha256": "da76798aae68d96f37e91877734967d7aadc1b2f1f991d65009ee1b4030492ef"
+    },
+    {
+      "path": "packages/react/menu/src/menu.tsx",
+      "bytes": 57463,
+      "sha256": "afaa24f8c2801a8a5c54b97a52f0818e0ef2b20224ef8676822e9633cbed57e2"
+    },
+    {
+      "path": "packages/react/menu/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/menubar/CHANGELOG.md",
+      "bytes": 4860,
+      "sha256": "069443462074be508fb0fa5658204f5b5b26f51a626b476a583552d5083d6a8e"
+    },
+    {
+      "path": "packages/react/menubar/package.json",
+      "bytes": 2244,
+      "sha256": "be7e8ebc178de00dfe00a11021d7e12191e037cd906b9d04092a1ea57b95d5c2"
+    },
+    {
+      "path": "packages/react/menubar/README.md",
+      "bytes": 94,
+      "sha256": "38b30f6acf77cebebaa500a2ad5a612eec5a198c5b1762bdd9c33e27ea0ac564"
+    },
+    {
+      "path": "packages/react/menubar/src/index.ts",
+      "bytes": 997,
+      "sha256": "aa1765aa0e1b04e0180a7ae66ae22fb3061c6079e678abbd02dc860e4b26cb14"
+    },
+    {
+      "path": "packages/react/menubar/src/menubar.tsx",
+      "bytes": 29100,
+      "sha256": "5dc2f94c22660311915342a5fae6599bf594a7d1884f427867c56fe10a319517"
+    },
+    {
+      "path": "packages/react/menubar/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/navigation-menu/CHANGELOG.md",
+      "bytes": 5791,
+      "sha256": "5f1819a96f0c4e965eeeb1fdf8af06e11fed58af2b15f88f3a9b9b3de04cee43"
+    },
+    {
+      "path": "packages/react/navigation-menu/package.json",
+      "bytes": 2486,
+      "sha256": "f68dffb1e66caed2828879887ec4eb09eb809e4afeb8ad1f998a2c0c0a545cac"
+    },
+    {
+      "path": "packages/react/navigation-menu/README.md",
+      "bytes": 110,
+      "sha256": "28c34465bdea4a5d7c0e3be302b9d3f45dbf6fc31f6afd26a5d980c5e60b746a"
+    },
+    {
+      "path": "packages/react/navigation-menu/src/index.ts",
+      "bytes": 679,
+      "sha256": "fc2e14ec8d8aaf0b3d58c2676a1b451e76a0feda3c71bebc69a30d618918abe5"
+    },
+    {
+      "path": "packages/react/navigation-menu/src/navigation-menu.tsx",
+      "bytes": 53747,
+      "sha256": "d9f8053a1bf6cb797f7b7c23b6f472f83cf67ae79774dc1c428ab4ccfab21c27"
+    },
+    {
+      "path": "packages/react/navigation-menu/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/one-time-password-field/CHANGELOG.md",
+      "bytes": 5854,
+      "sha256": "2aa7102f3087b2a44c625b4cc4f29667bff1fd5146957aed38154818f388e3cf"
+    },
+    {
+      "path": "packages/react/one-time-password-field/package.json",
+      "bytes": 2369,
+      "sha256": "161acef352912c96561f65e66093d1115e5b3a76a9fe57b84f2b4c2e53e64679"
+    },
+    {
+      "path": "packages/react/one-time-password-field/README.md",
+      "bytes": 212,
+      "sha256": "f0952c155100f77fc9d4ae1d75e3b2920ae9ba122e477750db646b2cfa6e5a0d"
+    },
+    {
+      "path": "packages/react/one-time-password-field/src/index.ts",
+      "bytes": 360,
+      "sha256": "aad20c3e3860b39f895fcf6242c827675d8c42a6c9121b2d1a8bc7d03693d761"
+    },
+    {
+      "path": "packages/react/one-time-password-field/src/one-time-password-field.tsx",
+      "bytes": 36555,
+      "sha256": "4b11ed239472bad8b4448e57c54b8bb2bcda36e5ffcb6006adcaa8a0ba1214f2"
+    },
+    {
+      "path": "packages/react/one-time-password-field/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/password-toggle-field/CHANGELOG.md",
+      "bytes": 4253,
+      "sha256": "daa94dcbe0b74e888089f02f37f9e1ac35c995fe06aec40b314028e9bd1519b4"
+    },
+    {
+      "path": "packages/react/password-toggle-field/package.json",
+      "bytes": 2163,
+      "sha256": "c43aface28afd958d812e048c68386e507436f264cc06af672c8c2f9ff9c38dc"
+    },
+    {
+      "path": "packages/react/password-toggle-field/README.md",
+      "bytes": 208,
+      "sha256": "125f48ba9e418963e4fae9c21133cae37ebddf7346ec03a7fa719646a22cec25"
+    },
+    {
+      "path": "packages/react/password-toggle-field/src/index.ts",
+      "bytes": 446,
+      "sha256": "aa60a6d45ace85dbe859eae3a8904b4ca19cfbd79291819b92a45f12b3be6cfe"
+    },
+    {
+      "path": "packages/react/password-toggle-field/src/password-toggle-field.tsx",
+      "bytes": 17145,
+      "sha256": "4075cb075f631bf3182ec5299aad919840d10ec1a8ae2d8498e6da825c8b8cda"
+    },
+    {
+      "path": "packages/react/password-toggle-field/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/popover/CHANGELOG.md",
+      "bytes": 5945,
+      "sha256": "611150ab6358cf8a632f6d734d2cb9442104f877ae33c6962ddb623f90a64437"
+    },
+    {
+      "path": "packages/react/popover/package.json",
+      "bytes": 2474,
+      "sha256": "2499f891823f52672277fcf3130b0150fc07a0393c49df9f9196eb1fd30cb08b"
+    },
+    {
+      "path": "packages/react/popover/README.md",
+      "bytes": 94,
+      "sha256": "2db452050de8758d1921402fa979496fb0948346e56c43942323a9112c0f1464"
+    },
+    {
+      "path": "packages/react/popover/src/index.ts",
+      "bytes": 548,
+      "sha256": "c7def461a5183619dff717e26455855a0294e3bac76ca6f9ce2d42a5e2a18b9d"
+    },
+    {
+      "path": "packages/react/popover/src/popover.tsx",
+      "bytes": 24841,
+      "sha256": "9a700db8c8e20d1d31f62cc0c0dc16050c1eb946fc885e84aa40b2dd62d55d2b"
+    },
+    {
+      "path": "packages/react/popover/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/popper/CHANGELOG.md",
+      "bytes": 4230,
+      "sha256": "95c233b4cf7d37317aa60e2c869de9f382b2bdc111ddb412e84f6fa6c4f3a31a"
+    },
+    {
+      "path": "packages/react/popper/package.json",
+      "bytes": 2233,
+      "sha256": "327ff324e89cd988f402b629dbf1e7e0ab433e040744d8ab126acfbe42bea64c"
+    },
+    {
+      "path": "packages/react/popper/README.md",
+      "bytes": 78,
+      "sha256": "c21b5718fc1ff20de0e666f5c68ad73035ee80b894590adf8ea55c874a7c2ff6"
+    },
+    {
+      "path": "packages/react/popper/src/index.ts",
+      "bytes": 318,
+      "sha256": "744ee5992ef44cbd22cd97856c3494f3527f83c3b523c862bd3bb65a4daf85a9"
+    },
+    {
+      "path": "packages/react/popper/src/popper.tsx",
+      "bytes": 17526,
+      "sha256": "399ee509180e60c32bf2cc10b704e1b95a1f3b0b1a03b73dce5d1b5c86b9dc4a"
+    },
+    {
+      "path": "packages/react/popper/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/portal/CHANGELOG.md",
+      "bytes": 1790,
+      "sha256": "a0d62582f8af9097439ca84477f250490797896a31bac596f9240f0d92a375d8"
+    },
+    {
+      "path": "packages/react/portal/package.json",
+      "bytes": 1828,
+      "sha256": "0799b98cc15dcd86402846c51f2786e90a179c979e4a914343e56e767fb4297d"
+    },
+    {
+      "path": "packages/react/portal/README.md",
+      "bytes": 91,
+      "sha256": "3d7ede970ca130a232b40f36bb16112ac6228d5a7b0a0ce1747f9450f489b782"
+    },
+    {
+      "path": "packages/react/portal/src/index.ts",
+      "bytes": 110,
+      "sha256": "50eefa0ee3f7df6334b5276ea52b73f1dad42065b8190e29e9e4f605a68ffe31"
+    },
+    {
+      "path": "packages/react/portal/src/portal.tsx",
+      "bytes": 1423,
+      "sha256": "a4d1ac70c952af7886526ada3673e58bd81b690eb8764822bc0b8daac7984afa"
+    },
+    {
+      "path": "packages/react/portal/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/presence/CHANGELOG.md",
+      "bytes": 1426,
+      "sha256": "3965d64fc3ce9b21725e44323db2a8566f8975294ea5a230cc680f7181a71456"
+    },
+    {
+      "path": "packages/react/presence/package.json",
+      "bytes": 1784,
+      "sha256": "00f8a70e1614cae45146b2fe1169b1b89f0bc1428358d725bfe6619a871bfb35"
+    },
+    {
+      "path": "packages/react/presence/README.md",
+      "bytes": 80,
+      "sha256": "7b0680ae229ec538ca1e9b76863b2b508b6fbf87a36cef618d726cdd293dae55"
+    },
+    {
+      "path": "packages/react/presence/src/index.ts",
+      "bytes": 108,
+      "sha256": "657d08e13fc4bf31fa78ee7e12c97c7c10ea31e89951a1b6e0a3fd44c079c2be"
+    },
+    {
+      "path": "packages/react/presence/src/presence.tsx",
+      "bytes": 11237,
+      "sha256": "c10a3259c7e06a9a1a47dca4d4d7ec8523c80ed9cd871d1babda051990eba2ce"
+    },
+    {
+      "path": "packages/react/presence/src/use-state-machine.tsx",
+      "bytes": 679,
+      "sha256": "a0afe9cc8e679e3db94880d47409d009cdab89a55e3dfc1ead5dab04fd75269b"
+    },
+    {
+      "path": "packages/react/presence/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/primitive/CHANGELOG.md",
+      "bytes": 1450,
+      "sha256": "2c0a75366bca05c37889222846d0d938e0bd81359cfb8b4b03d7f48a3a9141a4"
+    },
+    {
+      "path": "packages/react/primitive/package.json",
+      "bytes": 1773,
+      "sha256": "f5b81afe4a06eb6b381014f255db19ae47a8091160984570d79106d56afdd083"
+    },
+    {
+      "path": "packages/react/primitive/README.md",
+      "bytes": 81,
+      "sha256": "b3c215855ec1d2895a494e8740b8e0183324eee20bc3a335d22db35ca53f30c5"
+    },
+    {
+      "path": "packages/react/primitive/src/index.ts",
+      "bytes": 165,
+      "sha256": "e9497d3f4a4d5ec747512ecece04d933eaa2203ba813d18859e7713e67d0f5d7"
+    },
+    {
+      "path": "packages/react/primitive/src/primitive.tsx",
+      "bytes": 4153,
+      "sha256": "ad20441d1b28726530a8bd7106f32507b8f4f621ad6d57d017374ccef162969e"
+    },
+    {
+      "path": "packages/react/primitive/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/progress/CHANGELOG.md",
+      "bytes": 1851,
+      "sha256": "9f24694a5ac866372385f8e462d7af8601c3de9145bdcd6f30f5b3a9d0d64899"
+    },
+    {
+      "path": "packages/react/progress/package.json",
+      "bytes": 1822,
+      "sha256": "8284dd68cb6bc21869908739aea408e4a0c008a93533ec1c9496861140fd7823"
+    },
+    {
+      "path": "packages/react/progress/README.md",
+      "bytes": 96,
+      "sha256": "0892329ef02ca3cacadcc331f1cda596c67316b5df80ccd8763a7ebe363e4269"
+    },
+    {
+      "path": "packages/react/progress/src/index.ts",
+      "bytes": 204,
+      "sha256": "e98db4662a2338f2fc8cd8438f7c8c094fd23eccbe395b07481ab72f11aa6019"
+    },
+    {
+      "path": "packages/react/progress/src/progress.tsx",
+      "bytes": 5324,
+      "sha256": "f1e0409272e2b31d95ecda393c2e70f035a6e020b2759a2bf6f003f99e3dec59"
+    },
+    {
+      "path": "packages/react/progress/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/radio-group/CHANGELOG.md",
+      "bytes": 5017,
+      "sha256": "80c2c0f252517dfacee215528e86447cb2421a034fefe82186a49b188131b50e"
+    },
+    {
+      "path": "packages/react/radio-group/package.json",
+      "bytes": 2174,
+      "sha256": "a12ab02d6602e198a09fdf645aa75f17dc78090b6ee30e83722cb3d9a42ef085"
+    },
+    {
+      "path": "packages/react/radio-group/README.md",
+      "bytes": 102,
+      "sha256": "7fbe8465a3c9d9a8b46c52ab511745d103ec9b881936c37f9106a0cf2a9c7126"
+    },
+    {
+      "path": "packages/react/radio-group/src/index.ts",
+      "bytes": 805,
+      "sha256": "7abf3e8a9818007cf0f8b133661a0c3b0e8c460aff739ce1a64b8082b6d2019b"
+    },
+    {
+      "path": "packages/react/radio-group/src/radio-group.tsx",
+      "bytes": 12438,
+      "sha256": "743953f5cc819ed5df0c56e426bfefbfbbcd7c2b818a02134115324f9701dff1"
+    },
+    {
+      "path": "packages/react/radio-group/src/radio.tsx",
+      "bytes": 13532,
+      "sha256": "df2b442ad277284ae8d855cd1e72ef83288af79141baecd99d840547754407b9"
+    },
+    {
+      "path": "packages/react/radio-group/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/radix-ui/CHANGELOG.md",
+      "bytes": 26743,
+      "sha256": "f8a58e03ebb701c23e3eadce3e125d4dd476521cc62f29b2e542ec21152d3979"
+    },
+    {
+      "path": "packages/react/radix-ui/package.json",
+      "bytes": 4929,
+      "sha256": "3fb412f34a97d13f9696662ffa95419bacd550a4d647e363c8d49afefa79bac2"
+    },
+    {
+      "path": "packages/react/radix-ui/README.md",
+      "bytes": 1483,
+      "sha256": "0ee74d7f39db7d524cc1683d041fccc47491a6d6ba269b18641dac11eb7951af"
+    },
+    {
+      "path": "packages/react/radix-ui/src/accessible-icon.ts",
+      "bytes": 49,
+      "sha256": "62f275b635b8e266082385412051e54e18f3aa788caf94660c0240086a291f08"
+    },
+    {
+      "path": "packages/react/radix-ui/src/accordion.ts",
+      "bytes": 43,
+      "sha256": "086677fa6d83030e593d9e85f1ca63446901917af21e3bc9b90410c3d22f4f15"
+    },
+    {
+      "path": "packages/react/radix-ui/src/alert-dialog.ts",
+      "bytes": 46,
+      "sha256": "fa2bf7bf4ec30c2d13dd71f7f313949fd02fa39cfc52919f6ed7c8bdb8da1912"
+    },
+    {
+      "path": "packages/react/radix-ui/src/aspect-ratio.ts",
+      "bytes": 46,
+      "sha256": "d4b3cc92552802a0612ce1fffa90dc653bbb95a7b8c8f091d2ab5fd8693da68e"
+    },
+    {
+      "path": "packages/react/radix-ui/src/avatar.ts",
+      "bytes": 40,
+      "sha256": "c2b283a1cf4088e4a821d58731b7139983e9343846b2c3b984064181ac20c094"
+    },
+    {
+      "path": "packages/react/radix-ui/src/checkbox.ts",
+      "bytes": 42,
+      "sha256": "5490de64d8340d5dfa7e9002c4f1f8517c845fc7643f7cec9497ddbe9eece9e2"
+    },
+    {
+      "path": "packages/react/radix-ui/src/collapsible.ts",
+      "bytes": 45,
+      "sha256": "de8f9a624da83ddefe83efaf0d46495a7264bbe66bd0d47870d917c2ac30e41e"
+    },
+    {
+      "path": "packages/react/radix-ui/src/context-menu.ts",
+      "bytes": 46,
+      "sha256": "9fa1a37b8517d09fcc4acd88df86373dc7956ef8c699bb393f2b911c0120cd10"
+    },
+    {
+      "path": "packages/react/radix-ui/src/dialog.ts",
+      "bytes": 40,
+      "sha256": "c21b78d9b19f458c4777a2742080e9613b1586103ac1e965eb3cb8b7b57263cf"
+    },
+    {
+      "path": "packages/react/radix-ui/src/direction.ts",
+      "bytes": 43,
+      "sha256": "b86ccf9331734eea212ee0b17d294892d216d300117f8a644556136c093fdfc8"
+    },
+    {
+      "path": "packages/react/radix-ui/src/dropdown-menu.ts",
+      "bytes": 47,
+      "sha256": "d033a5a350a0cd775bbf34a9bc172b860799b65f0fbe7320c698f959878d84e5"
+    },
+    {
+      "path": "packages/react/radix-ui/src/form.ts",
+      "bytes": 38,
+      "sha256": "367e979473929517696f1904b7f8fdbe00cac93e9edff5fb47b601754aab3c49"
+    },
+    {
+      "path": "packages/react/radix-ui/src/hover-card.ts",
+      "bytes": 44,
+      "sha256": "aae3e6333a6b0aaae8d67fcd6a431f295c548a23cab7ad0ad6fe2850cb378a01"
+    },
+    {
+      "path": "packages/react/radix-ui/src/index.ts",
+      "bytes": 1988,
+      "sha256": "530c9fdcf18446736d6eca537eac7416078ee3d333d48a40653ae52811b9d6b5"
+    },
+    {
+      "path": "packages/react/radix-ui/src/internal.ts",
+      "bytes": 1658,
+      "sha256": "0fe4432283c5db265d025e7c90fc1b8c40889692e66d91eef86a72aba4c5a611"
+    },
+    {
+      "path": "packages/react/radix-ui/src/label.ts",
+      "bytes": 39,
+      "sha256": "1fac485305a6d0cdfbbb85014eed89b656a17dc5b1c7886316795d97791b0a51"
+    },
+    {
+      "path": "packages/react/radix-ui/src/menubar.ts",
+      "bytes": 41,
+      "sha256": "b4a84d4db19b65aff2dc046e11959966c978800bf5cdf52cc8de23e718c88c24"
+    },
+    {
+      "path": "packages/react/radix-ui/src/navigation-menu.ts",
+      "bytes": 49,
+      "sha256": "704547ab17b885977489834bab177a722cb79a220e502ed145cb7db588d1f204"
+    },
+    {
+      "path": "packages/react/radix-ui/src/popover.ts",
+      "bytes": 41,
+      "sha256": "c53bb2f051ebf55d4d76bfc04118caefc0acd1293a06d6f0250d8cddba92fba4"
+    },
+    {
+      "path": "packages/react/radix-ui/src/portal.ts",
+      "bytes": 40,
+      "sha256": "79be783ecf2cd169760aef93e3a0cf0522b9f4cb4cb97c9f34a06283349e48de"
+    },
+    {
+      "path": "packages/react/radix-ui/src/progress.ts",
+      "bytes": 42,
+      "sha256": "dc8c826eedcd76eae54dab4b8be39143e9f6d44f3730f35fb2fcca65f274d2b1"
+    },
+    {
+      "path": "packages/react/radix-ui/src/radio-group.ts",
+      "bytes": 45,
+      "sha256": "a1dcc7def12b32445f9d1e31ef5ace73b852774f4fdfd9042977eac2733e8280"
+    },
+    {
+      "path": "packages/react/radix-ui/src/scroll-area.ts",
+      "bytes": 45,
+      "sha256": "cffc6e245a299d7a0994eb929b2f503363b06c16d22bd3c6e212e5286cd9cc23"
+    },
+    {
+      "path": "packages/react/radix-ui/src/select.ts",
+      "bytes": 40,
+      "sha256": "ffd19ddfd55d585a72060cd343895b5efeeaf51711b38081f2e0c3b1d3cddb7b"
+    },
+    {
+      "path": "packages/react/radix-ui/src/separator.ts",
+      "bytes": 43,
+      "sha256": "6d3db19d900a68d565d3f721ca641fbdf330927cd5e6d3140ef1c925c810dace"
+    },
+    {
+      "path": "packages/react/radix-ui/src/slider.ts",
+      "bytes": 40,
+      "sha256": "9240e57f6badc1d68eaa1d362b30f22f01d00768a1d08270c1bc81997d4277ff"
+    },
+    {
+      "path": "packages/react/radix-ui/src/slot.ts",
+      "bytes": 38,
+      "sha256": "33950d6e8b1489fab7739ce9bc3c94b1222df5d259d045d448705d352aae56bc"
+    },
+    {
+      "path": "packages/react/radix-ui/src/switch.ts",
+      "bytes": 40,
+      "sha256": "bbf2f59c701f55b21940e3e8f5581b977a17deea0ed12634966304e2d521fe5c"
+    },
+    {
+      "path": "packages/react/radix-ui/src/tabs.ts",
+      "bytes": 38,
+      "sha256": "c78b73f1d36bbab7c73aba83c6a49f2564d5339e2147224957e9f52809ade5ee"
+    },
+    {
+      "path": "packages/react/radix-ui/src/toast.ts",
+      "bytes": 39,
+      "sha256": "f5154e2bdb8765fb64e3e74d9a5e1e26a91b3f954badc2c8a59413612c6a0b6c"
+    },
+    {
+      "path": "packages/react/radix-ui/src/toggle-group.ts",
+      "bytes": 46,
+      "sha256": "676d13fb3f1b124556de5aab8dca9407a690abc29a4e17c474767845075316b4"
+    },
+    {
+      "path": "packages/react/radix-ui/src/toggle.ts",
+      "bytes": 40,
+      "sha256": "4cba433434f9f9bb18b5adb3f286b8533d16cec632c63f144121ea3a8fbe88f6"
+    },
+    {
+      "path": "packages/react/radix-ui/src/toolbar.ts",
+      "bytes": 41,
+      "sha256": "ac97eeab11544f52a014c5844592b7640199b7c0b8551b32d6b4e9c778f3404d"
+    },
+    {
+      "path": "packages/react/radix-ui/src/tooltip.ts",
+      "bytes": 41,
+      "sha256": "9ada773ab1358fe707e6a8bac958c396302d32e7f90e28f08995ed188435591e"
+    },
+    {
+      "path": "packages/react/radix-ui/src/unstable/one-time-password-field.ts",
+      "bytes": 57,
+      "sha256": "9117f7c4b3ceb0f16bacb48a3ce093e5d144078622fa37f1d0e4d8dbff3e3c79"
+    },
+    {
+      "path": "packages/react/radix-ui/src/unstable/password-toggle-field.ts",
+      "bytes": 55,
+      "sha256": "a3e573a0e9bf6bfa083ea2660058461d842c87f3db153cf5af6506a28d7f17fd"
+    },
+    {
+      "path": "packages/react/radix-ui/src/visually-hidden.ts",
+      "bytes": 49,
+      "sha256": "36a35b262800e24d6cf9b1115ed9636693a8587e48694215dfd1f26daa989a2c"
+    },
+    {
+      "path": "packages/react/radix-ui/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/roving-focus/CHANGELOG.md",
+      "bytes": 4015,
+      "sha256": "aec92cddb17ea09888c4fdd51da541dab2a7137ef2cce4d88706f07ebaf2bab9"
+    },
+    {
+      "path": "packages/react/roving-focus/package.json",
+      "bytes": 2287,
+      "sha256": "8d97ee67746c3c9beabe31786cf50e0c96418ed37f667c2c53ff442ebceffdbc"
+    },
+    {
+      "path": "packages/react/roving-focus/README.md",
+      "bytes": 84,
+      "sha256": "d418dec0958ea37f136c8c6edd1a37ed9bde813b7aefa39f012dc0c9aab8e4dc"
+    },
+    {
+      "path": "packages/react/roving-focus/src/index.ts",
+      "bytes": 244,
+      "sha256": "dd45b209cdff98a9599a218e03319362602212c9744f923d140ce8356ca150b9"
+    },
+    {
+      "path": "packages/react/roving-focus/src/roving-focus-group.tsx",
+      "bytes": 15120,
+      "sha256": "8d36974a0d408e90aba31e86c5254557a1684593aa4c269523a1b785e3dd33fc"
+    },
+    {
+      "path": "packages/react/roving-focus/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/scroll-area/CHANGELOG.md",
+      "bytes": 3612,
+      "sha256": "531c1e1b61990b33c5fc342e92adb3858593a66ec58a5c7435fe6c729d561d5e"
+    },
+    {
+      "path": "packages/react/scroll-area/package.json",
+      "bytes": 2248,
+      "sha256": "9f3aa4b4b37a5460f48e2d5116b8177a0d12f981d16f3eafb016ebf2f6ebc854"
+    },
+    {
+      "path": "packages/react/scroll-area/README.md",
+      "bytes": 102,
+      "sha256": "d3a0b2beb5d0af48989087464fc6dee3da9c28ed86ac75065e28d419ba4ec833"
+    },
+    {
+      "path": "packages/react/scroll-area/src/index.ts",
+      "bytes": 451,
+      "sha256": "95f2775dfb5e6d0f089ff361de8d5abdaa879be9779aaf26a59fc200830d11a2"
+    },
+    {
+      "path": "packages/react/scroll-area/src/scroll-area.tsx",
+      "bytes": 46295,
+      "sha256": "80711d718008b37378ed1cbdd9c943a243802f3d2f018412394171e4857dbb4c"
+    },
+    {
+      "path": "packages/react/scroll-area/src/use-state-machine.ts",
+      "bytes": 679,
+      "sha256": "a0afe9cc8e679e3db94880d47409d009cdab89a55e3dfc1ead5dab04fd75269b"
+    },
+    {
+      "path": "packages/react/scroll-area/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/select/CHANGELOG.md",
+      "bytes": 9141,
+      "sha256": "50825880bbcd84e9b2b17207400397e9927821fa7a6b4fd8dc132a32d0e2c27d"
+    },
+    {
+      "path": "packages/react/select/package.json",
+      "bytes": 2844,
+      "sha256": "71367118c7eb677df244cfb4bc17fa96bf145e9dacbc70a9316b777c00cfee07"
+    },
+    {
+      "path": "packages/react/select/README.md",
+      "bytes": 92,
+      "sha256": "a222e5738f4ef2b281b58ea42055d0c916555778690b75f98c59e0913dd71123"
+    },
+    {
+      "path": "packages/react/select/src/index.ts",
+      "bytes": 1227,
+      "sha256": "7d6325b93b5cb6edcece15cb3091787568e6611ceb06fd6f309f8769f82958b3"
+    },
+    {
+      "path": "packages/react/select/src/select.tsx",
+      "bytes": 79497,
+      "sha256": "a93c22d4caed9e9308a47f21f8c04d3e2c2accdd70ec29e0a97af3045c03b275"
+    },
+    {
+      "path": "packages/react/select/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/separator/CHANGELOG.md",
+      "bytes": 1619,
+      "sha256": "0a76121e8fda757e4b45c84c2036a60f23525c0e973e106629161aa4dcc31f66"
+    },
+    {
+      "path": "packages/react/separator/package.json",
+      "bytes": 1778,
+      "sha256": "1486259c89f42f3f8b37dbb3fe11e2d75578a0f2a945bc03f7190e48fbd7e93b"
+    },
+    {
+      "path": "packages/react/separator/README.md",
+      "bytes": 98,
+      "sha256": "d7e2b4023201a2675d40639f536534a49e77564b6f6cf902532e3b212622fd9f"
+    },
+    {
+      "path": "packages/react/separator/src/index.ts",
+      "bytes": 122,
+      "sha256": "09647a96bb3dd9051639f3ac61505fc7d9f348ff08413ad892cd53adf809b823"
+    },
+    {
+      "path": "packages/react/separator/src/separator.tsx",
+      "bytes": 2231,
+      "sha256": "0f06a2e04b09e482ac7a8cea70556ae9dbbd773603b5cdc8709666f08dd7c445"
+    },
+    {
+      "path": "packages/react/separator/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/slider/CHANGELOG.md",
+      "bytes": 5514,
+      "sha256": "476b218e6c137ab8a32f669bf294df10232251fac544377e5ee502fdd1185491"
+    },
+    {
+      "path": "packages/react/slider/package.json",
+      "bytes": 2300,
+      "sha256": "3ffcded3fa3d464b77b167178c7c0b83f5ff214561aa7ef846f3b3fa6235d48b"
+    },
+    {
+      "path": "packages/react/slider/README.md",
+      "bytes": 92,
+      "sha256": "47d0ac3efeaa1445e5977e190fe64200de5189b7020a50d47033ddcf9cb9f1dd"
+    },
+    {
+      "path": "packages/react/slider/src/index.ts",
+      "bytes": 742,
+      "sha256": "9f6354374f544c29840b064c84d5026e75a92aafa0d3e4191d35fe4a54cb0fc4"
+    },
+    {
+      "path": "packages/react/slider/src/slider.tsx",
+      "bytes": 36713,
+      "sha256": "ef0b3fe04c19ff7379e0f6ea41ee22e347e5888a0bc53c87d3497d23bb588046"
+    },
+    {
+      "path": "packages/react/slider/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/slot/CHANGELOG.md",
+      "bytes": 1753,
+      "sha256": "cfb33a5ff505cd2b59be4356bdb493aedcd7d8b6d63f62b7343d843d2e15015a"
+    },
+    {
+      "path": "packages/react/slot/package.json",
+      "bytes": 1618,
+      "sha256": "346317641d18423b545e5b66686f17b8f8f3965821c4b088adc082dde9697faf"
+    },
+    {
+      "path": "packages/react/slot/README.md",
+      "bytes": 87,
+      "sha256": "77378c28cf0e10b16185cb16bad857d15f76f51cf439a10a3ac7c652245d663c"
+    },
+    {
+      "path": "packages/react/slot/src/index.ts",
+      "bytes": 134,
+      "sha256": "aa9549579c4d435a25e46c8d09bd8f9dda382a14684ccc20806a9f8ff831d779"
+    },
+    {
+      "path": "packages/react/slot/src/slot.tsx",
+      "bytes": 9836,
+      "sha256": "b460fe7f458633db9f696d0b74ebf7a78be1e5c3c2daa94aa1d47e6db9c757f9"
+    },
+    {
+      "path": "packages/react/slot/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/switch/CHANGELOG.md",
+      "bytes": 3804,
+      "sha256": "e555a5c38196bae77d529e65aa2b83bf5e7330c63e8c0b462f8e3ae38c7ab3f9"
+    },
+    {
+      "path": "packages/react/switch/package.json",
+      "bytes": 2018,
+      "sha256": "68526f2a3cb1b42a292fe8a089b57521aea2f76753f2493797abbc8e3f976a5c"
+    },
+    {
+      "path": "packages/react/switch/README.md",
+      "bytes": 92,
+      "sha256": "7dd56d966f55071a3fe1b59f88f4f07af49227ac789cf525c566dd0abf2a7149"
+    },
+    {
+      "path": "packages/react/switch/src/index.ts",
+      "bytes": 594,
+      "sha256": "b072d583731285ef1aa45be1acd5213e1341f9a12fa1ab04716c9b9001a8176d"
+    },
+    {
+      "path": "packages/react/switch/src/switch.tsx",
+      "bytes": 14388,
+      "sha256": "225dad345bf1d5322290e55dbac9c4a6177708703f485a91a1ac46d785ab7b2b"
+    },
+    {
+      "path": "packages/react/switch/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/tabs/CHANGELOG.md",
+      "bytes": 4106,
+      "sha256": "17cc71be174ea632fc7cb507ca152b49879d0da61a2379424f3f3ab8f16cbd2e"
+    },
+    {
+      "path": "packages/react/tabs/package.json",
+      "bytes": 2104,
+      "sha256": "7bf5c0becf01b299f0c5c312dbab2c9086f0fecd89f8414e061cff573569aadb"
+    },
+    {
+      "path": "packages/react/tabs/README.md",
+      "bytes": 88,
+      "sha256": "a2d94651bcd45ae26c6f39ade95e57264abdcf2fe9142b48e7eddcb3ba52a0c2"
+    },
+    {
+      "path": "packages/react/tabs/src/index.ts",
+      "bytes": 249,
+      "sha256": "eb4550367bc86cfdf12ca5923b6c713d443784f0d25163867c5cfda8bbeaf92e"
+    },
+    {
+      "path": "packages/react/tabs/src/tabs.tsx",
+      "bytes": 11014,
+      "sha256": "1cbdd129d68ab0cf7bbd92313d50d88f0e4d2ab4f2cae1cb9fb218dd10731533"
+    },
+    {
+      "path": "packages/react/tabs/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/toast/CHANGELOG.md",
+      "bytes": 5917,
+      "sha256": "ba5c7eed70f45c98c547f5ace59b0dc09d08494eb1df4b5cd9a204704c9a475d"
+    },
+    {
+      "path": "packages/react/toast/package.json",
+      "bytes": 2371,
+      "sha256": "b2673bac85713ec81c66e7a194997882b30d3f4bd76677fec632ef754097a661"
+    },
+    {
+      "path": "packages/react/toast/README.md",
+      "bytes": 90,
+      "sha256": "7f0092234b355e1266401b51c68e99e5aeb90ca1279ae024771a0738b8f68f3d"
+    },
+    {
+      "path": "packages/react/toast/src/index.ts",
+      "bytes": 425,
+      "sha256": "bd215438000cdd7558d0c57c83deedca154a9f8309a0b3832dc8563e9dd54fad"
+    },
+    {
+      "path": "packages/react/toast/src/toast.tsx",
+      "bytes": 40384,
+      "sha256": "234b997f7b8cef4597c074e3c6633cc017e5f9680eaca5c966a4a052dd05ff9e"
+    },
+    {
+      "path": "packages/react/toast/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/toggle-group/CHANGELOG.md",
+      "bytes": 3941,
+      "sha256": "e220cc91a5bfa287caad6aacc39902414d37e0424c9ae74637f8ffbe53ab767e"
+    },
+    {
+      "path": "packages/react/toggle-group/package.json",
+      "bytes": 2077,
+      "sha256": "3eb2fb4d52b0dd9899eef0270b758d8a3c91f4a2fb3eea754b2d2cf47fd7b4e9"
+    },
+    {
+      "path": "packages/react/toggle-group/README.md",
+      "bytes": 104,
+      "sha256": "d7281d4ed1cde1ecb9a88a8d98d00588195611b2a1ec5ae76dd91a6c45311e0a"
+    },
+    {
+      "path": "packages/react/toggle-group/src/index.ts",
+      "bytes": 251,
+      "sha256": "c4a9e920f9399c63e444d592c761252eeddaa525d567188a7fe18113c7d0933b"
+    },
+    {
+      "path": "packages/react/toggle-group/src/toggle-group.tsx",
+      "bytes": 11302,
+      "sha256": "eeb726d2cbe9d7ad8738468a60f07d5666994bd1abd803029d53de3bfefe954b"
+    },
+    {
+      "path": "packages/react/toggle-group/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/toggle/CHANGELOG.md",
+      "bytes": 2341,
+      "sha256": "3aa9d59218cb1d3f278a3370b3910de602f9cefacf48f301d92c342f2f6fc35e"
+    },
+    {
+      "path": "packages/react/toggle/package.json",
+      "bytes": 1875,
+      "sha256": "e9ab4bb1b688f41edbdef90c3c0eb3e01c39291e8e95808b5515729c0a2bc00d"
+    },
+    {
+      "path": "packages/react/toggle/README.md",
+      "bytes": 92,
+      "sha256": "14ad06eb73e761771241879f6c39f7afb09891b1790a6d1810e899aecb77bde8"
+    },
+    {
+      "path": "packages/react/toggle/src/index.ts",
+      "bytes": 110,
+      "sha256": "8cada2b6763a1344207af2828fdbb26a2484d7924977a0471758a71920662c26"
+    },
+    {
+      "path": "packages/react/toggle/src/toggle.tsx",
+      "bytes": 2063,
+      "sha256": "3a0e0a242433a8b8efa37aa82daadcd0e17e798035fad46f08ec4c1dc9ab93e3"
+    },
+    {
+      "path": "packages/react/toggle/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/toolbar/CHANGELOG.md",
+      "bytes": 4045,
+      "sha256": "45dc1bf5b4c5f5e82d054dc6400443e9d3032a16711b84d440fe5550882f5ac1"
+    },
+    {
+      "path": "packages/react/toolbar/package.json",
+      "bytes": 2060,
+      "sha256": "e1a4f725ab901ef594a480f7632b5856d1c88548668b36edc9f6878010319cad"
+    },
+    {
+      "path": "packages/react/toolbar/README.md",
+      "bytes": 94,
+      "sha256": "bbb91f1efba517e88df909bca7734acde0fa7027df149f9176b54bd7e168eb31"
+    },
+    {
+      "path": "packages/react/toolbar/src/index.ts",
+      "bytes": 460,
+      "sha256": "6ab8a200e265dd5540a35b8768bc51ef890d9b0a1d0df581735f89d3c6bb4ca3"
+    },
+    {
+      "path": "packages/react/toolbar/src/toolbar.tsx",
+      "bytes": 9566,
+      "sha256": "1b4d7ac3536969759f4a63c192b9709458ba4d44342731ab819c6e32e558d878"
+    },
+    {
+      "path": "packages/react/toolbar/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/tooltip/CHANGELOG.md",
+      "bytes": 5658,
+      "sha256": "6f4ed7b36839a6319f4ff987e2a83b2ef78a193ce4edf799c3ef0368ac541c77"
+    },
+    {
+      "path": "packages/react/tooltip/package.json",
+      "bytes": 2361,
+      "sha256": "06295db1b1bb986494420e305b267883b0420d8411a15b4b33472b52dd0b157e"
+    },
+    {
+      "path": "packages/react/tooltip/README.md",
+      "bytes": 94,
+      "sha256": "c3d088303657c060d0a91aa57efb22edbc2eee6ee4467c6d5556dd0a84a8c81f"
+    },
+    {
+      "path": "packages/react/tooltip/src/index.ts",
+      "bytes": 398,
+      "sha256": "e6cf357e179ea209213da0231588ff86a9e2c453ea7e6ba313898521813b86d9"
+    },
+    {
+      "path": "packages/react/tooltip/src/tooltip.tsx",
+      "bytes": 28532,
+      "sha256": "34a90a288837a11c11e49ff5c4d08a6001152752fd7d18062ac6032f06a15290"
+    },
+    {
+      "path": "packages/react/tooltip/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-callback-ref/CHANGELOG.md",
+      "bytes": 495,
+      "sha256": "4fb4ecc6d037ea807463e0405e04d74260e99033476031934f31297881b1dfb4"
+    },
+    {
+      "path": "packages/react/use-callback-ref/package.json",
+      "bytes": 1567,
+      "sha256": "b8cf1e169c86b586187339fc0474aa32f2ffe52325e4cdb94013517f426c5523"
+    },
+    {
+      "path": "packages/react/use-callback-ref/README.md",
+      "bytes": 88,
+      "sha256": "b9be7e81b61451755f8906758c688d361a152815042fc5c81557582c08deb961"
+    },
+    {
+      "path": "packages/react/use-callback-ref/src/index.ts",
+      "bytes": 53,
+      "sha256": "6823db840dbefc6db3ee8de39a6b178dc0276c2cfb7f6010214a290420f18b84"
+    },
+    {
+      "path": "packages/react/use-callback-ref/src/use-callback-ref.tsx",
+      "bytes": 579,
+      "sha256": "e0592c6479498ba8761b26c8187efaff572febd0df0d52d89d6b350ae2684847"
+    },
+    {
+      "path": "packages/react/use-callback-ref/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-controllable-state/CHANGELOG.md",
+      "bytes": 1396,
+      "sha256": "73103a4cc351f95d09d7c74c4f57eac8feb5c904fa04e6cf17d878d23a31b6ad"
+    },
+    {
+      "path": "packages/react/use-controllable-state/package.json",
+      "bytes": 1756,
+      "sha256": "493ae9d3855741d6b25b89c0b3c9dfe4e243c0f9fd32b43c950690f8a22c98e4"
+    },
+    {
+      "path": "packages/react/use-controllable-state/README.md",
+      "bytes": 94,
+      "sha256": "d617a578cc8e612a2502125d004cf4e98e8c4a2ae9f7716a5038e44487d92644"
+    },
+    {
+      "path": "packages/react/use-controllable-state/src/index.ts",
+      "bytes": 145,
+      "sha256": "667c76158af4f2596713a936fc11fb2e6e9ef604fbbdec765478588a9c3488af"
+    },
+    {
+      "path": "packages/react/use-controllable-state/src/use-controllable-state-reducer.tsx",
+      "bytes": 4201,
+      "sha256": "b2596f3d6dd468a3d0e2e1fabd101d034afbaac0a99686bbe7acf7e3ba2de90c"
+    },
+    {
+      "path": "packages/react/use-controllable-state/src/use-controllable-state.tsx",
+      "bytes": 3204,
+      "sha256": "8222a6df8bc99a14c820150957b87b7aa8ae47d9cfec2a4444e5900c0c2a6cfa"
+    },
+    {
+      "path": "packages/react/use-controllable-state/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-effect-event/CHANGELOG.md",
+      "bytes": 913,
+      "sha256": "ce5908c91596fb926821cc5f8dc8a1e417df3a56c1785e9cfad4295ac5c12070"
+    },
+    {
+      "path": "packages/react/use-effect-event/package.json",
+      "bytes": 1706,
+      "sha256": "ec573df9e2c7cb249e8375019b732c769e4092985796950c38758163a6432550"
+    },
+    {
+      "path": "packages/react/use-effect-event/README.md",
+      "bytes": 97,
+      "sha256": "ab8878384a063162f51857c9eb0dc73b470de3777c4c34e49ce94c0dc05b2a78"
+    },
+    {
+      "path": "packages/react/use-effect-event/src/index.ts",
+      "bytes": 53,
+      "sha256": "36036e0753616eb01228aa3ec06f6e51ddb84855e1e85436c1c6787bd0064db8"
+    },
+    {
+      "path": "packages/react/use-effect-event/src/use-effect-event.tsx",
+      "bytes": 1298,
+      "sha256": "5053b603164725274ba78c18a3b95732aee8053fe3828543d285d12b10ea7905"
+    },
+    {
+      "path": "packages/react/use-effect-event/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-escape-keydown/CHANGELOG.md",
+      "bytes": 962,
+      "sha256": "d68b8cf51bef9cbb96f1855c83906d7a9c16d1a94f3cfa8aef8a2cf19bed29f8"
+    },
+    {
+      "path": "packages/react/use-escape-keydown/package.json",
+      "bytes": 1650,
+      "sha256": "98d1e9e092375453f24c805af88863a8993b0daa625dbe72769edfc288768ea5"
+    },
+    {
+      "path": "packages/react/use-escape-keydown/README.md",
+      "bytes": 90,
+      "sha256": "b2d54ac1cafb539e88aab9b753f840291ac32abe238796fd7250b526238ebf3c"
+    },
+    {
+      "path": "packages/react/use-escape-keydown/src/index.ts",
+      "bytes": 57,
+      "sha256": "dc225d1607889a0843da4e50ff6b7b8674a33e89f83b822890b8c6547dd6fcda"
+    },
+    {
+      "path": "packages/react/use-escape-keydown/src/use-escape-keydown.tsx",
+      "bytes": 918,
+      "sha256": "01160b218e7a10b7e9496d98d5f980b84c916100bf9a9b7b25592e42abbf50ad"
+    },
+    {
+      "path": "packages/react/use-escape-keydown/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/CHANGELOG.md",
+      "bytes": 915,
+      "sha256": "62b04e7181bdcdcc32dd4717e59c06657547659a985aaff07afbbafc74dfd451"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/package.json",
+      "bytes": 1576,
+      "sha256": "121b76ad7709b01f40c0a06187f3310df3bcf41a7bc46e251fc8d9ae3ac89b1c"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/README.md",
+      "bytes": 97,
+      "sha256": "ab8878384a063162f51857c9eb0dc73b470de3777c4c34e49ce94c0dc05b2a78"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/src/index.ts",
+      "bytes": 51,
+      "sha256": "1318356312fe177c343ebe9cdaff6ed6cf20d1dc304f482e82c54571fb668a1e"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/src/use-is-hydrated-legacy.ts",
+      "bytes": 302,
+      "sha256": "eb52432987d51e550e2b9d33494f5d5e210a9da646c1f7e2903222790bdf0b46"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/src/use-is-hydrated.tsx",
+      "bytes": 630,
+      "sha256": "bc9cfc9dda85afb9c325ca03f248f046d96ec7e585f36cea3585bfe94b0c9db3"
+    },
+    {
+      "path": "packages/react/use-is-hydrated/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-layout-effect/CHANGELOG.md",
+      "bytes": 496,
+      "sha256": "4e5b7f93fc61d474968d751f40fed6eb2108bf93cac9243f847f7fd6c35d77d2"
+    },
+    {
+      "path": "packages/react/use-layout-effect/package.json",
+      "bytes": 1569,
+      "sha256": "cc491a4fa86bd27b716cd4de08dd95be98f730fa0f34d14f5bf07651872aba04"
+    },
+    {
+      "path": "packages/react/use-layout-effect/README.md",
+      "bytes": 89,
+      "sha256": "677dc823c9ed820b34ad9d715927187eb5a8037c0fe5dd419a3af938a5c29202"
+    },
+    {
+      "path": "packages/react/use-layout-effect/src/index.ts",
+      "bytes": 55,
+      "sha256": "d8274145150a7036364ea67e7c6ea82b3870324e90a6b3eef492831684a2565e"
+    },
+    {
+      "path": "packages/react/use-layout-effect/src/use-layout-effect.tsx",
+      "bytes": 476,
+      "sha256": "e548e715d32bc984ef2b72531c0feeb6058a7487ee33bb9c2020d4b207aed809"
+    },
+    {
+      "path": "packages/react/use-layout-effect/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-previous/CHANGELOG.md",
+      "bytes": 491,
+      "sha256": "f9ac1d7590213769e3003c4300609a9cbda53a4d46f033699d7fb4dce2f430f7"
+    },
+    {
+      "path": "packages/react/use-previous/package.json",
+      "bytes": 1559,
+      "sha256": "64937a629cc9c9ae52ca1a45feba643b5433970fbf9c8f22798159969a01199e"
+    },
+    {
+      "path": "packages/react/use-previous/README.md",
+      "bytes": 84,
+      "sha256": "74f98c3d4182cedc3e433f6bc9c03b3a68e83c14aa10587d4e59130659efc857"
+    },
+    {
+      "path": "packages/react/use-previous/src/index.ts",
+      "bytes": 46,
+      "sha256": "27d3f13af78c0c2d6fff7b2673386dcf92ffdd3cebe2bcc2a140606dbb4642d2"
+    },
+    {
+      "path": "packages/react/use-previous/src/use-previous.tsx",
+      "bytes": 526,
+      "sha256": "7298caa3779de9ad02ec27197d9b809ec06094eb5da38ecfa6753ca788ffe95d"
+    },
+    {
+      "path": "packages/react/use-previous/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-rect/CHANGELOG.md",
+      "bytes": 581,
+      "sha256": "b66c76f6046892974a42f260ea5776c875121463c224020030b013675e063e55"
+    },
+    {
+      "path": "packages/react/use-rect/package.json",
+      "bytes": 1612,
+      "sha256": "bc54965bc65bfd56ca69d6f25f8d9ec5ff7cb5adba03c93437f14701ae59f595"
+    },
+    {
+      "path": "packages/react/use-rect/README.md",
+      "bytes": 80,
+      "sha256": "0cf985caa9bc4cc67a45f3ab07d5b190b36ff75e02a0169c1f9b1260820ade81"
+    },
+    {
+      "path": "packages/react/use-rect/src/index.ts",
+      "bytes": 38,
+      "sha256": "7dd67c2aa7e8035ee3db7fc4ee01259fd12d90c3b90d2c905b475538c28053a0"
+    },
+    {
+      "path": "packages/react/use-rect/src/use-rect.tsx",
+      "bytes": 629,
+      "sha256": "b7eefba887360293041482502c6612789a37b8253be8d95da5648060f2ae91fe"
+    },
+    {
+      "path": "packages/react/use-rect/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/use-size/CHANGELOG.md",
+      "bytes": 685,
+      "sha256": "9e158fc0f8c71160ae7006699d0d6a1ffbf330727f727741c225c5b771026757"
+    },
+    {
+      "path": "packages/react/use-size/package.json",
+      "bytes": 1631,
+      "sha256": "1c87f427bc05bcbd1134c05d546d5799cdade55523bdd31bb7f17aeee78326e3"
+    },
+    {
+      "path": "packages/react/use-size/README.md",
+      "bytes": 80,
+      "sha256": "637e261ac1ad2d23de82fc6872a8991497724a9b4dd8e6083d7048364f4208d9"
+    },
+    {
+      "path": "packages/react/use-size/src/index.ts",
+      "bytes": 38,
+      "sha256": "36016a3c3cfed4544068a0f46bf7c926f1daa7810de14b142f752df9e7ffb969"
+    },
+    {
+      "path": "packages/react/use-size/src/use-size.tsx",
+      "bytes": 2545,
+      "sha256": "d74d43a32d1e64a7c4b5669414837c099b69cddb695f8b95a1de7feff2db4726"
+    },
+    {
+      "path": "packages/react/use-size/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "packages/react/visually-hidden/CHANGELOG.md",
+      "bytes": 1833,
+      "sha256": "96bbc7ee44a427f98eec6b5268de740627b078d1856443c6e6f7c5dda54c7907"
+    },
+    {
+      "path": "packages/react/visually-hidden/package.json",
+      "bytes": 1790,
+      "sha256": "3c734812d139449175ca8ca181747cd3874dcebb0f43e977c4abe2548414fb1c"
+    },
+    {
+      "path": "packages/react/visually-hidden/README.md",
+      "bytes": 109,
+      "sha256": "0f11a2c1711b98cf25b04b53f840ee983d85559c74060ec3a223a05a741514ef"
+    },
+    {
+      "path": "packages/react/visually-hidden/src/index.ts",
+      "bytes": 175,
+      "sha256": "361a913f1602d33c43b8a5f518e2f728a6ca7e4c0de6e20f7f42a4294b5f1110"
+    },
+    {
+      "path": "packages/react/visually-hidden/src/visually-hidden.tsx",
+      "bytes": 1428,
+      "sha256": "90f82d3f1d0ee74c1761bf4cb2e0999caec6eda401c826e1e4b58ce3ba10af7b"
+    },
+    {
+      "path": "packages/react/visually-hidden/tsconfig.json",
+      "bytes": 228,
+      "sha256": "6dd4478cc31e52cc11b417074c9ff358b73690876faa7d79f791d45a55e3866d"
+    },
+    {
+      "path": "philosophy.md",
+      "bytes": 6099,
+      "sha256": "8ece84f7cf8b4ac60ccc8609aebf0c69fd8ae8727620fb270101d55367c6048c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1704,
+      "sha256": "20cbda0a49f12fb8d23bc41106611cd89d8ff3c6950059b4a3092b58f357656d"
+    }
+  ]
+}

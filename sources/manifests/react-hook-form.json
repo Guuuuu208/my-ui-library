@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-14T02:52:50.214Z",
+  "source": {
+    "id": "react-hook-form",
+    "name": "React Hook Form",
+    "category": "forms",
+    "repository": "https://github.com/react-hook-form/react-hook-form",
+    "revision": "38efe7b54d1171c2c40b444ccfbc26b8de0b4699",
+    "license": "MIT",
+    "archive": {
+      "url": "https://codeload.github.com/react-hook-form/react-hook-form/tar.gz/38efe7b54d1171c2c40b444ccfbc26b8de0b4699",
+      "bytes": 3289132,
+      "sha256": "0ed71cc1fb47841c133d0c4ecd0d3d05ef01c02009d305a23aeed312a74fe677"
+    }
+  },
+  "safety": {
+    "thirdPartyCodeExecuted": false,
+    "forbiddenExecutableFiles": 0,
+    "packageLifecycleScripts": [],
+    "reviewSignals": [],
+    "note": "Signals are static-review leads, not proof of malicious behavior. Upstream source remains unmodified."
+  },
+  "fileCount": 209,
+  "totalBytes": 444784,
+  "files": [
+    {
+      "path": "examples/README.md",
+      "bytes": 6318,
+      "sha256": "25ffbc1626ed4e345d77ecea2e4f05adb7bc6a021c290c790857e96dcd9f9898"
+    },
+    {
+      "path": "examples/V6/asyncFieldValidation.tsx",
+      "bytes": 1415,
+      "sha256": "74647ad659ec44ba2710a77be8b29eccbc59d90b41eab1b668d8cea58a3a49bb"
+    },
+    {
+      "path": "examples/V6/asyncSetFormValues.tsx",
+      "bytes": 783,
+      "sha256": "dbabab48850e5b8417fcb1bf1dbf3ddc8446912f0130fd13763756286f9e46a0"
+    },
+    {
+      "path": "examples/V6/asyncSubmitValidation.tsx",
+      "bytes": 1383,
+      "sha256": "cbea1d4683ce4b25596bc3a5fb45a3c58141cc1e6598d9f7eda67b37ad7bb2fe"
+    },
+    {
+      "path": "examples/V6/basic.tsx",
+      "bytes": 961,
+      "sha256": "77da191e84c8e6edb2d3f9d7c4aa95997e7bd9b45a656433946ea8e02d77c4ad"
+    },
+    {
+      "path": "examples/V6/basicValidation.tsx",
+      "bytes": 2036,
+      "sha256": "536874f467307e27c303a2810216977780e20677a8321672e4773e65571b1d25"
+    },
+    {
+      "path": "examples/V6/conditionalFields.tsx",
+      "bytes": 1340,
+      "sha256": "8f223b0ecc5f1edbeff846a4afa422e487eed98ea924db49ece8ba95ab178ed5"
+    },
+    {
+      "path": "examples/V6/custom-masked-input.tsx",
+      "bytes": 818,
+      "sha256": "5f6755107ad2aae2edf0ca0b4333d3d03d0caf772d19b27456bd25d8b1637c9b"
+    },
+    {
+      "path": "examples/V6/customInput.tsx",
+      "bytes": 2567,
+      "sha256": "c17d6eb9e834f147f130a5cb14612f7dd694a753e5134f4a63cd6b5867177823"
+    },
+    {
+      "path": "examples/V6/customMaskedInputWithController.tsx",
+      "bytes": 1893,
+      "sha256": "1160cd98b2220ee809d12d9078de1fe4198c1d38a513c61320f00014510b9f4e"
+    },
+    {
+      "path": "examples/V6/customValidation.tsx",
+      "bytes": 2358,
+      "sha256": "c81170607b5f070e769b2c1de5f6de2430b9cca801c2cf73b286d5dc5cf41cb2"
+    },
+    {
+      "path": "examples/V6/defaultValues.tsx",
+      "bytes": 1236,
+      "sha256": "cc024b6eb69659374eeab1bf2e312d04f41c063e2634171f154710bd0011f928"
+    },
+    {
+      "path": "examples/V6/dirtyTouchedSubmitted.tsx",
+      "bytes": 1509,
+      "sha256": "c22c9c833844b622dbffe0ff4a69d292c8c4d2b6c16c2f830871aacbc97a4180"
+    },
+    {
+      "path": "examples/V6/disableNativeValidation.tsx",
+      "bytes": 668,
+      "sha256": "a72629de562dedeb19d93efd878461107765381572a6fbfb6e68ac603bff1ec9"
+    },
+    {
+      "path": "examples/V6/FieldArray.tsx",
+      "bytes": 1884,
+      "sha256": "a98c281e5ad1083befdbfb16e031214c7f38044a99c49455b72d1f4b86e69b04"
+    },
+    {
+      "path": "examples/V6/fieldArrayMinLength.tsx",
+      "bytes": 2000,
+      "sha256": "456822f0b2363d23bb4be9c9f4a064e06cc2e29b3ad6bd7b7ab7cad0347ff5b0"
+    },
+    {
+      "path": "examples/V6/formProvider.tsx",
+      "bytes": 676,
+      "sha256": "2e51b5d2e736acade420dd089b2f19cb97532c5b2d617a59425ba0cfd1721267"
+    },
+    {
+      "path": "examples/V6/forwardRefToPassRefProp.tsx",
+      "bytes": 518,
+      "sha256": "5e910e4ad3f09bca893e4cc0c89b8841823be71a3a46a34abd1d425f9ab7266c"
+    },
+    {
+      "path": "examples/V6/getValuesCompareFields.tsx",
+      "bytes": 1286,
+      "sha256": "44431d7210c358e5b49de0ced48e5ac430828a645eab2afaa5d0605653bd5445"
+    },
+    {
+      "path": "examples/V6/initalFormState.tsx",
+      "bytes": 1217,
+      "sha256": "4e793e732018a9a0da3cb16329e514017cdfece6a700672ef497662ee67b07e2"
+    },
+    {
+      "path": "examples/V6/nativeMultipleInput.tsx",
+      "bytes": 1006,
+      "sha256": "2f17adf15ab1fcf14d2389c6f80bc8613f811adb642ef6e3e00dd39107ea5b05"
+    },
+    {
+      "path": "examples/V6/nestedFields.tsx",
+      "bytes": 2381,
+      "sha256": "fe8f9eb962fe41de4037a55b0f6d7d813f4385ee0311bd8ec83f6dcdef2b375a"
+    },
+    {
+      "path": "examples/V6/normalizeField.tsx",
+      "bytes": 1636,
+      "sha256": "f4a818d8184c27e0fc664229ed759a1bf916737c7b01d53ef33a9a6e9e577391"
+    },
+    {
+      "path": "examples/V6/parseFormatInputValues.tsx",
+      "bytes": 1091,
+      "sha256": "116ddde304de2032891db7c4814def39561f320a341d21a6946b83c1f8f9500f"
+    },
+    {
+      "path": "examples/V6/persistInputOnUnmount.tsx",
+      "bytes": 2404,
+      "sha256": "2f89e84ba2a070509e38ac9a28d7ecd42cbfa63523cc4f7a83600d2bddbb382b"
+    },
+    {
+      "path": "examples/V6/README.md",
+      "bytes": 6582,
+      "sha256": "91a5dc00c56942956d69c3af401fa64e133b1975b6163c3ce2174effb6cebb6f"
+    },
+    {
+      "path": "examples/V6/registerWithErrorMessages.tsx",
+      "bytes": 1762,
+      "sha256": "af3192525e5d1d241b2ad08534cc607c4c5600c453fc3a5c8fb23bae3ebb2706"
+    },
+    {
+      "path": "examples/V6/remoteTriggerFormSubmit.tsx",
+      "bytes": 998,
+      "sha256": "0b1dec6b62b3c82bfc81dd3f65aa0b62eb75bafa29538cf39a385041b9aa8115"
+    },
+    {
+      "path": "examples/V6/resetForm.tsx",
+      "bytes": 1857,
+      "sha256": "32137f87e1e57f32e0a2cbdf29b359d8caccaf1b6e0e25d33483a6d770b0c229"
+    },
+    {
+      "path": "examples/V6/setValue.tsx",
+      "bytes": 1610,
+      "sha256": "519aadbc5ba0efcf40398b3dc5464ca9e3a62a4830ddcae859d1a1c22a0edd33"
+    },
+    {
+      "path": "examples/V6/triggerFieldValidation.tsx",
+      "bytes": 740,
+      "sha256": "af72f96c5d6451ad6b95adc396a77e9234bece7a40b0ce25bafa627f1171bb66"
+    },
+    {
+      "path": "examples/V6/typescript/Control.tsx",
+      "bytes": 907,
+      "sha256": "72396b991a4c5c04bcf33d273e28c3b501254041e15b4051ab26e7adf572b9e2"
+    },
+    {
+      "path": "examples/V6/typescript/NestedValue.tsx",
+      "bytes": 2269,
+      "sha256": "c3d46d9d7dbb02c652a0d54a31be5941c534f8c9b6585c0a1e2211ccddef8d23"
+    },
+    {
+      "path": "examples/V6/typescript/Resolver.tsx",
+      "bytes": 1016,
+      "sha256": "50ca0fc180b3aa1daffaeb9852ccf0bf3ec48c4be7b7bc1663bb2c888c44a3dd"
+    },
+    {
+      "path": "examples/V6/typescript/SubmitHandler.tsx",
+      "bytes": 803,
+      "sha256": "4ce8d52d47630bb08cbe3241a94e51b12623ac0afeb9aa652126c6784dcfc22f"
+    },
+    {
+      "path": "examples/V6/typescript/UseFormMethods.tsx",
+      "bytes": 1964,
+      "sha256": "c66b984b400407740d87e5527bad6978f17b9b7e4a189252fb04a5d5353892de"
+    },
+    {
+      "path": "examples/V6/validationOnFieldBlur.tsx",
+      "bytes": 1247,
+      "sha256": "c231bc7b40ad7a77f522f623d2e3aef59ff9acf3a8c7e36b018fbeab1f12c799"
+    },
+    {
+      "path": "examples/V6/validationOnFieldChange.tsx",
+      "bytes": 1249,
+      "sha256": "36f8dd2889173bd2566094b3e24be26807198f782332aafeb1e407f6e9cd38ae"
+    },
+    {
+      "path": "examples/V6/validationSchema.tsx",
+      "bytes": 1530,
+      "sha256": "a3cd6e96a07942247a4c40065e3433a307d81804fbf664ae307cdae635d8ef59"
+    },
+    {
+      "path": "examples/V7/asyncFieldValidation.tsx",
+      "bytes": 1469,
+      "sha256": "b10285d0e2cde5f633370aafec9976d1511a5669a0443752c532cf90f1337f8f"
+    },
+    {
+      "path": "examples/V7/asyncSetFormValues.tsx",
+      "bytes": 783,
+      "sha256": "ef2f846a4248bff50d769deae542186dba1cf2352dacf5b0e38438cc248d1a1b"
+    },
+    {
+      "path": "examples/V7/asyncSubmitValidation.tsx",
+      "bytes": 1381,
+      "sha256": "796703176b2c395f387fcd8d281f1436fc129cc9760eb48427eb87bb2381e80e"
+    },
+    {
+      "path": "examples/V7/basic.tsx",
+      "bytes": 986,
+      "sha256": "b28df6fb9cacafba44bdb08714a7ce317c8b0f6830589320ca1ea49e622f227a"
+    },
+    {
+      "path": "examples/V7/basicValidation.tsx",
+      "bytes": 2513,
+      "sha256": "95ac26301d29a279a4c5ff387cbf9e124057640ece7c261f085b1338da49c4f0"
+    },
+    {
+      "path": "examples/V7/conditionalFields.tsx",
+      "bytes": 1303,
+      "sha256": "700d7c76e1b14dd49353390aeb9e16522ba77e87b4e6b6e87b6cbb0f9db5f040"
+    },
+    {
+      "path": "examples/V7/customInput.tsx",
+      "bytes": 2625,
+      "sha256": "6a28466fa3058ef1ee36352fed4b085349e51332448e8e7cfe13b548b4a5987e"
+    },
+    {
+      "path": "examples/V7/customMaskedInputWithController.tsx",
+      "bytes": 1826,
+      "sha256": "ffe59bf0208f0406cc26711adb35b90478230e6d72ae4f355af38b83cf4fee79"
+    },
+    {
+      "path": "examples/V7/customValidation.tsx",
+      "bytes": 2260,
+      "sha256": "7af0c05055cae691202d1d2660134edcf450cbcb5c4eb180e6053b6dce4494ab"
+    },
+    {
+      "path": "examples/V7/defaultValues.tsx",
+      "bytes": 1204,
+      "sha256": "27299c2b4061372a709a29968ed953bf1c0926169037e66b7b4821a1e9e44b85"
+    },
+    {
+      "path": "examples/V7/dirtyTouchedSubmitted.tsx",
+      "bytes": 1430,
+      "sha256": "975cdd81b63499f65d08d259c1e3369ca655aa5b2b95c5b91f4a7f122606d3a9"
+    },
+    {
+      "path": "examples/V7/disableNativeValidation.tsx",
+      "bytes": 698,
+      "sha256": "d7141828cba1a3b2b65e1aa3723ccc0eace62ef4326ce0d89734afbd51562379"
+    },
+    {
+      "path": "examples/V7/FieldArray.tsx",
+      "bytes": 2003,
+      "sha256": "d48d4388d1233e1b6bc741e4524f6df236ffd1de1c95f13a60ee3a505092a0d9"
+    },
+    {
+      "path": "examples/V7/fieldArrayMinLength.tsx",
+      "bytes": 2021,
+      "sha256": "e482fed59def64de1f591dfa21bdc1e9715a9a0ce860036403dac6326849f9dd"
+    },
+    {
+      "path": "examples/V7/formProvider.tsx",
+      "bytes": 666,
+      "sha256": "f46f9c5a7da5cab4e95ee5286f45af6bb42f55fae7dba0c8e29a1ae65d4b154b"
+    },
+    {
+      "path": "examples/V7/getValuesCompareFields.tsx",
+      "bytes": 1320,
+      "sha256": "0ef935f0b94244a20f5ab76cff4ad071d801e78c7a9bc85e5afb2625a320fe39"
+    },
+    {
+      "path": "examples/V7/initalFormState.tsx",
+      "bytes": 1179,
+      "sha256": "a6cd0b68246017d46f46d443c39c6d8e33e216f617bf7d1304a266dd54215eb4"
+    },
+    {
+      "path": "examples/V7/nativeMultipleInput.tsx",
+      "bytes": 1010,
+      "sha256": "2347726e0d8fa4d64c796a6596a185936d27de7d69b83b40a42273e6f9fa71be"
+    },
+    {
+      "path": "examples/V7/nestedFields.tsx",
+      "bytes": 1978,
+      "sha256": "af875da05b924ea3f5cab0b8d3f9f253cbc65f54e4ac543e30890814d27d1780"
+    },
+    {
+      "path": "examples/V7/normalizeField.tsx",
+      "bytes": 1636,
+      "sha256": "f4a818d8184c27e0fc664229ed759a1bf916737c7b01d53ef33a9a6e9e577391"
+    },
+    {
+      "path": "examples/V7/parseFormatInputValues.tsx",
+      "bytes": 1095,
+      "sha256": "ce4c7999e781ae1b6477f7d7446efe56578a0e1740e702439980f4eab4057115"
+    },
+    {
+      "path": "examples/V7/registerWithErrorMessages.tsx",
+      "bytes": 1747,
+      "sha256": "db40021a46d0061601775a34ffb53922bdcf5cf33e7eb1ca09498f3e44e70b0c"
+    },
+    {
+      "path": "examples/V7/remoteTriggerFormSubmit.tsx",
+      "bytes": 971,
+      "sha256": "8796b133fdcd26252f9f02e9d02c5b7ea7605b1e44f90da37acf704c2bc7b4a3"
+    },
+    {
+      "path": "examples/V7/resetForm.tsx",
+      "bytes": 1741,
+      "sha256": "c523369541b97ee6f31dee511093ef160948827621decac082fe4c1d537e8ed9"
+    },
+    {
+      "path": "examples/V7/setValue.tsx",
+      "bytes": 1456,
+      "sha256": "eb1b788b69d2446ecceab331498bf069751aa09fc2668e911c861576d7484cfe"
+    },
+    {
+      "path": "examples/V7/triggerFieldValidation.tsx",
+      "bytes": 817,
+      "sha256": "27bc286a091189e52b99c99fb4f0ea3e11d4ace100813fd14b52ccf21a584fb9"
+    },
+    {
+      "path": "examples/V7/typescript/Control.tsx",
+      "bytes": 897,
+      "sha256": "a1ff91c90f58382b728292fa8add134f238745fc375ec6cfeac8397b92151cfd"
+    },
+    {
+      "path": "examples/V7/typescript/NestedValue.tsx",
+      "bytes": 2230,
+      "sha256": "52af7bc27d61315453baf20014645b561c20a0d2d2f39c5384f2e368ec215838"
+    },
+    {
+      "path": "examples/V7/typescript/Resolver.tsx",
+      "bytes": 1006,
+      "sha256": "03acc9e9877fab5a08ba3c6e7119071a1d103200399692b7c073970fb1e2e366"
+    },
+    {
+      "path": "examples/V7/typescript/SubmitHandler.tsx",
+      "bytes": 788,
+      "sha256": "755fdbe4237ed0b93e78ed3a996c5400313e5d404d20c337ae5c92108d156bb3"
+    },
+    {
+      "path": "examples/V7/typescript/UseFormMethods.tsx",
+      "bytes": 1784,
+      "sha256": "dd6f9dc18edfc61cc2e449fe57c13627b7f082d1fb6b2de7c4f9744f034c7046"
+    },
+    {
+      "path": "examples/V7/useFieldArraySimpleExample.tsx",
+      "bytes": 788,
+      "sha256": "1c1a9007b491ff1d69a79d74e8aefd66a18d3a7750e3348ca4277838f83191d7"
+    },
+    {
+      "path": "examples/V7/validationOnFieldBlur.tsx",
+      "bytes": 1238,
+      "sha256": "a9289b9edb62b7cd5642c439b91f71d92fc65f546cdccaea43df4180656cd364"
+    },
+    {
+      "path": "examples/V7/validationOnFieldChange.tsx",
+      "bytes": 1240,
+      "sha256": "e561f89a222400e02ffce5d425858eb1bd01927528ec73054a3e495558ab5c37"
+    },
+    {
+      "path": "examples/V7/validationSchema.tsx",
+      "bytes": 1616,
+      "sha256": "bfa9680d29772dde375786f7438bebf38053fc1573806f7def60ada521c0ab5f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1080,
+      "sha256": "e8eeb472f0a5889c2c51625b86a3f9b8630680adb9f49a125352e2e426392780"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8201,
+      "sha256": "81c36da6a11e2274216a5c0cf37de113e92074e567c4e38db61f1673584139e5"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 218,
+      "sha256": "8d370de4583b09bc1d8f769c9769bdbff540907a57f189053659482d52939bba"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/dummy.d.ts",
+      "bytes": 45,
+      "sha256": "a9c1b8c7802cf11e6a675bb8345acb6948fafbce02fdd9345840f1f4fdab4214"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/index.ts",
+      "bytes": 138,
+      "sha256": "0f74e9297e4fd106a98dcecc220a46a1609cdc013debbafe817daee421ce50af"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/matchers.ts",
+      "bytes": 230,
+      "sha256": "7e5c6f70ca7563b446a1df0f2064677c3262e79b184acc97541c09a1a9d378d8"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/pathString.ts",
+      "bytes": 185,
+      "sha256": "9ba7e68862f7f32cc764ab9ca2172cd2ab6b3efa0058981c4c5eb780e6ec6bd7"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/traversable.ts",
+      "bytes": 350,
+      "sha256": "7b5e206c730e72c71ea87f2c56d53285bdb7c7224fd2bbe6628ed1ea6eaa9193"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/tuple.ts",
+      "bytes": 211,
+      "sha256": "a36c23cf2186b92364c59c02ff916b2425675812107461e21a7419494d640aa2"
+    },
+    {
+      "path": "src/__typetest__/__fixtures__/type.ts",
+      "bytes": 310,
+      "sha256": "7204be468673c2f41f1dc803a2cad47eed9a98234f50a84243b4993d9fa353fe"
+    },
+    {
+      "path": "src/__typetest__/errors.test-d.ts",
+      "bytes": 7302,
+      "sha256": "7ba52a185958742d4b365e79ffa5a29153be1a50df8419790e8a391df4371153"
+    },
+    {
+      "path": "src/__typetest__/fieldArray.test-d.ts",
+      "bytes": 823,
+      "sha256": "742404e4b25b7c62a74e59aa949e33e6f6d107ce242b6e973815247cb6563dcf"
+    },
+    {
+      "path": "src/__typetest__/form-state-subscribe.test-d.ts",
+      "bytes": 5591,
+      "sha256": "9c516eaffa8049ce2660b5e0f8da225bda4e9ad54e21a07a6833d39fdd7b9e19"
+    },
+    {
+      "path": "src/__typetest__/form.test-d.ts",
+      "bytes": 7996,
+      "sha256": "ee78eafd7860e71c369c4bec26f8fcf60622344a5a93ffd4c4c0531dcdd456f7"
+    },
+    {
+      "path": "src/__typetest__/getErrors.test-d.ts",
+      "bytes": 5115,
+      "sha256": "0bccee6e05eeb67cf1cff6912d5d7a8e3438919c9d79322c0d9eaacce1c32ae1"
+    },
+    {
+      "path": "src/__typetest__/opaqueTypes.test-d.ts",
+      "bytes": 3628,
+      "sha256": "63c8ed21c017de6a3b1664539ff50b5f0132437e96798cc2d461440bca99b08c"
+    },
+    {
+      "path": "src/__typetest__/package.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "src/__typetest__/path/common.test-d.ts",
+      "bytes": 26564,
+      "sha256": "18f325ef56e438c0f714986151b9980ea6f5d3710e8b0447359701dc38f6ace7"
+    },
+    {
+      "path": "src/__typetest__/path/eager.test-d.ts",
+      "bytes": 5189,
+      "sha256": "a3623f6ecb95186a4f4e95d06aa032a9e339f4d0e634a6d4dff8d01567c1340d"
+    },
+    {
+      "path": "src/__typetest__/tsconfig.json",
+      "bytes": 484,
+      "sha256": "1cb85aa587143235067fd2a303fffefa8088e7ecd5178936300613551af279df"
+    },
+    {
+      "path": "src/__typetest__/use-form-context.test-d.ts",
+      "bytes": 789,
+      "sha256": "1f4c4a98e83401e0415d64b32ba244b57f402e9d72d149808c43b486fb57356c"
+    },
+    {
+      "path": "src/__typetest__/useController.test-d.ts",
+      "bytes": 2201,
+      "sha256": "ba301d2d33626db33ef13fed551578ce94e54dd6f796416fa47a10dfcf0e74c4"
+    },
+    {
+      "path": "src/__typetest__/util.test-d.ts",
+      "bytes": 3444,
+      "sha256": "a63dd530bbc1748a3f2a1c29a084e2f63b537ae5e6d976ce77d58dc418e790ee"
+    },
+    {
+      "path": "src/__typetest__/watch.test-d.ts",
+      "bytes": 3108,
+      "sha256": "dcb5ea6a02b8a5d3b0d14ad0a5cba082e8503cc254a5ccd4a708b7a1c0cd6729"
+    },
+    {
+      "path": "src/constants.ts",
+      "bytes": 632,
+      "sha256": "02cdf45500c26a3a5a219038a8587766fd394f9920648838dfc398abc7fcd51d"
+    },
+    {
+      "path": "src/controller.tsx",
+      "bytes": 775,
+      "sha256": "ec64b52d7b394d3af7062316bf4ae7052d0a9cadd4d9e06f70aa2dabd1c0f301"
+    },
+    {
+      "path": "src/errorMessage.tsx",
+      "bytes": 1551,
+      "sha256": "695cc7f1b79e20a453d36c1b14d4ede816f686025c3048c17946ccc7c3a72c9c"
+    },
+    {
+      "path": "src/fieldArray.tsx",
+      "bytes": 1361,
+      "sha256": "cd51cc768ee956c48af89deec670cbc51059e1ec556a5b9877f863053610a655"
+    },
+    {
+      "path": "src/form.tsx",
+      "bytes": 4025,
+      "sha256": "ba80f5b065af3737544b4ac3f5aabf0a4443f0df9ce13b16b14a2786444021b7"
+    },
+    {
+      "path": "src/formState.tsx",
+      "bytes": 1195,
+      "sha256": "e216b25d3e918397274e5c5f0635282eec2db5d941a2eee27bcc7ccca13a1e1d"
+    },
+    {
+      "path": "src/index.react-server.ts",
+      "bytes": 50,
+      "sha256": "942d8b70230443fe25f0dcb1f9ae89c0783e81e567fe4c6dea26812143ab7a2e"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 553,
+      "sha256": "4dfc6e2eae187ea662cf33442487817fd343fd13451e1ea40d693aaaa3a97d9a"
+    },
+    {
+      "path": "src/logic/appendErrors.ts",
+      "bytes": 476,
+      "sha256": "e0d63668af281bf3dcea91635423639301a9df5a9cb36463c24d6c15084d11e1"
+    },
+    {
+      "path": "src/logic/collectDirtyFieldNames.ts",
+      "bytes": 735,
+      "sha256": "96c7a1f7cb70dd3b57d144ef54ccd9a0405429be99577b15d12b94bfe74840d1"
+    },
+    {
+      "path": "src/logic/createFormControl.ts",
+      "bytes": 64022,
+      "sha256": "f2fd3a2420f450002ca3689a852613d04ae694fc78c3a980ca8e5361cec60aae"
+    },
+    {
+      "path": "src/logic/generateId.ts",
+      "bytes": 288,
+      "sha256": "9e0151c2fb2eb3abaeea6f42aa0d1c43ff1d202d14dc1c4c545cc0f4501c19d8"
+    },
+    {
+      "path": "src/logic/generateWatchOutput.ts",
+      "bytes": 712,
+      "sha256": "8041e5cd305abc1a41a00711f5f1846ba70d355e2981d5a892cb9ae278ff1c5d"
+    },
+    {
+      "path": "src/logic/getCheckboxValue.ts",
+      "bytes": 984,
+      "sha256": "20268c7743aabf7fccebd13535ab069b1eb5bd112e6e7f2877db35d92f728baf"
+    },
+    {
+      "path": "src/logic/getDirtyFields.ts",
+      "bytes": 2910,
+      "sha256": "a5ce4ae9c3afa0c0bccbf9d62308630320210478bbdfffd273fcd0f2833d826b"
+    },
+    {
+      "path": "src/logic/getEventValue.ts",
+      "bytes": 483,
+      "sha256": "a2c6c81bb87bb24e4ac61f290a59e08eaac40fd9c3377e58817851b9e2c790f1"
+    },
+    {
+      "path": "src/logic/getFieldArrayItemNames.ts",
+      "bytes": 442,
+      "sha256": "f649b57c7234a676f308687912d92c3d24a9a62d54acd8d4d3e47212ef6651e8"
+    },
+    {
+      "path": "src/logic/getFieldValue.ts",
+      "bytes": 815,
+      "sha256": "be6f25e6f137772a84e4656e8fbb0ef1c4e91f30595740d1cd96c4b1eb3cf811"
+    },
+    {
+      "path": "src/logic/getFieldValueAs.ts",
+      "bytes": 545,
+      "sha256": "45e73e3bd09648f43a5f9f4b8d55e46d6adf748a2f5513d67e99b9ce83f95d57"
+    },
+    {
+      "path": "src/logic/getFocusFieldName.ts",
+      "bytes": 412,
+      "sha256": "65c11657cf1f4dd6504c513a1398a5526dd440be6992eb332eabdb8f76164cb8"
+    },
+    {
+      "path": "src/logic/getNullAncestorValue.ts",
+      "bytes": 652,
+      "sha256": "d1adf6d4117dd48f9bf97800835f0f5e1fde72a2bb523d1a29943e4215232928"
+    },
+    {
+      "path": "src/logic/getProxyFormState.ts",
+      "bytes": 921,
+      "sha256": "77546e83b44d890049b8378caebfdfab6af0c69159ab34d9c85321eaf8f36823"
+    },
+    {
+      "path": "src/logic/getRadioValue.ts",
+      "bytes": 555,
+      "sha256": "eac7520e6ff20d77ef2b5f7840141c6de270f5d8cfd1052ca76bb32372276752"
+    },
+    {
+      "path": "src/logic/getResolverOptions.ts",
+      "bytes": 737,
+      "sha256": "42350802d8d587fb31d9f5968bcf478a6fd5e12076cbcddbd2856b892b85a901"
+    },
+    {
+      "path": "src/logic/getRuleValue.ts",
+      "bytes": 525,
+      "sha256": "d4852825d0fce58fb7ff4b17d0c32c4b4cad96de45be901cff5070b8324f122f"
+    },
+    {
+      "path": "src/logic/getValidateError.ts",
+      "bytes": 501,
+      "sha256": "7f3485951b4c457ac095a8efbdcf4cc9f19233f4fea48c6f84a3bc9188fe44b0"
+    },
+    {
+      "path": "src/logic/getValidationModes.ts",
+      "bytes": 410,
+      "sha256": "612828e8956b4f4d754a4b8a5e6496a8e431f97d5e3d5c3080286d337338f73e"
+    },
+    {
+      "path": "src/logic/getValueAndMessage.ts",
+      "bytes": 328,
+      "sha256": "693d7922e486e0b3a2ced2668b40e6b4171d6af37e9cad79f432203ebfe7142e"
+    },
+    {
+      "path": "src/logic/hasPromiseValidation.ts",
+      "bytes": 705,
+      "sha256": "78689af6f59f34494e4f3c401351ecdc6ab465fb52f3e939aa2e5a3ac8998c24"
+    },
+    {
+      "path": "src/logic/hasValidation.ts",
+      "bytes": 431,
+      "sha256": "f3035b42f4e0fabe501ec3ea4adbd08c48c79fdca7f6dfcfb674d192f5c9b3cf"
+    },
+    {
+      "path": "src/logic/index.ts",
+      "bytes": 115,
+      "sha256": "51d621c4e724720dd1b7ba6374d8a5b988beeda22d620ac84634a13691b631d9"
+    },
+    {
+      "path": "src/logic/isNameInFieldArray.ts",
+      "bytes": 270,
+      "sha256": "0e96965b7c29891ef2e7f7936848430bbcef0251d434ea141aee428291a6ef30"
+    },
+    {
+      "path": "src/logic/isWatched.ts",
+      "bytes": 408,
+      "sha256": "094d6491fcae64d9a587c9c5d7986643f7427702423a587dab172adac8293290"
+    },
+    {
+      "path": "src/logic/iterateFieldsByAction.ts",
+      "bytes": 1075,
+      "sha256": "6868a74aebe324f4ff754040de22831bd737f82bb0329ae361494c9c8ef2ae89"
+    },
+    {
+      "path": "src/logic/schemaErrorLookup.ts",
+      "bytes": 1065,
+      "sha256": "ea80462c2783794a6e29fcf60c4ac65732e01c08561824a64bde2fa3dcc8d8da"
+    },
+    {
+      "path": "src/logic/shouldRenderFormState.ts",
+      "bytes": 772,
+      "sha256": "4099a2e2c4f12ce138fbc3495c29f2c0e636c773b458234d705f6d9c0516382b"
+    },
+    {
+      "path": "src/logic/shouldSubscribeByName.ts",
+      "bytes": 520,
+      "sha256": "a1a7d6766132c965219e3eeac76e0982dede6b01bf4b692ee02cf63981004ea5"
+    },
+    {
+      "path": "src/logic/skipValidation.ts",
+      "bytes": 600,
+      "sha256": "1d5cb26d2b160a9165a32571b797d399b6f5288d726476ac9aacfeb3330d733c"
+    },
+    {
+      "path": "src/logic/unsetEmptyArray.ts",
+      "bytes": 285,
+      "sha256": "6946429396b33ee5d5ae8904704c2f5263aea1347c7a48a89bc5dc2c68e58558"
+    },
+    {
+      "path": "src/logic/updateFieldArrayRootError.ts",
+      "bytes": 625,
+      "sha256": "933060ae9d4bfb9b13be0f33b457d0e731062b711738da43d79e47fbc721d79d"
+    },
+    {
+      "path": "src/logic/validateField.ts",
+      "bytes": 8822,
+      "sha256": "e6e77fa2f319d9854e85a5b693d074b88eb13cbf0c2d93edad381f1b9ba35fa7"
+    },
+    {
+      "path": "src/types/controller.ts",
+      "bytes": 2498,
+      "sha256": "073729c13c3dba84b08f34e7df457d261bc16a5c515bf958872bd3ec4ed99b20"
+    },
+    {
+      "path": "src/types/errors.ts",
+      "bytes": 2205,
+      "sha256": "bfa123856ba18fe3f2aed89c346d71bbb4bf1d0e6b9eddd01c7575b770e56475"
+    },
+    {
+      "path": "src/types/events.ts",
+      "bytes": 420,
+      "sha256": "b478d854a869460954c795b4e68d63a82902ac50d0825d2b3ad95c1d9f061c91"
+    },
+    {
+      "path": "src/types/fieldArray.ts",
+      "bytes": 8983,
+      "sha256": "ec135912771a63205e8fff14254fd8d8058b4473c8000f9701ad5ac3ffc51fdc"
+    },
+    {
+      "path": "src/types/fields.ts",
+      "bytes": 1292,
+      "sha256": "dbeed522dbc8e3d6f36a9d4594a04fad09ec44d391394c846ef5aa64a44b9a79"
+    },
+    {
+      "path": "src/types/form.ts",
+      "bytes": 32970,
+      "sha256": "252bd6733b5ee4bfb3153010639753b8f22327dd64ec389667a9f3b04d6f9945"
+    },
+    {
+      "path": "src/types/index.ts",
+      "bytes": 294,
+      "sha256": "56584bfc655f9df64afc0f22f7d1122c29e5b74b342c203b891e19de9fa37de8"
+    },
+    {
+      "path": "src/types/path/common.ts",
+      "bytes": 12297,
+      "sha256": "32576839073ebdf94a52fca93177d4027bf0229d3e0a928e4b406077b57f102e"
+    },
+    {
+      "path": "src/types/path/eager.ts",
+      "bytes": 7677,
+      "sha256": "17e0b8f74bf00d2a83e075cf93c5ad9f0f4916638647a78f29f61229a1261048"
+    },
+    {
+      "path": "src/types/path/index.ts",
+      "bytes": 265,
+      "sha256": "846213ccd027d6554f8909b82c9d3f6ecf23fb573d6cc1d1b69706a9b65ebb7f"
+    },
+    {
+      "path": "src/types/resolvers.ts",
+      "bytes": 1232,
+      "sha256": "0a453eb58f44186061a56874a463582ee73f182b1ae62af324615a7525d0ae91"
+    },
+    {
+      "path": "src/types/utils.ts",
+      "bytes": 4652,
+      "sha256": "c6175e1c907f6ce62b4975c5169a20e9d7f5e6f3e74e05ebf353368d293aa8ef"
+    },
+    {
+      "path": "src/types/validator.ts",
+      "bytes": 2958,
+      "sha256": "4252cb3ce162d22cd8e94522b7b33e288169434db7f41124bec504c0f5a6e22e"
+    },
+    {
+      "path": "src/types/watch.ts",
+      "bytes": 2249,
+      "sha256": "56c3d05810ef97cb283f3ebfebe9f1332d1a3c7aef1467300b4f7521957cdfdc"
+    },
+    {
+      "path": "src/useController.ts",
+      "bytes": 7028,
+      "sha256": "7ca6deda7ec4d25899ecfd3ce12b6207ad57ca03b0abccd61e3a0f97ce248469"
+    },
+    {
+      "path": "src/useFieldArray.ts",
+      "bytes": 16502,
+      "sha256": "bf68c9460beda3bcecd8b2b27d3da76e32777efacdf4e140ed7fecf261be03c3"
+    },
+    {
+      "path": "src/useForm.ts",
+      "bytes": 5417,
+      "sha256": "35ef63456ed6f75a4eb0a4cfa988c26e44819249dc301eb3b0a9c89ce3c01af3"
+    },
+    {
+      "path": "src/useFormContext.tsx",
+      "bytes": 2804,
+      "sha256": "e488cd4ae695fe19f1e0de76ba4453226c2234d1e5ab4b54c80075e86aea5de0"
+    },
+    {
+      "path": "src/useFormControlContext.ts",
+      "bytes": 760,
+      "sha256": "9288dce5c068616438755c5713a71c2a1f1aa55e44fcf2df1d2b2b1daf125f83"
+    },
+    {
+      "path": "src/useFormState.ts",
+      "bytes": 2704,
+      "sha256": "fa47471789cc0637017ac97551370d338644da82c24d595cb20c4f10bc26b1d9"
+    },
+    {
+      "path": "src/useIsomorphicLayoutEffect.ts",
+      "bytes": 158,
+      "sha256": "4835083284601f699e67720748cec60d8f206d210a12f4a4141514185940aad5"
+    },
+    {
+      "path": "src/useResyncOnReconnect.ts",
+      "bytes": 1294,
+      "sha256": "087659ff5ad0763065036dc4007468ab1564f7b1b9e75e9f8945b40f33c3d527"
+    },
+    {
+      "path": "src/useWatch.ts",
+      "bytes": 8405,
+      "sha256": "392fe19dfba961a4926f0a3c0353c7157afb83b5a94985388bbdcb584678987a"
+    },
+    {
+      "path": "src/utils/append.ts",
+      "bytes": 167,
+      "sha256": "abfd38d7a81ae5f52555f7f15c142cf38e555b614900cd03ca3ae90e207eabd3"
+    },
+    {
+      "path": "src/utils/cloneObject.ts",
+      "bytes": 830,
+      "sha256": "bb136f47762a9d8f7b46d1f742eb8ba58eff9b3490510f18e7175adfe34a2ac3"
+    },
+    {
+      "path": "src/utils/compact.ts",
+      "bytes": 97,
+      "sha256": "9e82cd7e29b851e0689da07e25900c98410fb31aa8b7fa922038a4aba39fc59b"
+    },
+    {
+      "path": "src/utils/convertToArrayPayload.ts",
+      "bytes": 74,
+      "sha256": "07aa2132c4e8f2084459469ee9cca7a1acf8a37c98554e9080ce496848f07df2"
+    },
+    {
+      "path": "src/utils/createSubject.ts",
+      "bytes": 904,
+      "sha256": "776c80a23071d8c5d9ec92180abfee0080d73be53fc16f79e0ca8e237ff2405e"
+    },
+    {
+      "path": "src/utils/deepEqual.ts",
+      "bytes": 1953,
+      "sha256": "08616a4dc8d1badf7a14d21888bdd09f59250523d11e6e966f3a4b33e8f21130"
+    },
+    {
+      "path": "src/utils/extractFormValues.ts",
+      "bytes": 763,
+      "sha256": "1c7325f0acce1d6f77d8e6df7363a36fc0fdc4d91d9e061e393d46e46335e968"
+    },
+    {
+      "path": "src/utils/fillEmptyArray.ts",
+      "bytes": 128,
+      "sha256": "000ad048cda396863b030b7db53961c1a853178aa5a6a456178d0f154eefd2f9"
+    },
+    {
+      "path": "src/utils/flatten.ts",
+      "bytes": 928,
+      "sha256": "2c0fc8db62f60335431fcf2a53fa6ec1bc25534e972a158fc3f053e904a27b59"
+    },
+    {
+      "path": "src/utils/formData.ts",
+      "bytes": 655,
+      "sha256": "c474b69c0323c3421f1a10018a3ebe3618583282356af58ba580d7c959bc66e1"
+    },
+    {
+      "path": "src/utils/get.ts",
+      "bytes": 863,
+      "sha256": "53e31e63772111c074f4a52b44071c3036710ec4c6a6b090c21b20dfd7f65b33"
+    },
+    {
+      "path": "src/utils/has.ts",
+      "bytes": 700,
+      "sha256": "cc4d841173d12e24dad821d1b91e5a79a86e23bbaae9413fd5b4cbf30534af3c"
+    },
+    {
+      "path": "src/utils/index.ts",
+      "bytes": 80,
+      "sha256": "945be5a9505194381cfd4a8551a5f0ae48090847e454fecf834e054207c5a57b"
+    },
+    {
+      "path": "src/utils/insert.ts",
+      "bytes": 450,
+      "sha256": "9d75834874cae89edaa27f3b79b34f77b29050860a2090d0f693d2bf4bdcb4d8"
+    },
+    {
+      "path": "src/utils/isBoolean.ts",
+      "bytes": 81,
+      "sha256": "eaf8da7755ed42262d7de163b03ab0a71ee58237cb1246c2af75d36865793fee"
+    },
+    {
+      "path": "src/utils/isCheckBoxInput.ts",
+      "bytes": 149,
+      "sha256": "00528d3063fc2d10876d2526600db8a0ac954df5f8ac3ddee9afd0446cd018b1"
+    },
+    {
+      "path": "src/utils/isDateObject.ts",
+      "bytes": 73,
+      "sha256": "aeee2f31399db60d06a00b9d34a2233f719248e1561dcff9ce79b2dd83c55a99"
+    },
+    {
+      "path": "src/utils/isEmptyObject.ts",
+      "bytes": 188,
+      "sha256": "04524b05820a1e98ad78cc6e039d56e8b178be5c69c0dda5bb6ef254a6e83443"
+    },
+    {
+      "path": "src/utils/isFileInput.ts",
+      "bytes": 145,
+      "sha256": "0cec1b562fb4bce35fe2d81b126e2e00c208e0870414cffd520e48ff621d81b4"
+    },
+    {
+      "path": "src/utils/isFunction.ts",
+      "bytes": 85,
+      "sha256": "ebb4a79f0c786d5b548b93de4e128130bb4063bbd85175bf8799903be963313a"
+    },
+    {
+      "path": "src/utils/isHTMLElement.ts",
+      "bytes": 327,
+      "sha256": "f27318e1fda0299b82b7d804a683b1da9795953d53bdcfae74e0477a8a3716d5"
+    },
+    {
+      "path": "src/utils/isKey.ts",
+      "bytes": 85,
+      "sha256": "afa7706aa9a06194d1fd4ee3f4819b345a9bb48b09b114add936dbf4d5ca03a7"
+    },
+    {
+      "path": "src/utils/isMultipleSelect.ts",
+      "bytes": 157,
+      "sha256": "5cf42a5a2e862be6e7a65e3f829ac346c46692fa32868ad3419ead6d7509ae5f"
+    },
+    {
+      "path": "src/utils/isNullOrUndefined.ts",
+      "bytes": 77,
+      "sha256": "9f63d2d7c8d5fa54bcdde2324700b7960cc674395152393e145944268edbfbc1"
+    },
+    {
+      "path": "src/utils/isObject.ts",
+      "bytes": 364,
+      "sha256": "c8f51ec6da7761598761181929cec1a877ec7c927ae19477d3b205b56b8cd10f"
+    },
+    {
+      "path": "src/utils/isPlainObject.ts",
+      "bytes": 262,
+      "sha256": "a09ae2791e2eaa87cc8797ad0ad82a32eab7b1d633c76799706cfad67357b903"
+    },
+    {
+      "path": "src/utils/isPrimitive.ts",
+      "bytes": 248,
+      "sha256": "c6e18d7f951682bcd6c72bdb896241a4d9b15e2c22bf550e18aba5dacc84daa4"
+    },
+    {
+      "path": "src/utils/isRadioInput.ts",
+      "bytes": 146,
+      "sha256": "8b8543030d60860fe418cf37b653f1c897f78b4e840e957d6615310e4c1ff8fc"
+    },
+    {
+      "path": "src/utils/isRadioOrCheckbox.ts",
+      "bytes": 248,
+      "sha256": "adabf934f755db7afe31c36edbe266373361c8e671336d3269f2ac6159e15df0"
+    },
+    {
+      "path": "src/utils/isRegex.ts",
+      "bytes": 77,
+      "sha256": "67510d560e0435cc72d6bc707b5921b93adb1961f8cae8819c888d431b351f63"
+    },
+    {
+      "path": "src/utils/isString.ts",
+      "bytes": 79,
+      "sha256": "d97fddcf2626a83c71b619875484936372b08c6ecdafd3309f2d37b3f9012284"
+    },
+    {
+      "path": "src/utils/isUndefined.ts",
+      "bytes": 70,
+      "sha256": "8f7971d0123a0eaa3ab35bc8a64aa9a15af1bc44cf7a18147139eb1cb0362fca"
+    },
+    {
+      "path": "src/utils/isWeb.ts",
+      "bytes": 130,
+      "sha256": "0dc2e2bb049108bb660a80f6453531e19bc05f3beb6d4e7829f55bef531d1a21"
+    },
+    {
+      "path": "src/utils/json.ts",
+      "bytes": 402,
+      "sha256": "de2bc1f73ecd5e78a7c25bbb309920836ba90e3a373c37c7ba95c3a4033484d1"
+    },
+    {
+      "path": "src/utils/live.ts",
+      "bytes": 152,
+      "sha256": "0c31ff6860d4a58177efdeecd774341d9599eb2a6775ec24e70b383348ce814f"
+    },
+    {
+      "path": "src/utils/move.ts",
+      "bytes": 322,
+      "sha256": "275ca7fabf1bec28949bc9cd9d85afc9c278078a0237eb4eb723821b82cb69f8"
+    },
+    {
+      "path": "src/utils/noop.ts",
+      "bytes": 34,
+      "sha256": "3209d333f747a8bcd536b37650340adce79b014015421e78a87bdbfa4217f466"
+    },
+    {
+      "path": "src/utils/objectHasFunction.ts",
+      "bytes": 191,
+      "sha256": "3064cb77b7185fc8a8d740c650a3e49903d93316c75ae14d23d41417fcfb09ec"
+    },
+    {
+      "path": "src/utils/prepend.ts",
+      "bytes": 190,
+      "sha256": "58dc1cb4209e3f79ff95654fac93c543c4730ef9e278a2d9e0379965e4bdad8a"
+    },
+    {
+      "path": "src/utils/remove.ts",
+      "bytes": 580,
+      "sha256": "44607bc15540c00c60308ddecd5d6a6d1749f04f954dff8f3fd6ea574d01eaf1"
+    },
+    {
+      "path": "src/utils/set.ts",
+      "bytes": 918,
+      "sha256": "a9bad570d0a2140e3dc741348e81769cb379fd3821bde3133759caa27e9db247"
+    },
+    {
+      "path": "src/utils/sleep.ts",
+      "bytes": 84,
+      "sha256": "2c36269de39743747f44fbd5a2e8e1d54c1f1639d73b8fc55854cf0454b56dec"
+    },
+    {
+      "path": "src/utils/stringToPath.ts",
+      "bytes": 125,
+      "sha256": "c62e3530a4622bdd1edd8269e8667f1734885a780bc93a673078f41b27384b33"
+    },
+    {
+      "path": "src/utils/swap.ts",
+      "bytes": 139,
+      "sha256": "37b72d9ff5bd2901314f0dd03027e04ec1b722c24331526eb6ca8798a8831a95"
+    },
+    {
+      "path": "src/utils/unset.ts",
+      "bytes": 1655,
+      "sha256": "35593994008a3e9c0f726df557e672b1aa3f2de2bf0be9625d97a203021fdd0c"
+    },
+    {
+      "path": "src/utils/update.ts",
+      "bytes": 122,
+      "sha256": "b754c3d02f2ffbc2c1cfd7bef9b3d3ee2086ae76f829abd2710e500e6b9216e8"
+    },
+    {
+      "path": "src/watch.tsx",
+      "bytes": 1107,
+      "sha256": "eb12d3b3eb42e93ae635fc6dd1ce9ec55863d1b1d897be31fb7af3fde5e79b7c"
+    }
+  ]
+}
